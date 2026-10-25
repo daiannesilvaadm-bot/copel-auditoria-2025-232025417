@@ -1,6 +1,6 @@
 # Dicionário de variáveis - base sintética do Intangível (COPEL 2025)
 
-**DADOS SINTÉTICOS PARA FINS DIDÁTICOS - não são registros reais da companhia.** Arquivo: `dados/base_intangivel_sintetica.csv.gz` (CSV, UTF-8, separador vírgula, decimal ponto).
+**DADOS SINTÉTICOS PARA FINS DIDÁTICOS - não são registros reais da companhia.** Arquivo: `03_BASE_SINTETICA/base_intangivel_sintetica.csv.gz` (CSV, UTF-8, separador vírgula, decimal ponto).
 
 | Variável | Tipo | Descrição | Regra de geração |
 |---|---|---|---|

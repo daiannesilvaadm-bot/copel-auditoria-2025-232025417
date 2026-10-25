@@ -1,5 +1,5 @@
 """
-03_planilhas.py - Gera planilhas/PT_calculos_COPEL_2025.xlsx (editável, com fórmulas).
+03_planilhas.py - Gera 02_PLANILHAS/PT_calculos_COPEL_2025.xlsx (editável, com fórmulas).
 
 Abas: Capa, BP, DRE, Indicadores, Materialidade, Contas_Significativas,
 Conciliacao_Intangivel, MUS_Parametros, MUS_Amostra, MUS_Avaliacao,
@@ -22,7 +22,7 @@ import dados_publicos as dp
 import estrutura_pt as ep
 
 RAIZ = Path(__file__).resolve().parents[1]
-RES = json.loads((RAIZ / "resultados" / "resultados_testes.json").read_text())
+RES = json.loads((RAIZ / "04_RESULTADOS_TESTES" / "resultados_testes.json").read_text())
 
 AZUL = Font(name="Arial", size=10, color="0000FF")
 PRETO = Font(name="Arial", size=10)
@@ -326,7 +326,7 @@ put(ws, f"B{rr2+1}", f'=COUNTIF(D5:D{rr2-1},"Significativa (>= ME)")', NEG)
 
 # ---------------------------------------------------------------- Conciliação Intangível
 ws = aba("Conciliacao_Intangivel", "Conciliação da base SINTÉTICA com o saldo contábil - PT BS-04", [16, 62, 12, 20, 20, 20])
-put(ws, "A3", "DADOS SINTÉTICOS: totais por subconta extraídos de resultados/resultados_testes.json (T01). "
+put(ws, "A3", "DADOS SINTÉTICOS: totais por subconta extraídos de 04_RESULTADOS_TESTES/resultados_testes.json (T01). "
               "Categorias da NE 16 (F17) e subtotal GeT (F15) são reais; divisão interna da geração é hipótese (PT BS-02).", AZUL)
 cab(ws, 5, ["Subconta", "Descrição", "Linhas", "Custo (R$)", "Amortização (R$)", "Valor líquido (R$)"])
 desc = {"INT-UBE": "Geração fora da Copel GeT (Elejor e outras) - por diferença F17-F15",
@@ -415,7 +415,7 @@ for i, (a, b, fnt, fmt, c) in enumerate(linhas):
     put(ws, f"B{rr2}", b, fnt, fmt, AMARELO if rr2 in (7,) else None)
     put(ws, f"C{rr2}", c)
 
-amostra = pd.read_csv(RAIZ / "resultados" / "amostra_mus.csv")
+amostra = pd.read_csv(RAIZ / "04_RESULTADOS_TESTES" / "amostra_mus.csv")
 ws = aba("MUS_Amostra", "Itens selecionados - inspeção SIMULADA (valor auditado vem do gabarito)", [16, 11, 46, 12, 18, 9, 18, 16, 12])
 cab(ws, 4, ["id_registro (SINT)", "Subconta", "Tipo de bem", "Status", "Valor contábil (R$)", "Item-chave",
             "Valor auditado simulado (R$)", "Distorção (R$)", "Contaminação"])
@@ -679,8 +679,8 @@ put(ws, f"A{rr2+2}", "Normas sem PT principal (contagem)", NEG)
 put(ws, f"B{rr2+2}", f'=COUNTIF(E5:E{rr2},"")', NEG)
 
 # ---------------------------------------------------------------- Fontes
-ws = aba("Fontes", "Relação de fontes (detalhe em docs/fontes.md)", [8, 70, 90])
-fontes = [l for l in (RAIZ / "docs" / "fontes.md").read_text().splitlines() if l.startswith("| F")]
+ws = aba("Fontes", "Relação de fontes (detalhe em 06_FONTES_E_COBERTURA/fontes.md)", [8, 70, 90])
+fontes = [l for l in (RAIZ / "06_FONTES_E_COBERTURA" / "fontes.md").read_text().splitlines() if l.startswith("| F")]
 cab(ws, 4, ["ID", "Documento", "Endereço eletrônico / páginas / exercício / acesso"])
 for i, l in enumerate(fontes):
     partes = [p.strip() for p in l.strip("|").split("|")]
@@ -691,17 +691,17 @@ for i, l in enumerate(fontes):
 
 for s in wb.worksheets:
     s.sheet_view.showGridLines = False
-saida = RAIZ / "planilhas" / "PT_calculos_COPEL_2025.xlsx"
+saida = RAIZ / "02_PLANILHAS" / "PT_calculos_COPEL_2025.xlsx"
 saida.parent.mkdir(exist_ok=True)
 wb.save(saida)
 print("Gravado:", saida)
 
-# Matriz de cobertura também em Markdown e CSV (docs/)
+# Matriz de cobertura também em Markdown e CSV (06_FONTES_E_COBERTURA/)
 import csv  # noqa: E402
 linhas_md = ["# Matriz de cobertura das normas (PT MC)", "",
              "Versões aplicáveis a auditorias do exercício de 2025 (fonte F09, CFC, acesso em 24/10/2026).", "",
              "| Norma | Versão (2025) | Publicação | Título | PT principais | PT de apoio |", "|---|---|---|---|---|---|"]
-with open(RAIZ / "docs" / "matriz_cobertura.csv", "w", newline="", encoding="utf-8") as fcsv:
+with open(RAIZ / "06_FONTES_E_COBERTURA" / "matriz_cobertura.csv", "w", newline="", encoding="utf-8") as fcsv:
     w = csv.writer(fcsv)
     w.writerow(["norma", "versao_2025", "publicacao", "titulo", "pt_principais", "pt_apoio"])
     for cod, versao, pub, titulo, princ, sec in ep.matriz_cobertura():
@@ -709,5 +709,5 @@ with open(RAIZ / "docs" / "matriz_cobertura.csv", "w", newline="", encoding="utf
         linhas_md.append(f"| {cod} | {versao} | {pub} | {titulo} | {', '.join(princ)} | {', '.join(sec)} |")
 linhas_md += ["", "## Índice dos papéis de trabalho", "", "| PT | Título | Normas principais |", "|---|---|---|"]
 linhas_md += [f"| {c} | {t} | {', '.join(n)} |" for c, t, n, _ in ep.PAPEIS]
-(RAIZ / "docs" / "matriz_cobertura.md").write_text("\n".join(linhas_md) + "\n", encoding="utf-8")
-print("Gravado: docs/matriz_cobertura.md e .csv")
+(RAIZ / "06_FONTES_E_COBERTURA" / "matriz_cobertura.md").write_text("\n".join(linhas_md) + "\n", encoding="utf-8")
+print("Gravado: 06_FONTES_E_COBERTURA/matriz_cobertura.md e .csv")

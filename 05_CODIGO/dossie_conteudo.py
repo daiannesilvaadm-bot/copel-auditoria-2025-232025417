@@ -12,8 +12,8 @@ from pathlib import Path
 import dados_publicos as dp
 
 RAIZ = Path(__file__).resolve().parents[1]
-RES = json.loads((RAIZ / "resultados" / "resultados_testes.json").read_text())
-GER = json.loads((RAIZ / "resultados" / "geracao_resumo.json").read_text())
+RES = json.loads((RAIZ / "04_RESULTADOS_TESTES" / "resultados_testes.json").read_text())
+GER = json.loads((RAIZ / "04_RESULTADOS_TESTES" / "geracao_resumo.json").read_text())
 T11 = RES["T11"]
 CMP = RES["comparacao"]
 MG = RES["parametros"]["materialidade_global_R$mil"]
@@ -55,7 +55,7 @@ ABERTURA = [
     ]),
     ("2. Como ler este dossiê", [
         "<b>Fato x julgamento.</b> No texto, [F] indica fato verificado em fonte pública, sempre com o "
-        "identificador da fonte (F01 a F19, ver docs/fontes.md e o PT 000). [J] indica julgamento ou inferência "
+        "identificador da fonte (F01 a F19, ver 06_FONTES_E_COBERTURA/fontes.md e o PT 000). [J] indica julgamento ou inferência "
         "da preparadora. [S] indica resultado obtido com dados sintéticos. Quando um dado não pôde ser "
         "confirmado nas fontes, o texto diz isso expressamente; nenhum número foi estimado para preencher lacunas.",
         "<b>Classificação dos procedimentos.</b> Cada procedimento recebe uma de três classificações: "
@@ -67,9 +67,9 @@ ABERTURA = [
         "afirmações e riscos; população, fontes e critérios de seleção; procedimentos; evidências e referências "
         "cruzadas; resultados, exceções, conclusão e limitações; preparadora (matrícula e data) e campo de "
         "revisão, deixado em branco porque não houve revisão de terceiros.",
-        "<b>Arquivos de apoio.</b> Planilha editável planilhas/PT_calculos_COPEL_2025.xlsx (abas citadas como "
-        "XLS:nome_da_aba); base sintética dados/base_intangivel_sintetica.csv.gz; código em codigo/; resultados em "
-        "resultados/. A forma de reproduzir está no README.",
+        "<b>Arquivos de apoio.</b> Planilha editável 02_PLANILHAS/PT_calculos_COPEL_2025.xlsx (abas citadas como "
+        "XLS:nome_da_aba); base sintética 03_BASE_SINTETICA/base_intangivel_sintetica.csv.gz; código em 05_CODIGO/; resultados em "
+        "04_RESULTADOS_TESTES/. A forma de reproduzir está no README.",
     ]),
     ("3. Síntese da companhia e do exercício", [
         "[F] A COPEL atua em geração, transmissão, distribuição e comercialização de energia elétrica, com "
@@ -127,11 +127,11 @@ pt(cod="PT 000", titulo="Identificação do trabalho, da entidade e das fontes",
         "porém: a marca 'Copel Mercado Livre' para a controlada Copel Comercialização S.A. e a nova denominação "
         "da contraparte Eletrobras, hoje Axia Energia S.A. [F02, p. 22].", "R", "F02"),
        ("Registrar, para cada fonte, endereço eletrônico, data de acesso, documento, página e exercício "
-        "(docs/fontes.md e XLS:Fontes).", "R", "PT 230"),
+        "(06_FONTES_E_COBERTURA/fontes.md e XLS:Fontes).", "R", "PT 230"),
        ("Obter a DFP oficial no sistema da CVM (RAD/ENET) e confrontar com os valores do release e do 20-F.",
         "P", "PT 500.2"),
    ],
-   evidencias="docs/fontes.md; XLS:Fontes; XLS:BP (checagem de totais = 'Confere com publicado').",
+   evidencias="06_FONTES_E_COBERTURA/fontes.md; XLS:Fontes; XLS:BP (checagem de totais = 'Confere com publicado').",
    resultados="[F] Entidade e exercício identificados sem ambiguidade. As demonstrações das controladas F.D.A. "
               "(F07) e Copel GeT (F10) foram usadas só como apoio, com indicação expressa. [J] A ausência do "
               "download da DFP na CVM é limitação de forma, não de conteúdo: o release (F01) e o 20-F (F02) "
@@ -177,7 +177,7 @@ pt(cod="PT 500.2", titulo="Classificação dos procedimentos e limitações do t
    populacao="Todos os PT.",
    procedimentos=[
        ("Classificar cada procedimento como R, P ou S e manter a classificação nas tabelas dos PT.", "R", "Todos"),
-       ("Separar fisicamente os dados sintéticos (pasta dados/, prefixo SINT- e coluna flag_dado_sintetico = SIM).",
+       ("Separar fisicamente os dados sintéticos (pasta 03_BASE_SINTETICA/, prefixo SINT- e coluna flag_dado_sintetico = SIM).",
         "S", "PT BS-02"),
        ("Listar as limitações principais (abaixo) e refleti-las na conclusão.", "R", "PT CI"),
    ],
@@ -257,7 +257,7 @@ pt(cod="PT 220", titulo="Gestão de qualidade do trabalho",
    procedimentos=[
        ("Independência: a preparadora declara não ter vínculo com a COPEL; não houve contato com a empresa "
         "ou com seus auditores.", "R", "—"),
-       ("Controle de transcrição: todos os números públicos ficam num único arquivo (codigo/dados_publicos.py), "
+       ("Controle de transcrição: todos os números públicos ficam num único arquivo (05_CODIGO/dados_publicos.py), "
         "com somas automáticas que conferem cada subtotal com o total publicado.", "R", "XLS:BP"),
        ("Reprodutibilidade: semente fixa (232025417) na geração da base e na seleção da amostra; planilha "
         "confere seus resultados com o código (células 'Planilha = código').", "S", "PT BS-02"),
@@ -265,7 +265,7 @@ pt(cod="PT 220", titulo="Gestão de qualidade do trabalho",
         "responsabilidade pelo conteúdo é da estudante.", "R", "—"),
        ("Revisão por sócio ou revisor de qualidade do trabalho: não houve; campo deixado em branco.", "P", "—"),
    ],
-   evidencias="codigo/dados_publicos.py; XLS:BP, XLS:Materialidade, XLS:MUS_Parametros (checagens).",
+   evidencias="05_CODIGO/dados_publicos.py; XLS:BP, XLS:Materialidade, XLS:MUS_Parametros (checagens).",
    resultados="[F/S] Todas as checagens automáticas retornaram 'Confere com publicado' e 'Planilha = código'.",
    conclusao="Controles de qualidade adequados ao porte do trabalho; falta revisão independente.",
    limitacoes="Ausência de revisor e de sistema de gestão de qualidade de firma.")
@@ -276,7 +276,7 @@ pt(cod="PT 230", titulo="Documentação e organização do dossiê",
             "resultados e as conclusões.",
    objeto="Repositório GitHub.",
    afirmacoes="Risco de documentação insuficiente ou não rastreável.",
-   populacao="Pastas dossie/, dados/, codigo/, planilhas/, resultados/ e docs/.",
+   populacao="Pastas 01_DOSSIE/, 03_BASE_SINTETICA/, 05_CODIGO/, 02_PLANILHAS/, 04_RESULTADOS_TESTES/ e 06_FONTES_E_COBERTURA/.",
    procedimentos=[
        ("Organizar o repositório com README, fontes, matriz de cobertura e dicionário de variáveis.", "R", "README"),
        ("Usar referências cruzadas entre PT, abas da planilha e arquivos de resultado.", "R", "Todos"),
@@ -316,7 +316,7 @@ pt(cod="PT 240", titulo="Fraude: fatores de risco e respostas",
        ("Indagar administração, auditoria interna e Comitê de Auditoria sobre fraudes conhecidas ou suspeitas.",
         "P", "PT 260"),
    ],
-   evidencias="F01 pp. 1, 4, 6-7; XLS:Analiticos; resultados/excecoes_detectadas.csv.",
+   evidencias="F01 pp. 1, 4, 6-7; XLS:Analiticos; 04_RESULTADOS_TESTES/excecoes_detectadas.csv.",
    resultados=f"[S] O teste T09 isolou os {CMP['matriz'][6]['inseridos']} lançamentos fictícios inseridos (E07), "
               f"de R$ {br(CMP['matriz'][6]['distorcao_inserida_R'], 2)}, sem falsos positivos. [J] Na base real "
               "esses lançamentos seriam investigados como possível fraude, independentemente do valor.",
@@ -329,7 +329,7 @@ pt(cod="PT 250", titulo="Leis e regulamentos (setor elétrico, societário, CVM/
    objetivo="Identificar o arcabouço legal que afeta valores e divulgações.",
    objeto="Concessões, tarifas, tributos, dividendos e mercado de capitais.",
    afirmacoes="Ocorrência, completude e divulgação de passivos regulatórios e contingências.",
-   populacao="F01, F02, F07, F08; legislação citada em docs/fontes.md.",
+   populacao="F01, F02, F07, F08; legislação citada em 06_FONTES_E_COBERTURA/fontes.md.",
    procedimentos=[
        ("Leis com efeito direto: Lei 6.404/1976 (arts. 176, 177 e 202, dividendo obrigatório); Lei 9.249/1995 "
         "(JCP); regulação da ANEEL sobre tarifas, CVA, revisão tarifária e P&D/eficiência energética; Lei "
@@ -390,7 +390,7 @@ pt(cod="PT 265", titulo="Deficiências de controle interno",
        ("Testar controles-chave (aprovação de ODI, conciliação ativo de contrato x intangível, medição e "
         "faturamento).", "P", "PT 330"),
    ],
-   evidencias="F02 pp. 6-7 e 117; resultados/excecoes_detectadas.csv.",
+   evidencias="F02 pp. 6-7 e 117; 04_RESULTADOS_TESTES/excecoes_detectadas.csv.",
    resultados="[F] Não há deficiência material divulgada. [S] A falta de suporte (E06) seria deficiência; a "
               "combinação E06 + E07 (lançamentos manuais sem ODI) seria deficiência significativa, a comunicar "
               "por escrito à governança.",
@@ -565,7 +565,7 @@ pt(cod="PT 450", titulo="Avaliação das distorções identificadas",
    objetivo="Acumular e avaliar distorções.",
    objeto="Distorções da evidência pública e da simulação.",
    afirmacoes="Todas.",
-   populacao="XLS:Distorcoes; resultados/erros_inseridos_x_detectados.csv.",
+   populacao="XLS:Distorcoes; 04_RESULTADOS_TESTES/erros_inseridos_x_detectados.csv.",
    procedimentos=[
        ("Evidência pública: nenhuma distorção identificada. A diferença das provisões foi explicada (PT 501) e "
         "a dos dividendos a pagar foi reduzida a um resíduo de R$ 43.898 mil (PT 520), que não é distorção, "
@@ -590,11 +590,11 @@ pt(cod="PT 500.1", titulo="Evidência de auditoria: suficiência e adequação",
    objetivo="Avaliar a qualidade das evidências obtidas.",
    objeto="Fontes F01 a F19.",
    afirmacoes="Todas.",
-   populacao="docs/fontes.md.",
+   populacao="06_FONTES_E_COBERTURA/fontes.md.",
    procedimentos=[
        ("Classificar a confiabilidade: documentos arquivados em órgão regulador (SEC) e aprovados pela "
         "governança (F01-F06, F08) = alta; documentos de controladas (F07, F10) = alta, mas de outra entidade; "
-        "notícias (F14) = apenas corroborativas.", "R", "docs/fontes.md"),
+        "notícias (F14) = apenas corroborativas.", "R", "06_FONTES_E_COBERTURA/fontes.md"),
        ("Testar a integridade da informação: somas e subtotais do balanço e da DRE recalculados.", "R", "XLS:BP, XLS:DRE"),
        ("Confrontar o mesmo dado em duas fontes: lucro líquido 2025 no release e no 20-F; intangível da F.D.A. "
         "no balanço e na nota 9 da controlada [F07, pp. 8 e 20].", "R", "F01, F02, F07"),
@@ -727,12 +727,12 @@ pt(cod="PT 530", titulo="Amostragem por unidade monetária (base sintética)",
        (f"Tamanho: n = {T11['tamanho_amostra']}; intervalo J = R$ {br(T11['intervalo_amostral_R$'], 2)}; seleção "
         f"sistemática com início aleatório (semente 232025417).", "S", "XLS:MUS_Parametros"),
        (f"Itens selecionados: {T11['itens_selecionados_unicos']} registros únicos, sendo {T11['itens_chave']} itens-chave "
-        f"(valor maior ou igual a J, R$ {br(T11['valor_itens_chave_R$'], 2)}).", "S", "resultados/amostra_mus.csv"),
+        f"(valor maior ou igual a J, R$ {br(T11['valor_itens_chave_R$'], 2)}).", "S", "04_RESULTADOS_TESTES/amostra_mus.csv"),
        ("Inspeção simulada: o valor auditado é tirado do gabarito de erros, representando o que o exame do "
         "documento revelaria.", "S", "XLS:MUS_Amostra"),
        ("Projeção e limite superior de distorção (LSD).", "S", "XLS:MUS_Avaliacao"),
    ],
-   evidencias="XLS:MUS_Parametros, MUS_Amostra, MUS_Avaliacao; resultados/amostra_mus.csv.",
+   evidencias="XLS:MUS_Parametros, MUS_Amostra, MUS_Avaliacao; 04_RESULTADOS_TESTES/amostra_mus.csv.",
    resultados=f"[S] Itens com distorção na amostra: {T11['itens_com_distorcao']}, todos lançamentos fictícios E07, com "
               f"contaminação de 100%. Distorção projetada R$ {br(T11['distorcao_projetada_R$'], 2)}; LSD R$ "
               f"{br(T11['limite_superior_distorcao_R$'], 2)}, maior que a distorção tolerável (R$ {br(ME * 1000, 2)}). "
@@ -1052,7 +1052,7 @@ pt(cod="PT BS-01", titulo="Base sintética: seleção e materialidade da conta",
 pt(cod="PT BS-02", titulo="Base sintética: premissas e método de geração",
    normas="NBC TA 500 (R1), item 7 (informação usada como evidência); NBC TA 230 (R1)",
    objetivo="Explicar como a base foi gerada, com quais premissas e onde ela se afasta da realidade.",
-   objeto="dados/base_intangivel_sintetica.csv.gz.",
+   objeto="03_BASE_SINTETICA/base_intangivel_sintetica.csv.gz.",
    afirmacoes="—",
    populacao=f"[S] {br(GER['linhas'])} linhas, {GER['colunas']} colunas, semente {GER['semente']}.",
    procedimentos=[
@@ -1062,17 +1062,17 @@ pt(cod="PT BS-02", titulo="Base sintética: premissas e método de geração",
         "geração 159.557 (Elejor e outras), direito de autorização 7.734 e outros 20.571. Hipótese didática: "
         "divisão dos 5.671.800 da GeT em bônus de outorga 4.191.800, combinação de negócios (Mauá) 700.000, "
         "UBP 520.000 e GSF 260.000. Cada categoria da nota 16 e o subtotal da GeT fecham ao centavo.",
-        "S", "codigo/01_gerar_base.py"),
+        "S", "05_CODIGO/01_gerar_base.py"),
        (f"Registros: distribuição {br(lin['INT-DIS'])} (10 tipos de bem, custos lognormais, datas de 2008 a 2025); "
         f"softwares {br(lin['INT-SOF'])}; 42 parques eólicos (número real de parques [F02, p. 20]); 9 extensões GSF; "
         "6 UBP; 3 bônus; 2 combinação de negócios.", "S", "—"),
        ("Âncora real: o registro de Foz do Areia recebeu o intangível da F.D.A., R$ 1.849.570 mil [F07, p. 8].", "S", "F07"),
        ("Amortização linear pela maior taxa entre a regulatória e a do prazo remanescente da concessão "
         "(distribuição até 07/07/2045 [F01, p. 15]; bônus em 30 anos até 20/11/2054 [F07, p. 6]).", "S", "—"),
-       ("Erros inseridos (E01 a E09, 580 registros) com gabarito em dados/log_erros_inseridos.csv; ajuste final "
+       ("Erros inseridos (E01 a E09, 580 registros) com gabarito em 03_BASE_SINTETICA/log_erros_inseridos.csv; ajuste final "
         "proporcional nos registros limpos para que o total iguale o saldo contábil ao centavo.", "S", "PT BS-06"),
    ],
-   evidencias="codigo/01_gerar_base.py; resultados/geracao_resumo.json.",
+   evidencias="05_CODIGO/01_gerar_base.py; 04_RESULTADOS_TESTES/geracao_resumo.json.",
    resultados="[S] Base gerada com identificador SINT-, coluna flag_dado_sintetico = SIM e sem qualquer "
               "registro real. [J] Afastamentos da realidade: composição, custos e datas são hipotéticos; o "
               "intangível real da distribuição deriva de transferências do ativo de contrato e o cadastro real "
@@ -1087,9 +1087,9 @@ pt(cod="PT BS-03", titulo="Base sintética: dicionário de variáveis",
    afirmacoes="—",
    populacao="Colunas do arquivo.",
    procedimentos=[("Documentar nome, tipo, descrição e regra de geração (tabela abaixo e "
-                   "dados/dicionario_variaveis.csv).", "S", "dados/")],
+                   "03_BASE_SINTETICA/dicionario_variaveis.csv).", "S", "03_BASE_SINTETICA/")],
    tabela_extra=("Dicionário", ["Variável", "Tipo", "Descrição"], "DICIONARIO"),
-   evidencias="dados/dicionario_variaveis.csv.",
+   evidencias="03_BASE_SINTETICA/dicionario_variaveis.csv.",
    resultados="[S] Dicionário completo.",
    conclusao="Atendido.",
    limitacoes="—")
@@ -1105,7 +1105,7 @@ pt(cod="PT BS-04", titulo="Base sintética: conciliação com o saldo contábil"
        ("Comparar com o saldo do balanço (R$ 19.206.609 mil).", "S", "XLS:Conciliacao_Intangivel"),
        ("Verificar unicidade de ids e marcação sintética.", "S", "resultados_testes.json"),
    ],
-   evidencias="XLS:Conciliacao_Intangivel; resultados/resultados_testes.json (T01).",
+   evidencias="XLS:Conciliacao_Intangivel; 04_RESULTADOS_TESTES/resultados_testes.json (T01).",
    resultados=f"[S] Total da base R$ {br(RES['T01']['total_base_R$'], 2)} = saldo contábil; diferença R$ 0,00. "
               f"{br(RES['T01']['linhas'])} ids únicos, todos marcados como sintéticos. [J] A diferença zero é "
               "esperada por construção (ajuste final do gerador). A base inclui os erros inseridos, como um "
@@ -1137,7 +1137,7 @@ pt(cod="PT BS-05", titulo="Base sintética: testes de dados e exceções",
        (f"T10 Lei de Benford (primeiro dígito, distribuição): MAD = {br(RES['T10']['MAD'], 5)} "
         f"({RES['T10']['classificacao_Nigrini']}).", "S", "resultados_testes.json"),
    ],
-   evidencias="resultados/excecoes_detectadas.csv; resultados/resultados_testes.json.",
+   evidencias="04_RESULTADOS_TESTES/excecoes_detectadas.csv; 04_RESULTADOS_TESTES/resultados_testes.json.",
    resultados=f"[S] {CMP['excecoes_totais']} registros com exceção; {CMP['falsos_positivos']} falsos positivos. "
               "[J] O teste de Benford indicou não conformidade, mas não aponta erro: custos de bens homogêneos "
               "(medidores, postes) se concentram em faixas de preço e não seguem Benford. O teste é inadequado "
@@ -1150,8 +1150,8 @@ pt(cod="PT BS-06", titulo="Base sintética: erros inseridos x identificados",
    objetivo="Comparar os erros inseridos com as exceções encontradas pelos testes.",
    objeto="Gabarito x exceções.",
    afirmacoes="Conforme o tipo de erro.",
-   populacao="dados/log_erros_inseridos.csv; resultados/excecoes_detectadas.csv.",
-   procedimentos=[("Cruzar o gabarito com as exceções por id_registro.", "S", "resultados/erros_inseridos_x_detectados.csv")],
+   populacao="03_BASE_SINTETICA/log_erros_inseridos.csv; 04_RESULTADOS_TESTES/excecoes_detectadas.csv.",
+   procedimentos=[("Cruzar o gabarito com as exceções por id_registro.", "S", "04_RESULTADOS_TESTES/erros_inseridos_x_detectados.csv")],
    tabela_extra=("Erros inseridos x detectados (dados sintéticos)",
                  ["Código", "Natureza", "Inseridos", "Detectados", "Distorção (R$)", "Teste"], [
                      [c, n, str(mat[c]["inseridos"]), str(mat[c]["detectados"]), br(mat[c]["distorcao_inserida_R"], 2),
@@ -1162,7 +1162,7 @@ pt(cod="PT BS-06", titulo="Base sintética: erros inseridos x identificados",
                          ("E08", "Em curso amortizado"), ("E09", "Líquido diverge de custo - amortização")]]
                  + [["Total", "", str(CMP["registros_com_erro_inserido"]), str(CMP["detectados"]),
                      br(CMP["distorcao_total_inserida_R$"], 2), ""]]),
-   evidencias="XLS:Excecoes; resultados/matriz_inseridos_detectados.csv.",
+   evidencias="XLS:Excecoes; 04_RESULTADOS_TESTES/matriz_inseridos_detectados.csv.",
    resultados=f"[S] {CMP['detectados']} de {CMP['registros_com_erro_inserido']} erros detectados (100%) e nenhum "
               f"falso positivo. A amostra MUS, sozinha, encontrou {T11['itens_com_distorcao']} dos 30 lançamentos E07 (PT 530). [J] A "
               "comparação mostra que os testes sobre 100% da população são mais eficazes que a amostragem para "
@@ -1232,7 +1232,7 @@ pt(cod="PT MC", titulo="Matriz de cobertura das normas",
    populacao="Lista de normas do CFC [F09].",
    procedimentos=[("Mapear norma, versão vigente para 2025 e PT principais e de apoio.", "R", "XLS:Matriz_Cobertura")],
    tabela_extra=("Matriz de cobertura", ["Norma", "Versão (2025)", "Publicação", "PT principais", "PT de apoio"], "MATRIZ"),
-   evidencias="XLS:Matriz_Cobertura; docs/matriz_cobertura.md.",
+   evidencias="XLS:Matriz_Cobertura; 06_FONTES_E_COBERTURA/matriz_cobertura.md.",
    resultados="[F] Todas as 27 normas do intervalo exigido têm ao menos um PT principal. Para 2025 aplicam-se a "
               "NBC TA 240 (R1) e a NBC TA 570 anterior; as novas versões publicadas em 25/09/2026 valem a "
               "partir de 2027 [F09].",
@@ -1446,13 +1446,13 @@ upd("PT 230",
                  ["PT PA-nn", "Programa de auditoria por área", "PT PA-01 Receitas"],
                  ["PT BS-nn", "Papel da base simulada", "PT BS-04 Conciliação"],
                  ["PT RA / CI / MC", "Relatório do auditor / conclusão integrada / matriz de cobertura", "—"],
-                 ["Fnn", "Fonte pública (docs/fontes.md)", "F01, p. 24"],
+                 ["Fnn", "Fonte pública (06_FONTES_E_COBERTURA/fontes.md)", "F01, p. 24"],
                  ["XLS:aba", "Aba da planilha PT_calculos_COPEL_2025.xlsx", "XLS:Materialidade"],
                  ["R / P / S", "Realizado / planejado / simulado", "—"],
                  ["[F] / [J] / [S]", "Fato com fonte / julgamento / dado sintético", "—"],
              ]},
             {"titulo": "Índice, versões, montagem e guarda", "paragrafos": [
-                "<b>Índice:</b> sumário do dossiê e índice de PT em docs/matriz_cobertura.md. <b>Controle de "
+                "<b>Índice:</b> sumário do dossiê e índice de PT em 06_FONTES_E_COBERTURA/matriz_cobertura.md. <b>Controle de "
                 "versões:</b> o repositório GitHub registra cada alteração (histórico de commits); versão 1.0 de "
                 "24/10/2026 (estrutura por norma) e versão 1.1 de 24/10/2026 (recodificação conforme o roteiro do "
                 "professor e anexos exigidos). Os resultados são reproduzíveis pela semente 232025417. "

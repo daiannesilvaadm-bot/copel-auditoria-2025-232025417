@@ -1,5 +1,5 @@
 """
-04_dossie_pdf.py - Renderiza o dossiê de auditoria em PDF (dossie/Dossie_Auditoria_COPEL_2025_232025417.pdf).
+04_dossie_pdf.py - Renderiza o dossiê de auditoria em PDF (01_DOSSIE/Dossie_Auditoria_COPEL_2025_232025417.pdf).
 Executar após 01, 02 e 03. Preparadora: matrícula 232025417.
 """
 from pathlib import Path
@@ -20,7 +20,7 @@ import dossie_conteudo as dc
 import estrutura_pt as ep
 
 RAIZ = Path(__file__).resolve().parents[1]
-SAIDA = RAIZ / "dossie" / f"Dossie_Auditoria_COPEL_2025_{dp.MATRICULA}.pdf"
+SAIDA = RAIZ / "01_DOSSIE" / f"Dossie_Auditoria_COPEL_2025_{dp.MATRICULA}.pdf"
 
 F = "/usr/share/fonts/truetype/dejavu/"
 pdfmetrics.registerFont(TTFont("DV", F + "DejaVuSans.ttf"))
@@ -278,8 +278,8 @@ story.append(tabela(["Rubrica", "2025", "2024"], [[n, dc.br(a), dc.br(b)] for n,
                     [9 * cm, 4 * cm, 4 * cm]))
 story.append(PageBreak())
 story.append(titulo("Apêndice C - Relação de fontes"))
-story.append(P("Data de acesso de todas as fontes: 24/10/2026. Lista completa, com páginas, em docs/fontes.md."))
-fontes = [l for l in (RAIZ / "docs" / "fontes.md").read_text().splitlines() if l.startswith("| F")]
+story.append(P("Data de acesso de todas as fontes: 24/10/2026. Lista completa, com páginas, em 06_FONTES_E_COBERTURA/fontes.md."))
+fontes = [l for l in (RAIZ / "06_FONTES_E_COBERTURA" / "fontes.md").read_text().splitlines() if l.startswith("| F")]
 lin_f = []
 for l in fontes:
     c = [x.strip() for x in l.strip("|").split("|")]

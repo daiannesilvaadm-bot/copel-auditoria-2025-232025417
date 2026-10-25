@@ -7,11 +7,11 @@ Conta: Intangível (consolidado) em 31/12/2025 = R$ 19.206.609 mil
 (F01 - Release 4T25, Anexo I, Balanço, p. 24). É a conta de maior saldo do ativo.
 
 Saídas:
-  dados/base_intangivel_sintetica.csv.gz    (>= 500.000 linhas)
-  dados/log_erros_inseridos.csv             (gabarito dos erros inseridos)
-  resultados/geracao_resumo.json
+  03_BASE_SINTETICA/base_intangivel_sintetica.csv.gz    (>= 500.000 linhas)
+  03_BASE_SINTETICA/log_erros_inseridos.csv             (gabarito dos erros inseridos)
+  04_RESULTADOS_TESTES/geracao_resumo.json
 
-Reprodução: python codigo/01_gerar_base.py   (semente fixa = 232025417)
+Reprodução: python 05_CODIGO/01_gerar_base.py   (semente fixa = 232025417)
 Preparadora: matrícula 232025417 - 24/10/2026.
 """
 import json
@@ -440,8 +440,8 @@ colunas = ["id_registro", "flag_dado_sintetico", "segmento", "categoria_ne16", "
 for c in ["vencimento_concessao", "data_capitalizacao", "data_inicio_operacao", "data_lancamento"]:
     df[c] = pd.to_datetime(df[c]).dt.strftime("%Y-%m-%d").fillna("")
 saida = df[colunas]
-(RAIZ / "dados").mkdir(exist_ok=True)
-saida.to_csv(RAIZ / "dados" / "base_intangivel_sintetica.csv.gz", index=False, compression="gzip",
+(RAIZ / "03_BASE_SINTETICA").mkdir(exist_ok=True)
+saida.to_csv(RAIZ / "03_BASE_SINTETICA" / "base_intangivel_sintetica.csv.gz", index=False, compression="gzip",
              float_format="%.6f")
 
 log_df = pd.DataFrame(log)
@@ -449,7 +449,7 @@ log_df.insert(0, "id_registro", log_df["indice"].map(mapa_id))
 log_df["distorcao_inserida"] = (log_df["valor_liquido_contabil"] - log_df["valor_liquido_correto"]).round(2)
 log_df = log_df.drop(columns="indice").sort_values(["codigo_erro", "id_registro"])
 log_df.insert(1, "flag_dado_sintetico", "SIM")
-log_df.to_csv(RAIZ / "dados" / "log_erros_inseridos.csv", index=False)
+log_df.to_csv(RAIZ / "03_BASE_SINTETICA" / "log_erros_inseridos.csv", index=False)
 
 resumo = {
     "semente": SEED, "linhas": int(len(saida)), "colunas": len(colunas),
@@ -462,10 +462,10 @@ resumo = {
     "por_subconta_R$": saida.groupby("codigo_subconta")["valor_liquido"].sum().round(2).to_dict(),
     "linhas_por_subconta": saida["codigo_subconta"].value_counts().to_dict(),
 }
-(RAIZ / "resultados").mkdir(exist_ok=True)
-(RAIZ / "resultados" / "geracao_resumo.json").write_text(json.dumps(resumo, ensure_ascii=False, indent=2))
+(RAIZ / "04_RESULTADOS_TESTES").mkdir(exist_ok=True)
+(RAIZ / "04_RESULTADOS_TESTES" / "geracao_resumo.json").write_text(json.dumps(resumo, ensure_ascii=False, indent=2))
 print(json.dumps(resumo, ensure_ascii=False, indent=2))
 
-# Dicionário de variáveis (dados/dicionario_variaveis.csv e .md)
+# Dicionário de variáveis (03_BASE_SINTETICA/dicionario_variaveis.csv e .md)
 import estrutura_pt  # noqa: E402
-estrutura_pt.gravar_dicionario(RAIZ / "dados")
+estrutura_pt.gravar_dicionario(RAIZ / "03_BASE_SINTETICA")

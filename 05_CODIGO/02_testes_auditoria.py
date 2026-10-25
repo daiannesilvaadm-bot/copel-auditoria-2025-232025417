@@ -17,7 +17,7 @@ Executa:
   T11 Amostragem por unidade monetária (MUS) e avaliação (NBC TA 530)
   Comparação: erros inseridos x exceções identificadas
 
-Reprodução: python codigo/02_testes_auditoria.py   (após 01_gerar_base.py)
+Reprodução: python 05_CODIGO/02_testes_auditoria.py   (após 01_gerar_base.py)
 Preparadora: matrícula 232025417 - 24/10/2026.
 """
 import json
@@ -30,7 +30,7 @@ import pandas as pd
 import dados_publicos as dp
 
 RAIZ = Path(__file__).resolve().parents[1]
-RES = RAIZ / "resultados"
+RES = RAIZ / "04_RESULTADOS_TESTES"
 RES.mkdir(exist_ok=True)
 DATA_BASE = pd.Timestamp("2025-12-31")
 SEED_AMOSTRA = 232025417
@@ -59,13 +59,13 @@ def poisson_uel(k, conf=0.95):
 
 
 print("Lendo base sintética...")
-df = pd.read_csv(RAIZ / "dados" / "base_intangivel_sintetica.csv.gz", dtype={"odi": str, "contrato_concessao": str,
+df = pd.read_csv(RAIZ / "03_BASE_SINTETICA" / "base_intangivel_sintetica.csv.gz", dtype={"odi": str, "contrato_concessao": str,
                                                                                "codigo_municipio_sint": str})
 for c in ["odi", "contrato_concessao", "codigo_municipio_sint"]:
     df[c] = df[c].fillna("")
 for c in ["data_capitalizacao", "data_inicio_operacao", "data_lancamento", "vencimento_concessao"]:
     df[c] = pd.to_datetime(df[c], errors="coerce")
-log = pd.read_csv(RAIZ / "dados" / "log_erros_inseridos.csv")
+log = pd.read_csv(RAIZ / "03_BASE_SINTETICA" / "log_erros_inseridos.csv")
 
 flags = pd.DataFrame(index=df.index)
 res = {"parametros": {"LAIR_R$mil": LAIR, "materialidade_global_R$mil": MG,

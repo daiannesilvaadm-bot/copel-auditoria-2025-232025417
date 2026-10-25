@@ -10,42 +10,44 @@
 | **Data de consulta das fontes** | 24/10/2026 |
 | **Auditor independente da companhia** | PricewaterhouseCoopers Auditores Independentes Ltda. |
 
-> **Natureza do trabalho.** Trabalho acadêmico feito integralmente com apoio de inteligência artificial, a partir de documentos públicos. **Não é relatório de auditoria e não contém opinião profissional independente.** Os dados da pasta `dados/` são **sintéticos**: foram gerados por código, estão marcados (`flag_dado_sintetico = SIM`, identificadores `SINT-`) e não são registros reais da COPEL.
+> **Natureza do trabalho.** Trabalho acadêmico feito integralmente com apoio de inteligência artificial, a partir de documentos públicos. **Não é relatório de auditoria e não contém opinião profissional independente.** Os dados da pasta `03_BASE_SINTETICA/` são **sintéticos**: foram gerados por código, estão marcados (`flag_dado_sintetico = SIM`, identificadores `SINT-`) e não são registros reais da COPEL.
 
 ## Onde está cada entrega exigida (enunciado, item 6)
 
 | Exigência | Arquivo |
 |---|---|
-| Dossiê em PDF, com papéis de trabalho e referências cruzadas | `dossie/Dossie_Auditoria_COPEL_2025_232025417.pdf` |
-| Base simulada com no mínimo 500.000 linhas | `dados/base_intangivel_sintetica.csv.gz` (520.165 linhas, 24 colunas, ~22 MB) |
-| Dicionário de variáveis | `dados/dicionario_variaveis.md` e `.csv` |
-| Registro dos erros inseridos (gabarito) | `dados/log_erros_inseridos.csv` |
-| Código de geração e análise | `codigo/` (ver "Reprodução") |
-| Planilhas editáveis: materialidade, amostra, análises, conciliações | `planilhas/PT_calculos_COPEL_2025.xlsx` |
-| Matriz de cobertura das normas | `docs/matriz_cobertura.md` e `.csv`; aba `Matriz_Cobertura`; PT MC do dossiê |
-| Relação das fontes, com links, páginas e data de acesso | `docs/fontes.md`; aba `Fontes`; Apêndice C do dossiê |
-| Resultados dos testes | `resultados/` |
+| Dossiê em PDF, com papéis de trabalho e referências cruzadas | `01_DOSSIE/Dossie_Auditoria_COPEL_2025_232025417.pdf` |
+| Base simulada com no mínimo 500.000 linhas | `03_BASE_SINTETICA/base_intangivel_sintetica.csv.gz` (520.165 linhas, 24 colunas, ~22 MB) |
+| Dicionário de variáveis | `03_BASE_SINTETICA/dicionario_variaveis.md` e `.csv` |
+| Registro dos erros inseridos (gabarito) | `03_BASE_SINTETICA/log_erros_inseridos.csv` |
+| Código de geração e análise | `05_CODIGO/` (ver "Reprodução") |
+| Planilhas editáveis: materialidade, amostra, análises, conciliações | `02_PLANILHAS/PT_calculos_COPEL_2025.xlsx` |
+| Matriz de cobertura das normas | `06_FONTES_E_COBERTURA/matriz_cobertura.md` e `.csv`; aba `Matriz_Cobertura`; PT MC do dossiê |
+| Relação das fontes, com links, páginas e data de acesso | `06_FONTES_E_COBERTURA/fontes.md`; aba `Fontes`; Apêndice C do dossiê |
+| Resultados dos testes | `04_RESULTADOS_TESTES/` |
 
 ## Organização do repositório
 
+As pastas estão numeradas na ordem sugerida de leitura.
+
 ```
-README.md
-requirements.txt
-dossie/       Dossie_Auditoria_COPEL_2025_232025417.pdf
-dados/        base_intangivel_sintetica.csv.gz | log_erros_inseridos.csv | dicionario_variaveis.(md|csv)
-codigo/       dados_publicos.py      números públicos (fonte única, com página de cada dado)
-              estrutura_pt.py        lista de PT, versões das normas, dicionário
-              01_gerar_base.py       gera a base sintética e o gabarito de erros
-              02_testes_auditoria.py testes T01–T11 (CAAT e amostragem MUS) e comparação inseridos x detectados
-              03_planilhas.py        gera a planilha editável e a matriz de cobertura
-              dossie_conteudo.py     texto dos papéis de trabalho
-              04_dossie_pdf.py       gera o PDF
-              rodar_tudo.sh          executa 01 → 04
-planilhas/    PT_calculos_COPEL_2025.xlsx
-resultados/   resultados_testes.json | excecoes_detectadas.csv | amostra_mus.csv
-              erros_inseridos_x_detectados.csv | matriz_inseridos_detectados.csv | falsos_positivos.csv
-              geracao_resumo.json
-docs/         fontes.md | matriz_cobertura.(md|csv)
+README.md                  este arquivo
+requirements.txt           bibliotecas Python necessárias
+01_DOSSIE/                 Dossie_Auditoria_COPEL_2025_232025417.pdf  (trabalho principal: todos os PT)
+02_PLANILHAS/              PT_calculos_COPEL_2025.xlsx  (materialidade, amostra, análises, conciliações)
+03_BASE_SINTETICA/         base_intangivel_sintetica.csv.gz | log_erros_inseridos.csv | dicionario_variaveis.(md|csv)
+04_RESULTADOS_TESTES/      resultados_testes.json | excecoes_detectadas.csv | amostra_mus.csv
+                           erros_inseridos_x_detectados.csv | matriz_inseridos_detectados.csv
+                           falsos_positivos.csv | geracao_resumo.json
+05_CODIGO/                 dados_publicos.py       números públicos (fonte única, com página de cada dado)
+                           estrutura_pt.py         lista de PT, versões das normas, dicionário
+                           01_gerar_base.py        gera a base sintética e o gabarito de erros
+                           02_testes_auditoria.py  testes T01–T11 (CAAT e amostragem MUS)
+                           03_planilhas.py         gera a planilha editável e a matriz de cobertura
+                           dossie_conteudo.py      texto dos papéis de trabalho
+                           04_dossie_pdf.py        gera o PDF
+                           rodar_tudo.sh           executa 01 → 04
+06_FONTES_E_COBERTURA/     fontes.md (F01–F19) | matriz_cobertura.(md|csv)
 ```
 
 ## Estrutura do dossiê
@@ -78,7 +80,7 @@ Requisitos: Python 3.10 ou superior. Fontes DejaVu, para o PDF (pacote `fonts-de
 
 ```bash
 pip install -r requirements.txt
-cd codigo
+cd 05_CODIGO
 bash rodar_tudo.sh          # (python3) ou execute 01, 02, 03 e 04 em sequência
 ```
 

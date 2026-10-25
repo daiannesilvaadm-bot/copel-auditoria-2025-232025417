@@ -109,7 +109,7 @@ def matriz_cobertura():
     return linhas
 
 
-# Dicionário de variáveis da base sintética (dados/base_intangivel_sintetica.csv.gz)
+# Dicionário de variáveis da base sintética (03_BASE_SINTETICA/base_intangivel_sintetica.csv.gz)
 DICIONARIO = [
     ("id_registro", "texto", "Identificador único do registro sintético (SINT-0000001 ...).", "Sequencial após embaralhamento."),
     ("flag_dado_sintetico", "texto", "Marca obrigatória: SIM = dado sintético, não é registro real da COPEL.", "Constante."),
@@ -148,7 +148,7 @@ def gravar_dicionario(pasta):
         w.writerows(DICIONARIO)
     linhas = ["# Dicionário de variáveis - base sintética do Intangível (COPEL 2025)", "",
               "**DADOS SINTÉTICOS PARA FINS DIDÁTICOS - não são registros reais da companhia.** "
-              "Arquivo: `dados/base_intangivel_sintetica.csv.gz` (CSV, UTF-8, separador vírgula, decimal ponto).", "",
+              "Arquivo: `03_BASE_SINTETICA/base_intangivel_sintetica.csv.gz` (CSV, UTF-8, separador vírgula, decimal ponto).", "",
               "| Variável | Tipo | Descrição | Regra de geração |", "|---|---|---|---|"]
     linhas += [f"| `{a}` | {b} | {c} | {d} |" for a, b, c, d in DICIONARIO]
     (pasta / "dicionario_variaveis.md").write_text("\n".join(linhas) + "\n", encoding="utf-8")

@@ -3,11 +3,11 @@ Dados PÚBLICOS da COPEL (Companhia Paranaense de Energia) - exercício 2025.
 
 Fonte única de verdade para o código, as planilhas e o dossiê.
 Valores em R$ mil (milhares de reais), consolidado, conforme publicado.
-Cada bloco indica o identificador da fonte (ver docs/fontes.md).
+Cada bloco indica o identificador da fonte (ver 06_FONTES_E_COBERTURA/fontes.md).
 
 Preparadora: matrícula 232025417 - data de consulta das fontes: 24/10/2026.
-NADA neste arquivo é sintético. Os dados sintéticos ficam em dados/ e são
-gerados por codigo/01_gerar_base.py.
+NADA neste arquivo é sintético. Os dados sintéticos ficam em 03_BASE_SINTETICA/ e são
+gerados por 05_CODIGO/01_gerar_base.py.
 """
 
 MATRICULA = "232025417"
