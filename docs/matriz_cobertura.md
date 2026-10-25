@@ -1,0 +1,83 @@
+# Matriz de cobertura das normas (PT MC)
+
+Versões aplicáveis a auditorias do exercício de 2025 (fonte F09, CFC, acesso em 24/10/2026).
+
+| Norma | Versão (2025) | Publicação | Título | PT principais | PT de apoio |
+|---|---|---|---|---|---|
+| NBC TA Estrutura Conceitual | Estrutura Conceitual | DOU 25/11/2015 | Estrutura Conceitual para Trabalhos de Asseguração | PT EC |  |
+| NBC TA 200 | NBC TA 200 (R1) | DOU 05/09/2016 | Objetivos Gerais do Auditor Independente e a Condução da Auditoria | PT 200, PT RA, PT CI | PT EC, PT 500.2 |
+| NBC TA 210 | NBC TA 210 (R1) | DOU 05/09/2016 | Concordância com os Termos do Trabalho de Auditoria | PT 210 |  |
+| NBC TA 220 | NBC TA 220 (R3) | DOU 09/12/2021 | Gestão de Qualidade da Auditoria de Demonstrações Contábeis | PT 220 | PT 300, PT 600 |
+| NBC TA 230 | NBC TA 230 (R1) | DOU 05/09/2016 | Documentação de Auditoria | PT 000, PT 230, PT BS-03, PT MC | PT 500.2, PT 220, PT BS-02 |
+| NBC TA 240 | NBC TA 240 (R1) | DOU 05/09/2016 | Responsabilidade do Auditor em Relação a Fraude | PT 240 | PT 315.2, PT PA-01, PT BS-05 |
+| NBC TA 250 | NBC TA 250 | DOU 14/02/2019 | Consideração de Leis e Regulamentos | PT 250 | PT 315.1 |
+| NBC TA 260 | NBC TA 260 (R2) | DOU 04/07/2016 | Comunicação com os Responsáveis pela Governança | PT 260 | PT RA |
+| NBC TA 265 | NBC TA 265 | Res. CFC 1.210/2009 | Comunicação de Deficiências de Controle Interno | PT 265 | PT 260 |
+| NBC TA 300 | NBC TA 300 (R1) | DOU 05/09/2016 | Planejamento da Auditoria de Demonstrações Contábeis | PT 300 | PT 000 |
+| NBC TA 315 | NBC TA 315 (R2) | DOU 02/09/2021 | Identificação e Avaliação dos Riscos de Distorção Relevante | PT 315.1, PT 315.2 | PT 240, PT 265, PT 330, PT BS-01 |
+| NBC TA 320 | NBC TA 320 (R1) | DOU 05/09/2016 | Materialidade no Planejamento e na Execução da Auditoria | PT 320, PT BS-01 | PT 450 |
+| NBC TA 330 | NBC TA 330 (R1) | DOU 05/09/2016 | Resposta do Auditor aos Riscos Avaliados | PT 330, PT PA-01, PT PA-02, PT PA-03, PT PA-04, PT PA-05, PT BS-05 | PT 240, PT PA-06, PT BS-04 |
+| NBC TA 402 | NBC TA 402 | Res. CFC 1.215/2009 | Considerações de Auditoria para a Entidade que Utiliza Organização Prestadora de Serviços | PT 402 |  |
+| NBC TA 450 | NBC TA 450 (R1) | DOU 05/09/2016 | Avaliação das Distorções Identificadas | PT 450, PT BS-06 | PT 320, PT 530, PT CI |
+| NBC TA 500 | NBC TA 500 (R1) | DOU 05/09/2016 | Evidência de Auditoria | PT 500.2, PT 500.1, PT BS-02, PT BS-04 |  |
+| NBC TA 501 | NBC TA 501 | Res. CFC 1.218/2009 | Evidência de Auditoria - Considerações Específicas para Itens Selecionados | PT 501 | PT PA-03, PT PA-05 |
+| NBC TA 505 | NBC TA 505 | Res. CFC 1.219/2009 | Confirmações Externas | PT 505 | PT 501, PT PA-02, PT PA-05 |
+| NBC TA 510 | NBC TA 510 (R1) | DOU 05/09/2016 | Trabalhos Iniciais - Saldos Iniciais | PT 510 |  |
+| NBC TA 520 | NBC TA 520 | Res. CFC 1.221/2009 | Procedimentos Analíticos | PT 520 | PT PA-01, PT BS-05 |
+| NBC TA 530 | NBC TA 530 | Res. CFC 1.222/2009 | Amostragem em Auditoria | PT 530 | PT 450, PT BS-06 |
+| NBC TA 540 | NBC TA 540 (R2) | DOU 23/10/2019 | Auditoria de Estimativas Contábeis, Inclusive do Valor Justo, e Divulgações Relacionadas | PT 540, PT PA-06 | PT 315.2, PT PA-04 |
+| NBC TA 550 | NBC TA 550 | Res. CFC 1.224/2009 | Partes Relacionadas | PT 550 |  |
+| NBC TA 560 | NBC TA 560 (R1) | DOU 05/09/2016 | Eventos Subsequentes | PT 560 |  |
+| NBC TA 570 | NBC TA 570 | DOU 04/07/2016 | Continuidade Operacional | PT 570 |  |
+| NBC TA 580 | NBC TA 580 (R1) | DOU 05/09/2016 | Representações Formais | PT 580 |  |
+| NBC TA 600 | NBC TA 600 (R2) | DOU 06/12/2023 | Considerações Especiais - Auditorias de Demonstrações Contábeis de Grupos | PT 600 |  |
+
+## Índice dos papéis de trabalho
+
+| PT | Título | Normas principais |
+|---|---|---|
+| PT 000 | Identificação do trabalho, da entidade e das fontes | NBC TA 230 |
+| PT EC | Estrutura Conceitual: natureza do trabalho e elementos de asseguração | NBC TA Estrutura Conceitual |
+| PT 500.2 | Classificação dos procedimentos e limitações do trabalho | NBC TA 500 |
+| PT 200 | Objetivos gerais, ceticismo e julgamento profissional | NBC TA 200 |
+| PT 210 | Termos do trabalho e precondições | NBC TA 210 |
+| PT 220 | Gestão de qualidade do trabalho | NBC TA 220 |
+| PT 230 | Documentação e organização do dossiê | NBC TA 230 |
+| PT 240 | Fraude: fatores de risco e respostas | NBC TA 240 |
+| PT 250 | Leis e regulamentos (setor elétrico, societário, CVM/SEC) | NBC TA 250 |
+| PT 260 | Comunicação com os responsáveis pela governança | NBC TA 260 |
+| PT 265 | Deficiências de controle interno | NBC TA 265 |
+| PT 300 | Estratégia global e plano de auditoria | NBC TA 300 |
+| PT 315.1 | Entendimento da entidade, do setor elétrico e do controle interno | NBC TA 315 |
+| PT 315.2 | Matriz de riscos de distorção relevante | NBC TA 315 |
+| PT 320 | Materialidade | NBC TA 320 |
+| PT 330 | Respostas aos riscos avaliados | NBC TA 330 |
+| PT 402 | Organizações prestadoras de serviços | NBC TA 402 |
+| PT 450 | Avaliação das distorções identificadas | NBC TA 450 |
+| PT 500.1 | Evidência de auditoria: suficiência e adequação | NBC TA 500 |
+| PT 501 | Itens selecionados: estoques, litígios e segmentos | NBC TA 501 |
+| PT 505 | Confirmações externas | NBC TA 505 |
+| PT 510 | Saldos iniciais | NBC TA 510 |
+| PT 520 | Procedimentos analíticos | NBC TA 520 |
+| PT 530 | Amostragem por unidade monetária (base sintética) | NBC TA 530 |
+| PT 540 | Estimativas contábeis | NBC TA 540 |
+| PT 550 | Partes relacionadas | NBC TA 550 |
+| PT 560 | Eventos subsequentes | NBC TA 560 |
+| PT 570 | Continuidade operacional | NBC TA 570 |
+| PT 580 | Representações formais | NBC TA 580 |
+| PT 600 | Auditoria de grupo e componentes | NBC TA 600 |
+| PT PA-01 | Programa de auditoria - Receitas | NBC TA 330 |
+| PT PA-02 | Programa de auditoria - Disponibilidades | NBC TA 330 |
+| PT PA-03 | Programa de auditoria - Estoques | NBC TA 330 |
+| PT PA-04 | Programa de auditoria - Imobilizado, intangível e ativos de contrato | NBC TA 330 |
+| PT PA-05 | Programa de auditoria - Passivos | NBC TA 330 |
+| PT PA-06 | Programa de auditoria - Estimativas | NBC TA 540 |
+| PT BS-01 | Base sintética: seleção e materialidade da conta | NBC TA 320 |
+| PT BS-02 | Base sintética: premissas e método de geração | NBC TA 500 |
+| PT BS-03 | Base sintética: dicionário de variáveis | NBC TA 230 |
+| PT BS-04 | Base sintética: conciliação com o saldo contábil | NBC TA 500 |
+| PT BS-05 | Base sintética: testes de dados e exceções | NBC TA 330 |
+| PT BS-06 | Base sintética: erros inseridos x identificados | NBC TA 450 |
+| PT RA | Leitura do relatório do auditor publicado | NBC TA 200 |
+| PT CI | Conclusão integrada | NBC TA 200 |
+| PT MC | Matriz de cobertura das normas | NBC TA 230 |

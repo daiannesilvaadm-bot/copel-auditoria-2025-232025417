@@ -1,0 +1,581 @@
+id_registro,codigo_subconta,tipo_bem,status,data_capitalizacao,custo_historico,amortizacao_acumulada,valor_liquido,taxa_amortizacao_anual,taxa_minima_prazo_concessao,usuario_lancamento,testes_acionados,flag_dado_sintetico
+SINT-0001445,INT-DIS,Poste de concreto,Em serviço,2024-04-16,596.5,47.8,548.7,0.047135,0.047135,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0001667,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2025-06-11,132221.24,3520.84,128700.4,0.049877,0.049877,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0001872,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-17,35494.8,0.0,35494.8,0.049325,0.049325,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0001960,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-10-28,490.46,40.17,450.29,0.0769,0.04859,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0002931,INT-DIS,Poste de concreto,Em serviço,2009-10-31,919.08,0.0,919.08,0.0357,0.028062,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0004717,INT-DIS,Poste de concreto,Em serviço,2020-05-28,882.07,87.68,794.39,0.017965,0.039922,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0005867,INT-DIS,Transformador de distribuição,Em serviço,2020-01-31,9717.86,0.0,9717.86,0.04,0.039469,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0006107,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2009-07-14,2473.7,2473.7,0.0,0.1429,0.027877,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0007241,INT-DIS,Transformador de distribuição,Em serviço,2008-02-18,8185.39,5835.66,2349.73,0.04,0.026782,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0011431,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-03-22,413.79,0.0,413.79,0.0769,0.043087,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0011478,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2021-05-20,38950.01,7353.81,31596.2,0.041567,0.041567,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0011762,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2008-08-28,1458.95,1458.95,544.21,0.1429,0.027132,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0012040,INT-DIS,Poste de concreto,Em serviço,2009-01-18,1335.91,278.97,1056.94,0.012358,0.027462,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0012164,INT-DIS,Poste de concreto,Em serviço,2013-02-04,993.62,177.17,816.45,0.013922,0.030938,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0012916,INT-DIS,Medidor eletrônico inteligente,Em curso,2023-01-17,481.17,106.37,374.8,0.0769,0.044663,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0014366,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-05-31,336.59,12.54,324.05,0.0769,0.05,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0014834,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,993707.57,0.0,993707.57,0.0769,0.048352,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0015458,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,993576.06,0.0,993576.06,0.0769,0.042333,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0015831,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-04-18,410.56,451.93,-41.37,0.0769,0.041412,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0016981,INT-DIS,Poste de concreto,Em serviço,2009-12-02,1034.5,209.88,824.62,0.012663,0.028139,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0017544,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-03-20,443.72,227.67,216.05,0.0769,0.038186,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0017735,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2024-08-16,60337.23,3680.15,56657.08,0.048116,0.048116,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0019931,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-16,63986.18,0.0,63986.18,0.0357,0.035212,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0021881,INT-DIS,Medidor eletrônico inteligente,Em curso,2024-04-02,479.99,61.75,418.24,0.0769,0.047196,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0022944,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-04-02,406.78,117.25,455.65,0.0769,0.042986,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0023267,INT-DIS,Religador / chave automatizada,Em serviço,2009-03-25,39865.26,25636.94,26421.01,0.0385,0.02761,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0026306,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-18,331.87,0.0,331.87,0.0769,0.044494,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0027040,INT-DIS,Religador / chave automatizada,Em serviço,2023-03-08,15844.48,1930.53,13913.95,0.044998,0.044998,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0027316,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-12-23,408.17,29.56,378.61,0.0769,0.048882,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0028472,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-11-03,454.28,175.99,278.29,0.0769,0.040728,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0029090,INT-DIS,Poste de concreto,Em serviço,2008-10-30,1881.96,1153.34,728.62,0.0357,0.027262,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0030842,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2008-07-19,1747.28,0.0,1747.28,0.1429,0.027138,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0034199,INT-DIS,Poste de concreto,Em serviço,2018-03-23,1526.71,1801.73,-275.02,0.03669,0.03669,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0035784,INT-DIS,Poste de concreto,Em serviço,2007-12-03,1442.05,926.45,804.36,0.0357,0.026659,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0036713,INT-DIS,Poste de concreto,Em serviço,2011-08-21,3338.72,1707.04,1631.68,0.0357,0.029553,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0036815,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-01-22,284.05,128.52,155.53,0.0769,0.039372,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0038785,INT-DIS,Poste de concreto,Em serviço,2026-01-22,786.03,0.0,786.03,0.0357,0.032588,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0039174,INT-DIS,Medidor eletrônico inteligente,Em serviço,2018-12-30,431.16,504.79,-73.63,0.0769,0.037771,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0039469,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-28,277.17,0.0,277.17,0.0769,0.038981,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0041648,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-03-10,363.21,0.0,363.21,0.0769,0.044998,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0041738,INT-DIS,Transformador de distribuição,Em serviço,2014-04-22,3816.0,1779.86,3188.56,0.04,0.032076,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0047637,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-11-06,361.8,0.0,361.8,0.0769,0.039098,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0048370,INT-DIS,Poste de concreto,Em serviço,2021-03-08,1050.89,205.72,845.17,0.041211,0.041211,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0048802,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-01-12,758.63,225.85,532.78,0.0769,0.042759,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0050701,INT-DIS,Religador / chave automatizada,Em curso,2010-03-18,32351.86,19529.76,12822.1,0.0385,0.028413,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0053588,INT-DIS,Poste de concreto,Em serviço,2019-09-15,1826.47,198.99,1627.48,0.017476,0.038836,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0054569,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-01-25,461.01,31.64,429.37,0.0769,0.049001,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0055092,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2025-05-15,64862.96,1735.81,63127.15,0.04987,0.04987,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0055725,INT-DIS,Poste de concreto,Em serviço,2016-06-20,1166.36,393.76,772.6,0.0357,0.034516,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0056231,INT-DIS,Poste de concreto,Em serviço,2021-10-15,746.69,130.67,902.14,0.042274,0.042274,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0056922,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-10,111507.92,0.0,111507.92,0.0357,0.035634,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0056937,INT-DIS,Poste de concreto,Em serviço,2017-10-23,2166.89,0.0,2166.89,0.036235,0.036235,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0056962,INT-DIS,Transformador de distribuição,Em serviço,2008-09-29,9923.29,12784.12,-2860.83,0.04,0.027245,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0057011,INT-DIS,Transformador de distribuição,Em serviço,2017-06-21,7045.51,2374.93,4670.58,0.04,0.035788,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0057265,INT-DIS,Transformador de distribuição,Em serviço,2009-09-14,7095.21,4606.2,2489.01,0.04,0.027976,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0057369,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-11-05,314.99,25.73,289.26,0.0769,0.048596,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0057652,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2026-01-21,8083.0,0.0,8083.0,0.1429,0.040792,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0059249,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,997755.6,0.0,997755.6,0.0769,0.050708,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0060001,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-08-03,613.49,67.79,545.7,0.017397,0.038659,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0060115,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-05-18,370.97,130.82,409.7,0.0769,0.041492,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0061563,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-01-03,258.83,0.0,258.83,0.0769,0.039312,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0061769,INT-DIS,Transformador de distribuição,Em serviço,2013-02-25,6772.12,0.0,6772.12,0.04,0.03098,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0064077,INT-DIS,Medidor eletrônico inteligente,Em curso,2020-08-22,468.32,191.58,276.74,0.0769,0.040266,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0064543,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2011-08-28,4428.71,4428.71,0.0,0.1429,0.029632,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0064925,INT-DIS,Poste de concreto,Em serviço,2023-04-21,910.07,108.42,801.65,0.045137,0.045137,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0065585,INT-DIS,Poste de concreto,Em serviço,2008-01-07,1149.12,1467.85,-318.73,0.0357,0.026682,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0067099,INT-DIS,Medidor eletrônico inteligente,Em curso,2024-11-20,392.04,30.21,361.83,0.0769,0.048739,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0067163,INT-DIS,Transformador de distribuição,Em serviço,2026-01-06,6652.44,0.0,6652.44,0.04,0.035389,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0067282,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-23,382.04,0.0,382.04,0.0769,0.038007,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0067295,INT-DIS,Poste de concreto,Em serviço,2015-09-11,1071.97,1387.78,-315.81,0.0357,0.03366,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0067415,INT-DIS,Poste de concreto,Em serviço,2026-01-19,1223.75,0.0,1223.75,0.0357,0.034969,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0068247,INT-DIS,Poste de concreto,Em serviço,2010-07-04,1437.99,0.0,1437.99,0.0357,0.028625,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0068395,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2008-04-14,6398.46,6398.46,0.0,0.1429,0.02693,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0068444,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-05-20,369.6,419.42,-49.82,0.0769,0.047417,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0068885,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-18,443.65,0.0,443.65,0.0769,0.040426,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0070502,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2022-01-18,51676.73,3835.76,47840.97,0.019255,0.042789,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0071127,INT-DIS,Poste de concreto,Em serviço,2011-01-15,1043.25,0.0,1043.25,0.0357,0.029011,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0071432,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-10-06,270.76,0.0,270.76,0.0769,0.039002,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0073757,INT-DIS,Poste de concreto,Em serviço,2013-09-18,1823.61,793.71,1525.9,0.0357,0.031539,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0074342,INT-DIS,Poste de concreto,Em serviço,2008-03-29,1126.82,241.12,885.7,0.012093,0.026874,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0076051,INT-DIS,Poste de concreto,Em serviço,2023-10-08,1123.1,112.05,1609.95,0.046129,0.046129,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0077497,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-09-21,506.18,0.0,506.18,0.0769,0.040413,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0078398,INT-DIS,Transformador de distribuição,Em serviço,2008-12-09,36616.93,7677.97,28938.96,0.012315,0.027366,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0078652,INT-DIS,Transformador de distribuição,Em serviço,2026-01-25,10753.53,0.0,10753.53,0.04294,0.04294,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0079286,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-12-21,335.04,100.94,234.1,0.0769,0.042674,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0079423,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-05-02,423.09,149.21,478.75,0.0769,0.041492,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0079433,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2019-12-05,3480.53,2986.25,494.28,0.1429,0.039186,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0079729,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2020-04-17,21666.4,0.0,21666.4,0.039736,0.039736,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0080306,INT-DIS,Poste de concreto,Em serviço,2016-12-05,1857.81,594.33,1263.48,0.0357,0.035117,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0084177,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-01-22,364.34,24.09,340.25,0.0769,0.04908,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0084408,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2011-09-13,2369.38,2369.38,0.0,0.1429,0.029671,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0085123,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2010-07-10,5220.78,0.0,5220.78,0.1429,0.028643,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0085236,INT-DIS,Poste de concreto,Em serviço,2018-06-02,1168.72,146.88,1021.84,0.016619,0.036931,USR-31,T06_taxa_abaixo_minima,SIM
+SINT-0086479,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2018-10-17,3089.1,3639.55,-550.45,0.1429,0.037504,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0087880,INT-DIS,Poste de concreto,Em serviço,2025-12-29,997123.62,0.0,997123.62,0.0357,0.03269,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0087964,INT-DIS,Poste de concreto,Em serviço,2009-02-20,642.24,133.65,508.59,0.012395,0.027545,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0089907,INT-DIS,Poste de concreto,Em serviço,2008-11-14,1598.39,335.98,1262.41,0.012288,0.027306,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0091579,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-06-02,369.07,128.6,240.47,0.0769,0.041586,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0091856,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-04-13,336.53,120.95,215.58,0.0769,0.041341,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0091889,INT-DIS,Poste de concreto,Em serviço,2025-12-29,993790.57,0.0,993790.57,0.0357,0.03466,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0092415,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-03-29,346.78,25.07,321.71,0.019355,0.043011,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0092712,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,991856.29,0.0,991856.29,0.0769,0.048091,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0094317,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,995456.28,0.0,995456.28,0.0769,0.045651,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0094616,INT-DIS,Transformador de distribuição,Em serviço,2009-09-01,14089.91,9150.24,4939.67,0.04,0.027971,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0096332,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-12-28,403.52,153.69,473.42,0.0769,0.040869,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0097089,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-03-20,368.8,47.44,403.81,0.0769,0.047196,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0099514,INT-DIS,Transformador de distribuição,Em serviço,2014-09-09,10546.48,4744.69,5801.79,0.04,0.032507,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0099556,INT-DIS,Religador / chave automatizada,Em serviço,2012-09-20,45549.17,23117.84,22431.33,0.0385,0.030583,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0099871,INT-DIS,Poste de concreto,Em serviço,2019-11-01,1276.3,306.42,969.88,0.038939,0.038939,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0100421,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-09-01,399.9,191.97,207.93,0.0769,0.038823,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0101082,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-03-22,305.87,0.0,305.87,0.0769,0.043128,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0101170,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-03-05,349.06,99.65,249.41,0.0769,0.043052,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0102053,INT-DIS,Poste de concreto,Em serviço,2021-02-10,739.06,147.48,949.33,0.041016,0.041016,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0102283,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-07-27,390.81,11.52,379.29,0.0769,0.050255,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0103865,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-07-25,417.72,12.49,405.23,0.0769,0.050241,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0105220,INT-DIS,Transformador de distribuição,Em serviço,2026-02-09,7456.65,0.0,7456.65,0.04,0.027654,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0105556,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-09,15778.49,0.0,15778.49,0.038087,0.038087,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0106071,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-01-27,358.96,42.29,316.67,0.017022,0.037826,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0108014,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2022-10-19,38828.16,5414.24,33413.92,0.044096,0.044096,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0111547,INT-DIS,Transformador de distribuição,Em serviço,2021-07-11,7113.7,1321.99,5791.71,0.041719,0.041719,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0112301,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-01-29,527.74,61.37,466.37,0.0171,0.037999,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0112506,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-11-25,404.43,188.18,216.25,0.0769,0.039114,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0114203,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,995519.16,0.0,995519.16,0.0769,0.042304,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0114276,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2020-01-22,34491.08,8006.9,37677.32,0.039346,0.039346,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0114521,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-07-16,372.97,0.0,372.97,0.0769,0.038537,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0115033,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-06-07,508.57,18.1,490.47,0.0769,0.050055,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0115252,INT-DIS,Transformador de distribuição,Em serviço,2018-07-25,15904.15,4659.12,11245.03,0.04,0.037259,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0116487,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-05-15,538.87,64.44,474.43,0.0769,0.04746,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0117788,INT-DIS,Transformador de distribuição,Em serviço,2009-10-27,10067.89,0.0,10067.89,0.04,0.028038,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0120346,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-02-20,301.9,19.7,282.2,0.0769,0.049106,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0120724,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-11-01,384.02,149.01,235.01,0.0769,0.040715,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0121170,INT-DIS,Sistema de telecomunicação e automação (Smart Grid),Em serviço,2015-01-06,179307.15,28980.8,150326.35,0.014777,0.032837,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0121906,INT-DIS,Poste de concreto,Em serviço,2018-09-21,1192.3,320.64,871.66,0.037462,0.037462,USR-22,T03_duplicidade,SIM
+SINT-0122097,INT-DIS,Medidor eletrônico inteligente,Em curso,2024-09-14,394.91,36.0,358.91,0.0769,0.048307,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0122851,INT-DIS,Poste de concreto,Em serviço,2025-12-29,991323.39,0.0,991323.39,0.038626,0.038626,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0122970,INT-DIS,Transformador de distribuição,Em serviço,2020-04-08,10816.25,13541.64,-2725.39,0.04,0.039611,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0124409,INT-DIS,Poste de concreto,Em serviço,2008-06-17,1004.04,625.52,378.52,0.0357,0.027052,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0124965,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-08-22,373.81,66.03,307.78,0.0769,0.045845,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0125170,INT-DIS,Poste de concreto,Em serviço,2009-10-11,892.82,515.74,377.08,0.0357,0.028014,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0127857,INT-DIS,Transformador de distribuição,Em serviço,2010-06-25,58834.81,11691.58,47143.23,0.012876,0.028613,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0127874,INT-DIS,Poste de concreto,Em serviço,2009-09-21,1033.24,596.35,436.89,0.0357,0.028025,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0128520,INT-DIS,Medidor eletrônico inteligente,Em curso,2023-02-07,263.75,57.25,206.5,0.0769,0.044767,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0129605,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-11-25,621.27,194.63,426.64,0.0769,0.042392,USR-23,T08_campos_em_branco,SIM
+SINT-0129628,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-05-16,346.52,41.22,305.3,0.0769,0.047478,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0130733,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,991626.94,0.0,991626.94,0.0769,0.042427,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0130841,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2017-07-30,38120.65,0.0,38120.65,0.035844,0.035844,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0131002,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-05-02,417.59,210.74,206.85,0.0769,0.038346,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0131492,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2019-12-28,739.76,77.94,661.82,0.01766,0.039245,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0131832,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-11-19,439.18,40.79,398.39,0.018299,0.040665,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0132294,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-12-07,366.02,141.72,224.3,0.0769,0.040733,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0132504,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-12-18,366.91,54.23,312.68,0.0769,0.046648,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0132655,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-03-21,572.52,121.62,749.89,0.0769,0.044888,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0133099,INT-DIS,Poste de concreto,Em serviço,2023-03-12,1764.86,2014.4,-249.54,0.045043,0.045043,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0134763,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-03-09,388.63,113.82,274.81,0.0769,0.042875,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0135503,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-10-29,249.2,23.28,225.92,0.01827,0.040601,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0139122,INT-DIS,Poste de concreto,Em serviço,2008-12-17,2010.48,421.63,1588.85,0.012313,0.027362,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0140831,INT-DIS,Poste de concreto,Em serviço,2023-10-24,1291.51,129.88,1161.63,0.046088,0.046088,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0141241,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2013-10-12,426838.7,173016.39,355747.79,0.0333,0.031558,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0141493,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2025-12-29,990440.81,0.0,990440.81,0.040628,0.040628,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0141667,INT-DIS,Transformador de distribuição,Em serviço,2020-08-23,8424.98,807.49,7617.49,0.018148,0.040328,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0141832,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-02-27,574.42,125.29,449.13,0.0769,0.044739,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0142122,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2023-05-31,64791.38,7499.15,57292.23,0.045311,0.045311,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0142561,INT-DIS,Veículo e equipamento operacional vinculado,Em curso,2020-03-22,5008.27,4075.61,932.66,0.1429,0.039667,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0142683,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-06-24,321.63,108.96,212.67,0.0769,0.041805,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0143769,INT-DIS,Poste de concreto,Em serviço,2015-05-07,1072.96,0.0,1072.96,0.0357,0.033162,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0144033,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,990183.89,0.0,990183.89,0.0769,0.047324,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0144314,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2018-11-01,6973.68,0.0,6973.68,0.1429,0.03762,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0144401,INT-DIS,Poste de concreto,Em serviço,2013-02-07,1581.33,282.54,1298.79,0.013903,0.030896,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0145299,INT-DIS,Equipamento de subestação de distribuição,Em curso,2023-03-17,462939.06,57255.42,405683.64,0.044904,0.044904,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0147145,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-10-17,463.23,541.18,-77.95,0.0769,0.051005,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0147683,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,994338.3,0.0,994338.3,0.0769,0.042545,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0148330,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-10-30,402.9,514.81,-111.91,0.0769,0.048545,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0149833,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-07-01,462.75,552.93,-90.18,0.0769,0.05,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0150976,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2020-10-14,82573.44,17356.47,65216.97,0.040471,0.040471,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0151289,INT-DIS,Religador / chave automatizada,Em serviço,2010-08-19,30403.74,6019.85,24383.89,0.012914,0.028697,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0152108,INT-DIS,Poste de concreto,Em serviço,2010-11-23,862.49,0.0,862.49,0.0357,0.028924,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0153579,INT-DIS,Poste de concreto,Em serviço,2020-03-25,1607.47,0.0,1607.47,0.039641,0.039641,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0153652,INT-DIS,Religador / chave automatizada,Em serviço,2021-03-22,27857.8,5463.48,22394.32,0.041192,0.041192,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0155148,INT-DIS,Poste de concreto,Em serviço,2015-05-16,795.92,125.97,669.95,0.014949,0.03322,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0155645,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2011-02-06,2130.11,2130.11,0.0,0.1429,0.02908,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0155727,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-04-23,431.68,19.54,412.14,0.0769,0.049741,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0156013,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-14,594.59,0.0,594.59,0.0769,0.040221,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0156070,INT-DIS,Poste de concreto,Em serviço,2019-09-09,1057.84,0.0,1057.84,0.038869,0.038869,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0158029,INT-DIS,Transformador de distribuição,Em serviço,2021-01-04,13468.93,2699.81,10769.12,0.04097,0.04097,USR-27,T03_duplicidade,SIM
+SINT-0158337,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-10-04,396.05,158.76,237.29,0.0769,0.04044,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0158521,INT-DIS,Poste de concreto,Em serviço,2019-06-08,1077.28,269.83,807.45,0.038407,0.038407,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0158913,INT-DIS,Transformador de distribuição,Em serviço,2026-01-09,4980.24,0.0,4980.24,0.04,0.028899,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0159720,INT-DIS,Medidor eletrônico inteligente,Em curso,2020-09-22,398.84,160.72,238.12,0.0769,0.040395,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0161925,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-10-07,471.59,152.61,318.98,0.0769,0.042152,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0162359,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,994725.93,0.0,994725.93,0.0769,0.046246,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0163503,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-07-11,336.88,64.05,272.83,0.0769,0.04548,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0164490,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-02-06,350.03,50.11,299.92,0.0769,0.046779,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0166540,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-06-26,278.71,32.27,246.44,0.0769,0.047571,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0167762,INT-DIS,Poste de concreto,Em serviço,2026-02-06,1433.37,0.0,1433.37,0.040137,0.040137,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0167880,INT-DIS,Poste de concreto,Em serviço,2026-01-27,1550.16,0.0,1550.16,0.0357,0.02829,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0169363,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-08-16,336.41,27.48,308.93,0.018873,0.041939,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0169385,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2011-04-30,2233.66,2233.66,0.0,0.1429,0.02925,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0171644,INT-DIS,Poste de concreto,Em serviço,2026-01-22,890.86,0.0,890.86,0.050296,0.050296,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0171849,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-06-09,555.99,55.23,500.76,0.017969,0.039931,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0173302,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2008-12-16,4920.81,1030.25,3890.56,0.01233,0.027401,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0173426,INT-DIS,Poste de concreto,Em serviço,2019-02-20,931.11,242.05,1149.53,0.03792,0.03792,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0177246,INT-DIS,Poste de concreto,Em serviço,2023-07-17,1942.64,210.88,1731.76,0.045679,0.045679,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0177371,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-11-02,780.43,369.05,411.38,0.0769,0.038964,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0177641,INT-DIS,Poste de concreto,Em serviço,2010-11-27,1631.71,1844.03,-212.32,0.0357,0.028899,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0178783,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-04-15,460.35,0.0,460.35,0.0769,0.03819,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0179788,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2008-09-25,2628.2,553.79,2074.41,0.012261,0.027247,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0180662,INT-DIS,Religador / chave automatizada,Em serviço,2010-03-13,15732.67,9555.34,6177.33,0.0385,0.028336,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0181452,INT-DIS,Medidor eletrônico inteligente,Em curso,2024-04-27,342.55,41.61,300.94,0.0769,0.047404,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0181968,INT-DIS,Poste de concreto,Em serviço,2021-12-23,1381.43,0.0,1381.43,0.042565,0.042565,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0183956,INT-DIS,Poste de concreto,Em serviço,2024-03-31,659.48,53.32,606.16,0.047099,0.047099,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0184761,INT-DIS,Religador / chave automatizada,Em serviço,2008-01-15,40322.59,27873.43,22638.9,0.0385,0.026688,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0184833,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-10-06,391.84,156.75,235.09,0.0769,0.040457,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0185796,INT-DIS,Transformador de distribuição,Em curso,2022-10-13,19739.54,2707.3,17032.24,0.044214,0.044214,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0185824,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-12-01,564.34,0.0,564.34,0.0769,0.040851,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0186096,INT-DIS,Transformador de distribuição,Em serviço,2026-01-22,6455.87,0.0,6455.87,0.04,0.034458,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0186436,INT-DIS,Medidor eletrônico inteligente,Em curso,2023-07-02,378.99,70.22,308.77,0.0769,0.045611,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0186708,INT-DIS,Transformador de distribuição,Em curso,2017-09-16,8319.48,2747.88,5571.6,0.04,0.036007,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0187184,INT-DIS,Transformador de distribuição,Em serviço,2025-12-29,991766.75,0.0,991766.75,0.04,0.028229,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0187351,INT-DIS,Transformador de distribuição,Em curso,2013-10-23,16912.18,8238.23,8673.95,0.04,0.031552,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0187391,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-09-29,529.69,130.59,509.73,0.0769,0.044011,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0189258,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2019-09-11,34559.64,8380.97,26178.67,0.038815,0.038815,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0190228,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2023-09-09,35784.27,3687.87,32096.4,0.045961,0.045961,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0190639,INT-DIS,Poste de concreto,Em serviço,2023-03-10,1938.51,0.0,1938.51,0.045004,0.045004,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0190959,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2020-06-15,120757.89,26355.28,94402.61,0.040058,0.040058,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0191511,INT-DIS,Poste de concreto,Em serviço,2012-07-23,2080.15,998.08,1082.07,0.0357,0.030344,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0192595,INT-DIS,Transformador de distribuição,Em serviço,2021-05-18,22526.24,25433.31,-2907.07,0.041591,0.041591,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0192655,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2011-11-06,2236.65,0.0,2236.65,0.1429,0.029804,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0192932,INT-DIS,Medidor eletrônico inteligente,Em curso,2024-01-28,291.43,41.66,249.77,0.0769,0.046785,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0193181,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2023-03-07,65127.47,81976.98,-16849.51,0.044982,0.044982,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0194240,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2023-10-18,66882.88,86540.61,-19657.73,0.046059,0.046059,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0194754,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-05-31,437.96,186.08,251.88,0.0769,0.039935,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0195750,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-02-21,259.28,115.51,143.77,0.0769,0.039512,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0196506,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-07-05,383.33,0.0,383.33,0.0769,0.038516,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0196795,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2021-06-06,876.91,557.51,319.4,0.1429,0.041729,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0197134,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-08,392.9,0.0,392.9,0.0769,0.044326,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0198004,INT-DIS,Poste de concreto,Em serviço,2015-10-17,890.75,323.27,567.48,0.0357,0.033692,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0199201,INT-DIS,Poste de concreto,Em serviço,2018-07-19,1387.65,172.01,1215.64,0.016707,0.037126,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0200670,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-08-03,676.28,0.0,676.28,0.0769,0.041805,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0201128,INT-DIS,Medidor eletrônico inteligente,Em curso,2025-06-11,498.71,18.9,479.81,0.0769,0.049979,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0201531,INT-DIS,Poste de concreto,Em serviço,2019-10-30,724.83,0.0,724.83,0.039022,0.039022,USR-22,T05_amortizacao_recalculada,SIM
+SINT-0203106,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-02-07,521.59,274.1,247.49,0.0769,0.037952,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0203173,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-10-21,472.1,0.0,472.1,0.0769,0.044192,USR-33,T05_amortizacao_recalculada,SIM
+SINT-0204152,INT-DIS,Transformador de distribuição,Em serviço,2014-10-12,9478.26,0.0,9478.26,0.04,0.03265,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0206319,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2019-09-14,3531.26,0.0,3531.26,0.1429,0.038836,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0206354,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-01-14,359.11,24.72,446.64,0.0769,0.048994,USR-05,T02_liquido_divergente,SIM
+SINT-0207595,INT-DIS,Poste de concreto,Em serviço,2016-04-23,843.72,0.0,843.72,0.0357,0.034315,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0207916,INT-DIS,Medidor eletrônico inteligente,Em curso,2020-10-11,525.7,208.19,317.51,0.0769,0.040543,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0208658,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2014-04-01,405665.18,68587.74,337077.44,0.014395,0.031989,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0209232,INT-DIS,Sistema de telecomunicação e automação (Smart Grid),Em serviço,2021-12-09,210953.58,84612.46,185313.31,0.1,0.042506,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0209956,INT-DIS,Medidor eletrônico inteligente,Em curso,2025-09-09,526.41,9.53,516.88,0.0769,0.050631,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0211017,INT-DIS,Religador / chave automatizada,Em serviço,2020-03-16,15440.39,19073.05,-3632.66,0.039619,0.039619,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0211940,INT-DIS,Poste de concreto,Em serviço,2016-01-25,649.24,227.88,738.5,0.0357,0.034075,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0214321,INT-DIS,Poste de concreto,Em serviço,2026-01-27,653.48,0.0,653.48,0.0357,0.033253,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0216754,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-11-30,339.88,80.0,259.88,0.0769,0.044294,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0218276,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2013-04-05,1683029.37,709671.62,973357.75,0.0333,0.031077,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0218845,INT-DIS,Transformador de distribuição,Em curso,2010-07-17,15030.01,9278.49,5751.52,0.04,0.028613,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0220854,INT-DIS,Transformador de distribuição,Em curso,2017-07-26,6103.21,2041.25,4061.96,0.04,0.035872,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0221105,INT-DIS,Poste de concreto,Em serviço,2008-12-23,1038.41,1304.79,-266.38,0.0357,0.027444,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0221733,INT-DIS,Poste de concreto,Em serviço,2012-09-13,1066.96,193.79,873.17,0.013752,0.03056,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0222118,INT-DIS,Poste de concreto,Em serviço,2009-03-23,864.38,179.53,684.85,0.012416,0.027591,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0223801,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-10-22,805.25,10.68,794.57,0.0769,0.050793,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0223965,INT-DIS,Transformador de distribuição,Em serviço,2023-11-17,9703.15,950.41,12288.05,0.046222,0.046222,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0224182,INT-DIS,Poste de concreto,Em serviço,2012-08-05,1125.41,536.25,589.16,0.0357,0.03043,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0228182,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-01-09,438.13,0.0,438.13,0.0769,0.03776,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0228315,INT-DIS,Religador / chave automatizada,Em serviço,2019-06-02,36230.54,9157.87,27072.67,0.0385,0.038342,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0228408,INT-DIS,Poste de concreto,Em serviço,2018-05-15,798.3,223.87,574.43,0.036872,0.036872,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0229657,INT-DIS,Transformador de distribuição,Em serviço,2022-03-07,6841.72,1115.12,5726.6,0.04289,0.04289,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0232364,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-12-22,164.02,24.14,139.88,0.0769,0.046665,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0232411,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2018-01-13,80003.94,0.0,80003.94,0.036532,0.036532,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0233402,INT-DIS,Transformador de distribuição,Em serviço,2018-05-13,8812.16,2688.64,6123.52,0.04,0.036842,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0233520,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2025-12-29,990654.48,0.0,990654.48,0.0466,0.0466,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0233660,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2013-11-27,1735.39,1735.39,0.0,0.1429,0.031708,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0233698,INT-DIS,Transformador de distribuição,Em serviço,2024-05-05,7724.21,571.02,7153.19,0.047454,0.047454,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0233728,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2019-10-01,66621.82,15930.02,82166.86,0.038989,0.038989,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0234151,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2023-02-26,24654.83,0.0,24654.83,0.044816,0.044816,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0234209,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-23,534.59,0.0,534.59,0.0769,0.039414,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0234241,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-07-29,447.05,185.8,261.25,0.0769,0.040129,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0234979,INT-DIS,Poste de concreto,Em serviço,2008-11-13,453.78,95.23,358.55,0.012305,0.027345,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0235797,INT-DIS,Transformador de distribuição,Em serviço,2023-12-18,7132.15,661.74,9728.84,0.046487,0.046487,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0236757,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-02-02,273.52,0.0,273.52,0.0769,0.038138,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0239156,INT-DIS,Poste de concreto,Em serviço,2026-01-29,981.77,0.0,981.77,0.048909,0.048909,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0239549,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-12-19,447.01,34.92,535.46,0.0769,0.048706,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0240012,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-04,527.96,0.0,527.96,0.0769,0.043685,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0241503,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-14,56310.82,0.0,56310.82,0.05075,0.05075,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0242410,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-04-01,702.7,39.35,663.35,0.0769,0.049398,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0244075,INT-DIS,Poste de concreto,Em serviço,2010-12-09,1123.6,0.0,1123.6,0.0357,0.028931,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0245522,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-03-20,383.67,480.16,-96.49,0.0769,0.047099,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0245715,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-03-11,340.56,34.94,305.62,0.017802,0.039559,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0246147,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-05-26,409.32,111.26,483.6,0.0769,0.043384,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0246815,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-12-09,405.44,63.51,341.93,0.0769,0.046399,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0246940,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2020-05-13,57546.03,0.0,57546.03,0.039935,0.039935,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0247274,INT-DIS,Religador / chave automatizada,Em serviço,2026-02-02,21142.55,0.0,21142.55,0.0385,0.027746,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0247305,INT-DIS,Equipamento de subestação de distribuição,Em curso,2023-09-14,427641.22,44553.82,383087.4,0.045903,0.045903,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0248688,INT-DIS,Transformador de distribuição,Em serviço,2020-09-13,6926.6,8298.29,-1371.69,0.04039,0.04039,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0251825,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,992856.08,0.0,992856.08,0.0769,0.042017,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0252313,INT-DIS,Transformador de distribuição,Em serviço,2017-07-26,9462.37,3187.54,11078.15,0.04,0.035795,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0252342,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-06-19,487.49,589.05,-101.56,0.0769,0.047758,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0254177,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2024-04-09,29240.93,2326.01,43507.8,0.047166,0.047166,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0254412,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2021-07-06,48075.24,62104.53,-14029.29,0.04169,0.04169,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0254942,INT-DIS,Religador / chave automatizada,Em serviço,2022-02-22,30988.4,4983.54,26004.86,0.043001,0.043001,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0255113,INT-DIS,Transformador de distribuição,Em serviço,2016-04-23,4731.25,703.56,4027.69,0.015439,0.034309,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0257115,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-08-03,547.94,35.86,512.08,0.019706,0.04379,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0257516,INT-DIS,Medidor eletrônico inteligente,Em curso,2022-11-15,384.36,92.17,292.19,0.0769,0.044182,USR-15,T07_em_curso_amortizado,SIM
+SINT-0257612,INT-DIS,Transformador de distribuição,Em serviço,2010-04-06,10291.7,0.0,10291.7,0.04,0.028426,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0258051,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-03-10,503.56,30.43,473.13,0.0769,0.049258,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0258494,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-08-17,426.38,207.28,373.0,0.0769,0.038704,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0260976,INT-DIS,Poste de concreto,Em serviço,2024-03-05,856.5,72.38,1099.02,0.046911,0.046911,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0261045,INT-DIS,Poste de concreto,Em serviço,2013-05-18,1356.17,610.01,746.16,0.0357,0.031138,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0262570,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-12-04,306.44,72.07,319.43,0.0769,0.0443,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0263489,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2022-04-22,4043.34,2065.98,3916.37,0.1429,0.043307,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0266752,INT-DIS,Poste de concreto,Em serviço,2019-08-29,1426.03,347.09,1598.92,0.03877,0.03877,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0267610,INT-DIS,Transformador de distribuição,Em serviço,2010-07-29,9111.86,1802.7,7309.16,0.01292,0.028712,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0267618,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-30,514.02,0.0,514.02,0.0769,0.048694,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0271317,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-25,244.32,0.0,244.32,0.0769,0.039931,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0272071,INT-DIS,Transformador de distribuição,Em serviço,2022-06-11,4229.86,633.67,3596.19,0.043565,0.043565,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0272603,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2020-09-19,25458.44,5344.47,20113.97,0.040484,0.040484,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0272907,INT-DIS,Poste de concreto,Em serviço,2010-01-12,1122.5,636.89,485.61,0.0357,0.028242,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0274127,INT-DIS,Medidor eletrônico inteligente,Em serviço,2018-12-25,315.43,168.68,146.75,0.0769,0.037779,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0274244,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,999815.64,0.0,999815.64,0.0769,0.04288,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0275470,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2024-12-06,31201.74,1496.13,29705.61,0.048785,0.048785,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0275706,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-28,403.43,0.0,403.43,0.0769,0.046258,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0276724,INT-DIS,Poste de concreto,Em serviço,2023-01-01,1086.51,141.47,945.04,0.04457,0.04457,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0277824,INT-DIS,Poste de concreto,Em serviço,2026-01-25,1114.81,0.0,1114.81,0.044208,0.044208,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0278473,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-17,65476.4,0.0,65476.4,0.038757,0.038757,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0278492,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-07-19,306.18,0.0,306.18,0.0769,0.038512,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0279209,INT-DIS,Poste de concreto,Em curso,2013-07-05,2533.77,1125.83,1407.94,0.0357,0.031287,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0280383,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2018-10-03,14064.46,3804.35,10260.11,0.037381,0.037381,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0282153,INT-DIS,Poste de concreto,Em serviço,2026-01-31,1136.73,0.0,1136.73,0.0357,0.027721,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0282959,INT-DIS,Religador / chave automatizada,Em serviço,2025-12-29,998430.47,0.0,998430.47,0.03884,0.03884,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0284141,INT-DIS,Poste de concreto,Em serviço,2023-06-28,914.26,1099.76,-185.5,0.045463,0.045463,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0284494,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-11,327.9,0.0,327.9,0.0769,0.044187,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0286792,INT-DIS,Transformador de distribuição,Em serviço,2012-02-05,18105.43,3378.26,14727.17,0.013498,0.029995,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0287182,INT-DIS,Religador / chave automatizada,Em serviço,2013-05-18,29504.28,14287.18,15217.1,0.0385,0.031159,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0287894,INT-DIS,Poste de concreto,Em serviço,2011-12-29,1150.9,574.04,576.86,0.0357,0.029863,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0288781,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2008-01-20,3797.92,3797.92,0.0,0.1429,0.026746,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0289579,INT-DIS,Religador / chave automatizada,Em serviço,2018-06-15,44108.32,12771.73,31336.59,0.0385,0.036987,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0290331,INT-DIS,Sistema de telecomunicação e automação (Smart Grid),Em serviço,2016-01-19,112681.41,0.0,112681.41,0.1,0.034027,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0291377,INT-DIS,Medidor eletrônico inteligente,Em curso,2023-09-26,461.98,76.16,385.82,0.0769,0.04617,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0291466,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2017-02-21,65652.89,82841.45,-17188.56,0.0357,0.03528,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0291845,INT-DIS,Transformador de distribuição,Em serviço,2012-09-06,7612.42,4044.12,7969.02,0.04,0.030491,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0296253,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2009-09-27,680809.48,308601.46,372208.02,0.028014,0.028014,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0297750,INT-DIS,Poste de concreto,Em serviço,2010-09-05,1821.09,992.15,828.94,0.0357,0.028755,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0298982,INT-DIS,Transformador de distribuição,Em serviço,2020-04-25,13999.3,3142.9,10856.4,0.04,0.039796,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0299895,INT-DIS,Religador / chave automatizada,Em serviço,2025-05-01,43288.52,1358.83,41929.69,0.049633,0.049633,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0300214,INT-DIS,Transformador de distribuição,Em serviço,2025-12-29,997189.28,0.0,997189.28,0.04,0.028351,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0301035,INT-DIS,Poste de concreto,Em serviço,2023-10-19,525.71,53.29,472.42,0.046048,0.046048,USR-34,T03_duplicidade,SIM
+SINT-0302301,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-10-29,542.45,34.04,508.41,0.019843,0.044096,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0302373,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2017-06-14,47864.84,0.0,47864.84,0.0357,0.035648,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0302637,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-22,377.15,0.0,377.15,0.0769,0.039393,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0302867,INT-DIS,Poste de concreto,Em serviço,2022-10-06,919.27,129.23,790.04,0.044038,0.044038,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0303201,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-08-23,304.69,0.0,304.69,0.0769,0.038663,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0303599,INT-DIS,Religador / chave automatizada,Em serviço,2011-01-03,19932.15,0.0,19932.15,0.0385,0.028988,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0303877,INT-DIS,Religador / chave automatizada,Em serviço,2011-08-03,72726.72,40261.43,32465.29,0.0385,0.029503,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0304058,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-02-09,390.57,0.0,390.57,0.0769,0.048882,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0304827,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-07-30,464.19,225.76,445.0,0.0769,0.0387,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0305664,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2015-06-10,4029.15,4029.15,2274.15,0.1429,0.03332,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0305802,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-09-07,311.53,77.33,234.2,0.0769,0.043969,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0308096,INT-DIS,Transformador de distribuição,Em serviço,2025-12-29,994287.77,0.0,994287.77,0.04,0.037385,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0308550,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2009-11-05,3721.7,4347.47,-625.77,0.1429,0.028057,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0309221,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-04-26,341.46,34.26,307.2,0.017918,0.039818,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0310202,INT-DIS,Religador / chave automatizada,Em serviço,2011-03-21,62549.36,12100.54,50448.82,0.013146,0.029213,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0311037,INT-DIS,Transformador de distribuição,Em serviço,2009-03-14,4168.54,4942.61,-774.07,0.04,0.027595,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0313196,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-11-04,331.09,1.81,329.28,0.0769,0.051055,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0313979,INT-DIS,Poste de concreto,Em serviço,2018-11-17,1365.03,0.0,1365.03,0.0376,0.0376,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0314333,INT-DIS,Poste de concreto,Em curso,2024-12-04,1153.31,59.97,1093.34,0.048577,0.048577,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0315042,INT-DIS,Trecho de rede trifásica rural (MT),Em curso,2021-06-19,33421.91,6242.0,27179.91,0.041671,0.041671,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0317555,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2019-11-05,411408.67,0.0,411408.67,0.039073,0.039073,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0318449,INT-DIS,Transformador de distribuição,Em serviço,2018-01-01,4110.23,0.0,4110.23,0.04,0.036394,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0318541,INT-DIS,Transformador de distribuição,Em serviço,2012-10-29,12028.06,6288.51,5739.55,0.04,0.030688,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0318992,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-10-26,299.24,372.06,-72.82,0.0769,0.05097,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0319809,INT-DIS,Poste de concreto,Em serviço,2012-04-03,2150.71,0.0,2150.71,0.0357,0.030176,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0320319,INT-DIS,Poste de concreto,Em curso,2008-02-23,862.09,545.76,316.33,0.0357,0.026847,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0322388,INT-DIS,Transformador de distribuição,Em serviço,2009-08-04,5625.95,3687.48,1938.47,0.04,0.027854,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0322712,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-02-26,383.39,498.38,-114.99,0.0769,0.049245,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0323510,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-05-10,341.3,33.97,307.33,0.017959,0.039909,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0330204,INT-DIS,Transformador de distribuição,Em serviço,2010-05-13,5123.77,1025.23,4098.54,0.012806,0.028457,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0330358,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-10-31,286.48,68.64,217.84,0.0769,0.044187,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0330613,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2020-01-10,4061.03,425.75,3635.28,0.017687,0.039304,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0330920,INT-DIS,Transformador de distribuição,Em serviço,2011-10-08,8033.25,4560.64,3472.61,0.04,0.029666,USR-40,T03_duplicidade,SIM
+SINT-0332533,INT-DIS,Poste de concreto,Em serviço,2015-08-21,1745.15,0.0,1745.15,0.0357,0.03358,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0332664,INT-DIS,Medidor eletrônico inteligente,Em curso,2021-10-20,392.17,123.27,268.9,0.0769,0.042367,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0333422,INT-DIS,Poste de concreto,Em serviço,2012-05-03,1411.92,684.36,727.56,0.0357,0.030218,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0333882,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-09-06,440.86,177.93,262.93,0.0769,0.040381,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0333986,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2018-06-13,41631.4,11605.11,30026.29,0.036957,0.036957,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0334999,INT-DIS,Poste de concreto,Em serviço,2020-10-06,839.0,174.81,664.19,0.040565,0.040565,USR-03,T03_duplicidade,SIM
+SINT-0335666,INT-DIS,Poste de concreto,Em serviço,2014-01-24,985.22,415.62,569.6,0.0357,0.031916,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0335778,INT-DIS,Poste de concreto,Em curso,2009-08-05,904.24,529.49,374.75,0.0357,0.027841,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0335836,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2025-12-29,999575.39,0.0,999575.39,0.1429,0.033126,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0337192,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-03-04,399.83,29.32,370.51,0.0193,0.04289,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0337910,INT-DIS,Poste de concreto,Em serviço,2009-11-01,1547.07,315.14,1231.93,0.012621,0.028047,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0340184,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-07-19,538.35,97.59,440.76,0.0769,0.045719,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0340284,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-09-25,445.94,143.46,302.48,0.0769,0.042196,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0342650,INT-DIS,Transformador de distribuição,Em serviço,2015-11-29,4846.58,741.64,4104.94,0.015217,0.033816,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0343378,INT-DIS,Poste de concreto,Em curso,2012-05-30,509.14,245.54,263.6,0.0357,0.030281,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0345743,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2019-07-06,44468.83,11025.83,33443.0,0.038537,0.038537,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0346653,INT-DIS,Transformador de distribuição,Em serviço,2019-08-15,6511.6,1650.14,4861.46,0.04,0.038684,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0347025,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-03-18,283.55,32.69,250.86,0.017151,0.038114,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0347770,INT-DIS,Transformador de distribuição,Em serviço,2024-10-08,6212.62,7668.54,-1455.92,0.048339,0.048339,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0348032,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-18,301.88,0.0,301.88,0.0769,0.040906,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0348479,INT-DIS,Medidor eletrônico inteligente,Em curso,2024-07-24,363.53,37.5,326.03,0.0769,0.047946,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0348901,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-01-15,592.01,88.0,683.86,0.0769,0.046624,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0349737,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-10-11,370.46,0.0,370.46,0.0769,0.042201,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0351989,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2020-11-15,55186.63,5143.64,50042.99,0.018283,0.040628,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0355235,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-11-29,266.26,101.91,164.35,0.0769,0.040828,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0355484,INT-DIS,Religador / chave automatizada,Em serviço,2012-08-21,23275.29,11930.81,11344.48,0.0385,0.03046,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0355630,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-09,361.15,0.0,361.15,0.0769,0.040984,USR-37,T04_corte,SIM
+SINT-0357909,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-20,45285.48,0.0,45285.48,0.045932,0.045932,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0359983,INT-DIS,Transformador de distribuição,Em serviço,2024-08-19,5733.99,358.23,5375.76,0.04804,0.04804,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0360696,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-20,516.25,0.0,516.25,0.0769,0.039581,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0361003,INT-DIS,Religador / chave automatizada,Em serviço,2020-05-31,38667.55,0.0,38667.55,0.039979,0.039979,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0362656,INT-DIS,Poste de concreto,Em serviço,2011-04-05,802.29,420.16,382.13,0.0357,0.029253,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0363938,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-02-27,328.48,0.0,328.48,0.0769,0.038102,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0364528,INT-DIS,Transformador de distribuição,Em serviço,2011-05-08,9616.45,1851.52,7764.93,0.013194,0.029319,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0365040,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2018-09-24,92174.14,0.0,92174.14,0.037408,0.037408,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0365108,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-09-11,435.71,40.0,395.71,0.0769,0.048288,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0366088,INT-DIS,Poste de concreto,Em serviço,2022-06-21,1125.76,172.4,953.36,0.043394,0.043394,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0366637,INT-DIS,Poste de concreto,Em serviço,2018-08-20,525.37,64.32,461.05,0.016785,0.037301,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0367269,INT-DIS,Poste de concreto,Em serviço,2025-08-16,2733.74,49.33,2684.41,0.050317,0.050317,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0367421,INT-DIS,Transformador de distribuição,Em curso,2025-11-01,15837.23,46.52,15790.71,0.051091,0.051091,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0367806,INT-DIS,Transformador de distribuição,Em serviço,2025-01-30,7352.3,8861.46,-1509.16,0.048994,0.048994,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0368627,INT-DIS,Transformador de distribuição,Em serviço,2008-12-14,3576.18,0.0,3576.18,0.04,0.027396,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0370839,INT-DIS,Transformador de distribuição,Em serviço,2008-03-26,16478.19,3527.35,12950.84,0.01209,0.026866,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0373317,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-05-24,350.49,0.0,350.49,0.0769,0.041553,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0373671,INT-DIS,Religador / chave automatizada,Em serviço,2018-02-22,24724.75,0.0,24724.75,0.0385,0.036672,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0374151,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2011-09-04,389868.2,185364.32,204503.88,0.0333,0.029592,USR-21,T03_duplicidade,SIM
+SINT-0375692,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2025-01-10,33078.6,1408.46,31670.14,0.04906,0.04906,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0376374,INT-DIS,Poste de concreto,Em serviço,2015-12-28,1376.72,489.27,887.45,0.0357,0.033933,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0377338,INT-DIS,Poste de concreto,Em serviço,2020-11-13,721.85,67.08,654.77,0.018297,0.04066,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0378476,INT-DIS,Religador / chave automatizada,Em serviço,2012-10-09,27992.01,14236.46,26240.86,0.0385,0.030557,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0379647,INT-DIS,Poste de concreto,Em serviço,2018-07-29,2182.24,0.0,2182.24,0.037251,0.037251,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0380784,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2021-03-11,73218.88,14293.41,75920.4,0.041239,0.041239,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0382701,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-12-09,416.51,495.08,-78.57,0.0769,0.042461,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0383421,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2021-07-26,2502.15,203.87,2298.28,0.018883,0.041963,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0384257,INT-DIS,Poste de concreto,Em serviço,2023-12-14,530.46,49.34,481.12,0.046475,0.046475,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0384799,INT-DIS,Poste de concreto,Em serviço,2009-11-23,971.62,197.65,773.97,0.012636,0.028079,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0385063,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-08-08,365.76,404.16,-38.4,0.0769,0.045668,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0387064,INT-DIS,Religador / chave automatizada,Em curso,2014-01-16,27980.58,12773.66,15206.92,0.0385,0.031875,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0388197,INT-DIS,Poste de concreto,Em serviço,2018-01-05,783.8,227.11,556.69,0.036394,0.036394,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0389640,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-02-25,539.89,0.0,539.89,0.0769,0.039457,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0391099,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2016-03-03,3151.25,3151.25,0.0,0.1429,0.034136,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0393178,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-12-18,449.31,205.94,243.37,0.0769,0.039253,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0393764,INT-DIS,Poste de concreto,Em serviço,2013-06-09,1697.56,1923.88,-226.32,0.0357,0.031223,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0394346,INT-DIS,Poste de concreto,Em serviço,2014-02-22,488.27,0.0,488.27,0.0357,0.0319,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0394922,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2025-12-29,990208.57,0.0,990208.57,0.1429,0.049365,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0397954,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-05-12,527.92,59.6,468.32,0.017274,0.038387,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0398409,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-02-21,449.69,129.9,515.81,0.0769,0.042971,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0398655,INT-DIS,Poste de concreto,Em serviço,2025-02-23,1168.75,43.72,1125.03,0.049325,0.049325,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0401018,INT-DIS,Poste de concreto,Em serviço,2025-06-26,905.28,1073.39,-168.11,0.049952,0.049952,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0401521,INT-DIS,Transformador de distribuição,Em serviço,2026-01-21,3152.51,0.0,3152.51,0.045497,0.045497,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0401669,INT-DIS,Religador / chave automatizada,Em serviço,2023-12-24,24028.53,2162.68,21865.85,0.04663,0.04663,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0404202,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2018-07-30,26799.98,7336.8,19463.18,0.037213,0.037213,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0404588,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-08-04,679.68,282.05,397.63,0.0769,0.040142,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0408234,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-08-17,418.06,172.6,245.46,0.0769,0.040186,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0408779,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2024-07-07,76330.13,5106.01,71224.12,0.047814,0.047814,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0410064,INT-DIS,Transformador de distribuição,Em serviço,2020-05-08,11802.58,2636.8,9165.78,0.04,0.03984,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0413018,INT-DIS,Transformador de distribuição,Em serviço,2016-08-29,28840.4,37258.27,-8417.87,0.04,0.034667,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0414545,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2010-01-03,5451.67,5451.67,0.0,0.1429,0.028244,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0415004,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-12-23,345.89,0.0,345.89,0.0769,0.042575,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0415466,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2015-03-20,3795.7,606.53,3189.17,0.01487,0.033045,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0415572,INT-DIS,Poste de concreto,Em serviço,2015-01-30,900.36,350.87,549.49,0.0357,0.032861,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0416143,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2021-09-17,513727.85,90539.56,694478.26,0.042211,0.042211,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0417864,INT-DIS,Poste de concreto,Em serviço,2010-06-25,713.63,142.12,571.51,0.012854,0.028564,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0418414,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-01-25,323.35,146.16,177.19,0.0769,0.03938,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0418949,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-08-14,346.36,0.0,346.36,0.0769,0.038688,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0419910,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2022-12-07,3390.37,1436.54,1953.83,0.1429,0.044483,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0423397,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-11-13,370.43,172.13,198.3,0.0769,0.039127,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0423706,INT-DIS,Poste de concreto,Em serviço,2022-07-11,797.15,118.53,1037.7,0.043622,0.043622,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0424625,INT-DIS,Poste de concreto,Em serviço,2025-05-19,1774.66,50.08,1724.58,0.049796,0.049796,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0424708,INT-DIS,Transformador de distribuição,Em serviço,2012-04-11,40280.21,22065.06,30198.53,0.04,0.030111,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0425423,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-11-25,424.59,25.66,398.93,0.019962,0.044359,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0426666,INT-DIS,Religador / chave automatizada,Em serviço,2026-01-24,16242.93,0.0,16242.93,0.0385,0.028367,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0429111,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-02-01,352.68,132.99,306.29,0.0769,0.040952,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0429293,INT-DIS,Transformador de distribuição,Em serviço,2009-01-02,14034.51,9481.6,9832.93,0.04,0.027469,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0429634,INT-DIS,Poste de concreto,Em serviço,2012-03-08,814.86,398.55,416.31,0.0357,0.030106,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0432726,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-12-06,320.46,72.87,247.59,0.0769,0.044499,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0433764,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-06-23,498.63,0.0,498.63,0.0769,0.040058,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0438155,INT-DIS,Transformador de distribuição,Em serviço,2013-06-29,15722.68,7800.0,7922.68,0.04,0.03133,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0438168,INT-DIS,Transformador de distribuição,Em serviço,2015-07-17,4651.54,1935.24,2716.3,0.04,0.033426,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0438487,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2009-03-01,3470.55,3470.55,0.0,0.1429,0.027551,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0439859,INT-DIS,Medidor eletrônico inteligente,Em curso,2021-08-05,312.38,103.32,209.06,0.0769,0.041988,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0440112,INT-DIS,Poste de concreto,Em serviço,2026-01-22,1105.39,0.0,1105.39,0.044267,0.044267,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0440625,INT-DIS,Religador / chave automatizada,Em serviço,2021-06-06,28328.59,5364.2,29056.1,0.041539,0.041539,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0441406,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-04-28,237.69,29.88,207.81,0.0769,0.047282,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0441458,INT-DIS,Transformador de distribuição,Em serviço,2015-05-16,5997.48,0.0,5997.48,0.04,0.033186,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0441836,INT-DIS,Medidor eletrônico inteligente,Em curso,2021-05-01,326.97,115.86,211.11,0.0769,0.041454,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0442516,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-05-10,311.26,14.29,421.36,0.0769,0.049721,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0444636,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-12,17349.16,0.0,17349.16,0.045378,0.045378,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0445003,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2014-08-04,222583.08,84520.33,138062.75,0.0333,0.032343,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0445674,INT-DIS,Poste de concreto,Em curso,2023-09-04,2148.68,225.79,1922.89,0.045857,0.045857,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0446057,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2018-01-24,3391.62,0.0,3391.62,0.1429,0.036514,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0446226,INT-DIS,Poste de concreto,Em serviço,2014-07-10,1102.72,182.68,920.04,0.01457,0.032377,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0448017,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-12-28,567.46,259.62,307.84,0.0769,0.03927,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0448020,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-01-21,413.06,155.84,257.22,0.0769,0.040947,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0448034,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-04-17,335.83,144.59,341.48,0.0769,0.039818,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0449594,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-08-14,303.31,0.0,303.31,0.0769,0.0439,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0450442,INT-DIS,Poste de concreto,Em serviço,2022-06-13,800.16,55.18,744.98,0.019525,0.043389,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0455060,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-11,325.22,0.0,325.22,0.0769,0.047695,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0456468,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-07-01,320.83,0.0,320.83,0.0769,0.041843,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0457925,INT-DIS,Poste de concreto,Em serviço,2025-12-29,995483.29,0.0,995483.29,0.051048,0.051048,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0458398,INT-DIS,Medidor eletrônico inteligente,Em serviço,2022-10-17,314.24,74.69,239.55,0.0769,0.044235,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0458563,INT-DIS,Poste de concreto,Em serviço,2026-01-21,835.91,0.0,835.91,0.036727,0.036727,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0461119,INT-DIS,Transformador de distribuição,Em curso,2010-10-09,9733.79,5929.02,3804.77,0.04,0.028783,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0461560,INT-DIS,Religador / chave automatizada,Em serviço,2008-07-25,29329.96,19668.7,9661.26,0.0385,0.027076,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0462836,INT-DIS,Medidor eletrônico inteligente,Em curso,2022-12-29,436.56,99.54,337.02,0.0769,0.044483,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0464315,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2023-04-09,3911.31,1498.12,3596.92,0.1429,0.045054,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0464406,INT-DIS,Poste de concreto,Em serviço,2026-01-27,776.97,0.0,776.97,0.0357,0.03,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0464790,INT-DIS,Poste de concreto,Em serviço,2026-01-20,2512.94,0.0,2512.94,0.037948,0.037948,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0468858,INT-DIS,Transformador de distribuição,Em serviço,2009-09-11,11521.55,2354.7,9166.85,0.012586,0.027969,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0470681,INT-DIS,Transformador de distribuição,Em serviço,2021-09-16,6488.86,1152.85,8826.8,0.042138,0.042138,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0472099,INT-DIS,Poste de concreto,Em serviço,2017-06-18,1530.92,0.0,1530.92,0.035781,0.035781,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0472328,INT-DIS,Transformador de distribuição,Em curso,2013-04-15,5291.09,2684.01,2607.08,0.04,0.031059,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0472989,INT-DIS,Poste de concreto,Em curso,2007-11-30,744.45,477.77,266.68,0.0357,0.026672,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0473158,INT-DIS,Medidor eletrônico inteligente,Em curso,2022-03-07,196.69,57.6,139.09,0.0769,0.042875,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0473387,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2025-12-29,993234.18,0.0,993234.18,0.041025,0.041025,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0473789,INT-DIS,Poste de concreto,Em serviço,2026-01-11,1440.22,0.0,1440.22,0.0357,0.033229,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0474165,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-01-19,351.94,0.0,351.94,0.0769,0.037787,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0474269,INT-DIS,Poste de concreto,Em serviço,2026-02-07,1107.53,0.0,1107.53,0.0357,0.028259,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0475284,INT-DIS,Transformador de distribuição,Em serviço,2016-05-16,5262.64,6183.25,-920.61,0.04,0.034425,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0475662,INT-DIS,Poste de concreto,Em serviço,2009-04-13,1020.56,606.68,413.88,0.0357,0.02765,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0475897,INT-DIS,Poste de concreto,Em serviço,2010-10-10,921.86,498.81,423.05,0.0357,0.028842,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0476527,INT-DIS,Poste de concreto,Em serviço,2024-09-24,926.84,1111.82,-184.98,0.048211,0.048211,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0477530,INT-DIS,Poste de concreto,Em serviço,2026-01-08,1184.28,0.0,1184.28,0.036846,0.036846,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0479015,INT-DIS,Religador / chave automatizada,Em serviço,2011-01-08,27884.06,5433.66,22450.4,0.013074,0.029053,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0479742,INT-DIS,Transformador de distribuição,Em serviço,2015-02-04,25187.85,10986.8,14201.05,0.04,0.032873,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0481137,INT-DIS,Poste de concreto,Em serviço,2008-07-12,1176.09,249.44,926.65,0.01219,0.02709,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0482533,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2018-11-06,48895.12,5887.35,43007.77,0.016889,0.037531,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0482574,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2011-10-10,3406.32,3406.32,0.0,0.1429,0.029637,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0483452,INT-DIS,Poste de concreto,Em serviço,2025-12-29,995237.26,0.0,995237.26,0.041558,0.041558,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0483986,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2022-04-08,128014.76,0.0,128014.76,0.043174,0.043174,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0485595,INT-DIS,Medidor eletrônico inteligente,Em serviço,2019-09-23,289.61,137.56,152.05,0.0769,0.038923,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0486091,INT-DIS,Poste de concreto,Em serviço,2012-12-12,739.13,343.95,395.18,0.0357,0.030722,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0487883,INT-DIS,Poste de concreto,Em serviço,2015-06-01,1046.68,0.0,1046.68,0.0357,0.033292,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0488754,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2025-05-13,35615.82,972.05,34643.77,0.049843,0.049843,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0488886,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-09-11,502.45,203.96,539.02,0.0769,0.040332,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0489768,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-10-25,288.92,1.4,287.52,0.0769,0.051077,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0490196,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-02-07,402.91,0.0,402.91,0.0769,0.044717,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0490991,INT-DIS,Transformador de distribuição,Em serviço,2010-12-28,6221.0,3726.64,2494.36,0.04,0.028993,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0491115,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-04-25,496.43,50.16,446.27,0.017881,0.039736,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0491369,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,995430.73,0.0,995430.73,0.0769,0.046246,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0492113,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2026-01-22,175446.99,0.0,175446.99,0.036042,0.036042,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0492597,INT-DIS,Medidor eletrônico inteligente,Em curso,2021-09-17,548.11,180.6,367.51,0.0769,0.042017,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0492798,INT-DIS,Religador / chave automatizada,Em serviço,2015-12-06,35199.0,13512.66,21686.34,0.0385,0.033914,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0493278,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2013-09-12,930175.18,378312.75,831015.39,0.0333,0.031517,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0493465,INT-DIS,Poste de concreto,Em curso,2015-02-04,914.06,353.26,560.8,0.0357,0.032959,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0493821,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-01-05,522.18,0.0,522.18,0.0769,0.040489,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0493932,INT-DIS,Poste de concreto,Em serviço,2020-09-22,744.89,0.0,744.89,0.04052,0.04052,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0494332,INT-DIS,Poste de concreto,Em serviço,2021-12-06,807.47,138.83,668.64,0.042431,0.042431,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0494578,INT-DIS,Poste de concreto,Em serviço,2019-01-20,524.23,614.43,-90.2,0.037952,0.037952,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0494967,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2026-01-23,525033.98,0.0,525033.98,0.0333,0.027493,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0495351,INT-DIS,Poste de concreto,Em serviço,2026-02-01,1716.82,0.0,1716.82,0.0357,0.027038,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0495810,INT-DIS,Poste de concreto,Em serviço,2022-09-07,1037.73,67.77,969.96,0.019712,0.043805,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0495862,INT-DIS,Transformador de distribuição,Em serviço,2014-06-11,19321.31,8925.1,10396.21,0.04,0.032192,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0496764,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2012-11-17,2542.82,459.49,2083.33,0.013799,0.030665,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0496847,INT-DIS,Medidor eletrônico inteligente,Em curso,2023-01-25,586.02,130.04,455.98,0.0769,0.044641,INTEGRACAO-SIST,T07_em_curso_amortizado,SIM
+SINT-0497353,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2025-12-29,992726.9,0.0,992726.9,0.049966,0.049966,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0497358,INT-DIS,Poste de concreto,Em serviço,2018-10-21,2005.12,0.0,2005.12,0.03755,0.03755,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0499338,INT-DIS,Poste de concreto,Em serviço,2017-02-20,562.02,678.51,-116.49,0.0357,0.035358,INTEGRACAO-SIST,T02_liquido_negativo;T05_amortizacao_recalculada,SIM
+SINT-0501461,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2024-11-09,26479.05,1453.51,39090.68,0.048429,0.048429,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0501789,INT-DIS,Medidor eletrônico inteligente,Em serviço,2021-06-06,371.76,129.3,242.46,0.0769,0.0416,INTEGRACAO-SIST,T08_campos_em_branco,SIM
+SINT-0502284,INT-DIS,Medidor eletrônico inteligente,Em serviço,2025-12-29,996290.39,0.0,996290.39,0.0769,0.038282,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0502380,INT-DIS,Transformador de distribuição,Em serviço,2010-04-16,9703.8,1944.29,7759.51,0.012792,0.028426,INTEGRACAO-SIST,T06_taxa_abaixo_minima,SIM
+SINT-0502999,INT-DIS,Poste de concreto,Em serviço,2015-09-25,1431.43,0.0,1431.43,0.0357,0.03362,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0504515,INT-DIS,Transformador de distribuição,Em serviço,2022-09-04,13571.42,1923.39,11648.03,0.04398,0.04398,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0504855,INT-DIS,Medidor eletrônico inteligente,Em serviço,2024-03-28,490.98,62.13,428.85,0.0769,0.047257,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0505228,INT-DIS,Transformador de distribuição,Em serviço,2026-02-09,12180.18,0.0,12180.18,0.04,0.033311,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0506280,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2017-04-17,6275.12,6275.12,0.0,0.1429,0.035451,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0507085,INT-DIS,Poste de concreto,Em serviço,2009-12-04,1012.24,0.0,1012.24,0.0357,0.028189,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0507558,INT-DIS,Medidor eletrônico inteligente,Em serviço,2020-09-28,472.56,190.43,282.13,0.0769,0.040395,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0510446,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2018-01-09,774039.15,0.0,774039.15,0.036445,0.036445,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0511244,INT-DIS,Transformador de distribuição,Em serviço,2021-04-04,11761.47,0.0,11761.47,0.041421,0.041421,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0511390,INT-DIS,Medidor eletrônico inteligente,Em serviço,2026-02-10,447.01,0.0,447.01,0.0769,0.048655,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0511999,INT-DIS,Poste de concreto,Em serviço,2026-02-07,983.44,0.0,983.44,0.045176,0.045176,INTEGRACAO-SIST,T04_corte,SIM
+SINT-0512413,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2025-12-29,996081.1,0.0,996081.1,0.047478,0.047478,USR-99,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,SIM
+SINT-0512511,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2018-05-16,134639.75,37767.76,96871.99,0.036868,0.036868,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0512775,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,2017-09-09,80302.43,23803.19,56499.24,0.036053,0.036053,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0513883,INT-DIS,Poste de concreto,Em serviço,2009-09-23,677.74,0.0,677.74,0.0357,0.027967,INTEGRACAO-SIST,T05_amortizacao_recalculada,SIM
+SINT-0514541,INT-DIS,Poste de concreto,Em serviço,2011-10-21,970.0,489.12,480.88,0.0357,0.029727,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0516079,INT-DIS,Medidor eletrônico inteligente,Em serviço,2023-04-26,586.17,118.97,584.85,0.0769,0.045137,INTEGRACAO-SIST,T02_liquido_divergente,SIM
+SINT-0517551,INT-DIS,Veículo e equipamento operacional vinculado,Em serviço,2015-12-27,4856.02,4856.02,0.0,0.1429,0.033951,INTEGRACAO-SIST,T03_duplicidade,SIM
+SINT-0517661,INT-DIS,Poste de concreto,Em serviço,2020-02-27,1228.93,282.54,946.39,0.039461,0.039461,INTEGRACAO-SIST,T03_duplicidade,SIM

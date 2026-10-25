@@ -1,0 +1,301 @@
+{
+  "parametros": {
+    "LAIR_R$mil": 3246659,
+    "materialidade_global_R$mil": 162333,
+    "materialidade_execucao_R$mil": 113633,
+    "trivial_R$mil": 8117
+  },
+  "T01_GeT": {
+    "base_segmento_GeT_R$": 7150619000.0,
+    "intangivel_consolidado_GeT_F15_R$": 7150619000,
+    "diferenca_R$": 0.0
+  },
+  "T01_NE16": [
+    {
+      "categoria": "Distribuição",
+      "base_R$": 11868128000.0,
+      "nota16_R$": 11868128000,
+      "diferenca_R$": 0.0
+    },
+    {
+      "categoria": "Geração",
+      "base_R$": 5831357000.0,
+      "nota16_R$": 5831357000,
+      "diferenca_R$": 0.0
+    },
+    {
+      "categoria": "Direito de concessão e autorização",
+      "base_R$": 1409777000.0,
+      "nota16_R$": 1409777000,
+      "diferenca_R$": 0.0
+    },
+    {
+      "categoria": "Outros intangíveis",
+      "base_R$": 97347000.0,
+      "nota16_R$": 97347000,
+      "diferenca_R$": 0.0
+    }
+  ],
+  "T01": {
+    "linhas": 520165,
+    "ids_unicos": true,
+    "todas_sinteticas": true,
+    "saldo_contabil_R$": 19206609000,
+    "total_base_R$": 19206609000.0,
+    "diferenca_R$": 0.0,
+    "por_subconta": [
+      {
+        "codigo_subconta": "INT-AUO",
+        "linhas": 1,
+        "custo": 9589772.95,
+        "amortizacao": 1855772.95,
+        "liquido": 7734000.0
+      },
+      {
+        "codigo_subconta": "INT-BON",
+        "linhas": 3,
+        "custo": 4353100210.19,
+        "amortizacao": 161300210.19,
+        "liquido": 4191800000.0
+      },
+      {
+        "codigo_subconta": "INT-CNB",
+        "linhas": 2,
+        "custo": 717536775.6,
+        "amortizacao": 17536775.6,
+        "liquido": 700000000.0
+      },
+      {
+        "codigo_subconta": "INT-DIS",
+        "linhas": 512150,
+        "custo": 16953261009.44,
+        "amortizacao": 5086026693.4,
+        "liquido": 11868128000.0
+      },
+      {
+        "codigo_subconta": "INT-EOL",
+        "linhas": 42,
+        "custo": 1683191481.99,
+        "amortizacao": 281148481.99,
+        "liquido": 1402043000.0
+      },
+      {
+        "codigo_subconta": "INT-GSF",
+        "linhas": 9,
+        "custo": 301897374.7,
+        "amortizacao": 41897374.7,
+        "liquido": 260000000.0
+      },
+      {
+        "codigo_subconta": "INT-SGT",
+        "linhas": 2000,
+        "custo": 158646675.19,
+        "amortizacao": 81870675.19,
+        "liquido": 76776000.0
+      },
+      {
+        "codigo_subconta": "INT-SOF",
+        "linhas": 5950,
+        "custo": 41790181.16,
+        "amortizacao": 21219181.16,
+        "liquido": 20571000.0
+      },
+      {
+        "codigo_subconta": "INT-UBE",
+        "linhas": 2,
+        "custo": 370444956.7,
+        "amortizacao": 210887956.7,
+        "liquido": 159557000.0
+      },
+      {
+        "codigo_subconta": "INT-UBP",
+        "linhas": 6,
+        "custo": 826758894.43,
+        "amortizacao": 306758894.43,
+        "liquido": 520000000.0
+      }
+    ]
+  },
+  "T09": {
+    "alcada_R$": 1000000.0,
+    "usuarios_manuais_raros": [
+      "USR-99"
+    ],
+    "lancamentos_manuais_total": 8055
+  },
+  "T10": {
+    "n": 512150,
+    "MAD": 0.03452,
+    "classificacao_Nigrini": "não conformidade",
+    "tabela": [
+      {
+        "digito": 1,
+        "observado": 0.2301,
+        "esperado": 0.301
+      },
+      {
+        "digito": 2,
+        "observado": 0.1232,
+        "esperado": 0.1761
+      },
+      {
+        "digito": 3,
+        "observado": 0.203,
+        "esperado": 0.1249
+      },
+      {
+        "digito": 4,
+        "observado": 0.1628,
+        "esperado": 0.0969
+      },
+      {
+        "digito": 5,
+        "observado": 0.0906,
+        "esperado": 0.0792
+      },
+      {
+        "digito": 6,
+        "observado": 0.0558,
+        "esperado": 0.0669
+      },
+      {
+        "digito": 7,
+        "observado": 0.0468,
+        "esperado": 0.058
+      },
+      {
+        "digito": 8,
+        "observado": 0.0451,
+        "esperado": 0.0512
+      },
+      {
+        "digito": 9,
+        "observado": 0.0426,
+        "esperado": 0.0458
+      }
+    ]
+  },
+  "comparacao": {
+    "registros_com_erro_inserido": 580,
+    "detectados": 580,
+    "nao_detectados": 0,
+    "excecoes_totais": 580,
+    "falsos_positivos": 0,
+    "falsos_positivos_por_teste": {},
+    "matriz": [
+      {
+        "codigo_erro": "E01",
+        "inseridos": 150,
+        "detectados": 150,
+        "distorcao_inserida_R": 1467246.49,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T03"
+      },
+      {
+        "codigo_erro": "E02",
+        "inseridos": 40,
+        "detectados": 40,
+        "distorcao_inserida_R": -396374.59,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T02"
+      },
+      {
+        "codigo_erro": "E03",
+        "inseridos": 60,
+        "detectados": 60,
+        "distorcao_inserida_R": 1239096.86,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T04"
+      },
+      {
+        "codigo_erro": "E04",
+        "inseridos": 80,
+        "detectados": 80,
+        "distorcao_inserida_R": 644225.01,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T05"
+      },
+      {
+        "codigo_erro": "E05",
+        "inseridos": 70,
+        "detectados": 70,
+        "distorcao_inserida_R": 409618.19,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T06"
+      },
+      {
+        "codigo_erro": "E06",
+        "inseridos": 50,
+        "detectados": 50,
+        "distorcao_inserida_R": 0.0,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T08"
+      },
+      {
+        "codigo_erro": "E07",
+        "inseridos": 30,
+        "detectados": 30,
+        "distorcao_inserida_R": 29830692.69,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T09/T08"
+      },
+      {
+        "codigo_erro": "E08",
+        "inseridos": 45,
+        "detectados": 45,
+        "distorcao_inserida_R": -183716.43,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T07"
+      },
+      {
+        "codigo_erro": "E09",
+        "inseridos": 55,
+        "detectados": 55,
+        "distorcao_inserida_R": 893683.96,
+        "taxa_deteccao_%": 100.0,
+        "teste_principal": "T02"
+      }
+    ],
+    "distorcao_total_inserida_R$": 33904472.18,
+    "distorcao_superavaliacao_R$": 34484563.2,
+    "distorcao_subavaliacao_R$": -580091.02
+  },
+  "contagem_por_teste": {
+    "T02_liquido_divergente": 55,
+    "T02_liquido_negativo": 40,
+    "T03_duplicidade": 150,
+    "T04_corte": 60,
+    "T05_amortizacao_recalculada": 120,
+    "T06_taxa_abaixo_minima": 70,
+    "T07_em_curso_amortizado": 45,
+    "T08_campos_em_branco": 80,
+    "T09_manual_alcada_fim_exercicio": 30
+  },
+  "T11": {
+    "populacao_valor_positivo_R$": 19206708033.67,
+    "registros_populacao": 500151,
+    "registros_negativos_excluidos": 20014,
+    "distorcao_toleravel_R$": 113633000.0,
+    "distorcao_esperada_R$": 11363300.0,
+    "fator_confiabilidade_95%": 2.9957,
+    "fator_expansao": 1.6,
+    "tamanho_amostra": 603,
+    "intervalo_amostral_R$": 31851920.45,
+    "inicio_aleatorio_R$": 15663335.37,
+    "itens_selecionados_unicos": 437,
+    "itens_chave": 37,
+    "valor_itens_chave_R$": 6539906140.62,
+    "itens_com_distorcao": 2,
+    "distorcao_itens_chave_R$": 0.0,
+    "contaminacoes_superavaliacao": [
+      1.0,
+      1.0
+    ],
+    "contaminacoes_subavaliacao": [],
+    "precisao_basica_R$": 95418798.1,
+    "distorcao_projetada_R$": 63703840.91,
+    "provisao_incremental_R$": 41410681.78,
+    "limite_superior_distorcao_R$": 200533320.79,
+    "conclusao": "LSD superior à distorção tolerável: ampliar procedimentos ou propor ajuste (simulação)."
+  }
+}

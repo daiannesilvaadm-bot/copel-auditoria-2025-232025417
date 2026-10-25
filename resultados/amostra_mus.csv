@@ -1,0 +1,438 @@
+id_registro,codigo_subconta,tipo_bem,status,valor_liquido,item_chave,valor_auditado_simulado,distorcao,contaminacao,flag_dado_sintetico
+SINT-0000521,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,413420.4,False,413420.4,0.0,0.0,SIM
+SINT-0000761,INT-BON,UHE Gov. Bento Munhoz da Rocha Netto (Foz do Areia) - F.D.A.,Em serviço,1849570000.0,True,1849570000.0,0.0,,SIM
+SINT-0001458,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,468861.08,False,468861.08,0.0,0.0,SIM
+SINT-0002294,INT-EOL,Autorização eólica - Parque 29 (sintético),Em serviço,47687003.37,True,47687003.37,0.0,,SIM
+SINT-0003873,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,69254.51,False,69254.51,0.0,0.0,SIM
+SINT-0004357,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,104887.4,False,104887.4,0.0,0.0,SIM
+SINT-0005780,INT-DIS,Edificação operacional,Em serviço,769016.08,False,769016.08,0.0,0.0,SIM
+SINT-0006857,INT-DIS,Religador / chave automatizada,Em serviço,50275.68,False,50275.68,0.0,0.0,SIM
+SINT-0008093,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1993512.86,False,1993512.86,0.0,0.0,SIM
+SINT-0009736,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1268180.63,False,1268180.63,0.0,0.0,SIM
+SINT-0010187,INT-CNB,Direito de concessão - UHE Mauá (mais-valia alocada),Em serviço,210000000.0,True,210000000.0,0.0,,SIM
+SINT-0010279,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,251567.62,False,251567.62,0.0,0.0,SIM
+SINT-0011655,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,52415.23,False,52415.23,0.0,0.0,SIM
+SINT-0013154,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3155782.07,False,3155782.07,0.0,0.0,SIM
+SINT-0014097,INT-EOL,Autorização eólica - Parque 38 (sintético),Em serviço,37972032.22,True,37972032.22,0.0,,SIM
+SINT-0014325,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,47489.5,False,47489.5,0.0,0.0,SIM
+SINT-0015672,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,87040.95,False,87040.95,0.0,0.0,SIM
+SINT-0016410,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,4973174.68,False,4973174.68,0.0,0.0,SIM
+SINT-0017942,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,23315.64,False,23315.64,0.0,0.0,SIM
+SINT-0019203,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,90310.09,False,90310.09,0.0,0.0,SIM
+SINT-0020764,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2011527.41,False,2011527.41,0.0,0.0,SIM
+SINT-0022509,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,41411.17,False,41411.17,0.0,0.0,SIM
+SINT-0023764,INT-EOL,Autorização eólica - Parque 16 (sintético),Em serviço,26390122.74,False,26390122.74,0.0,0.0,SIM
+SINT-0023984,INT-DIS,Religador / chave automatizada,Em serviço,27911.7,False,27911.7,0.0,0.0,SIM
+SINT-0025597,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,682750.05,False,682750.05,0.0,0.0,SIM
+SINT-0027369,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1464296.8,False,1464296.8,0.0,0.0,SIM
+SINT-0027891,INT-EOL,Autorização eólica - Parque 08 (sintético),Em serviço,23418995.17,False,23418995.17,0.0,0.0,SIM
+SINT-0029559,INT-DIS,Religador / chave automatizada,Em serviço,6536.54,False,6536.54,0.0,0.0,SIM
+SINT-0031117,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,474814.18,False,474814.18,0.0,0.0,SIM
+SINT-0032568,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2895841.53,False,2895841.53,0.0,0.0,SIM
+SINT-0032664,INT-BON,UHE Gov. José Richa (Salto Caxias),Em serviço,1124270400.0,True,1124270400.0,0.0,,SIM
+SINT-0033411,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1082317.87,False,1082317.87,0.0,0.0,SIM
+SINT-0034584,INT-DIS,Equipamento de subestação de distribuição,Em serviço,488871.89,False,488871.89,0.0,0.0,SIM
+SINT-0035910,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,978271.23,False,978271.23,0.0,0.0,SIM
+SINT-0037627,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2254291.53,False,2254291.53,0.0,0.0,SIM
+SINT-0038614,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,104570.64,False,104570.64,0.0,0.0,SIM
+SINT-0039883,INT-DIS,Equipamento de subestação de distribuição,Em serviço,692219.36,False,692219.36,0.0,0.0,SIM
+SINT-0040181,INT-EOL,Autorização eólica - Parque 23 (sintético),Em serviço,23560657.07,False,23560657.07,0.0,0.0,SIM
+SINT-0040581,INT-EOL,Autorização eólica - Parque 03 (sintético),Em serviço,50523375.54,True,50523375.54,0.0,,SIM
+SINT-0040654,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1111463.4,False,1111463.4,0.0,0.0,SIM
+SINT-0041729,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3115671.36,False,3115671.36,0.0,0.0,SIM
+SINT-0042903,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1504345.63,False,1504345.63,0.0,0.0,SIM
+SINT-0044946,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,4249384.85,False,4249384.85,0.0,0.0,SIM
+SINT-0046649,INT-DIS,Transformador de distribuição,Em serviço,11137.23,False,11137.23,0.0,0.0,SIM
+SINT-0047471,INT-DIS,Equipamento de subestação de distribuição,Em serviço,967478.03,False,967478.03,0.0,0.0,SIM
+SINT-0048901,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3736455.67,False,3736455.67,0.0,0.0,SIM
+SINT-0049935,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,65608.65,False,65608.65,0.0,0.0,SIM
+SINT-0051167,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1681175.51,False,1681175.51,0.0,0.0,SIM
+SINT-0052697,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3299350.35,False,3299350.35,0.0,0.0,SIM
+SINT-0053973,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,85931.15,False,85931.15,0.0,0.0,SIM
+SINT-0055390,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,7037285.12,False,7037285.12,0.0,0.0,SIM
+SINT-0056311,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,23866.57,False,23866.57,0.0,0.0,SIM
+SINT-0057522,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1125207.58,False,1125207.58,0.0,0.0,SIM
+SINT-0058495,INT-DIS,Religador / chave automatizada,Em serviço,13374.5,False,13374.5,0.0,0.0,SIM
+SINT-0059492,INT-DIS,Equipamento de subestação de distribuição,Em serviço,299272.0,False,299272.0,0.0,0.0,SIM
+SINT-0060908,INT-DIS,Edificação operacional,Em serviço,2784414.25,False,2784414.25,0.0,0.0,SIM
+SINT-0062290,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2532357.17,False,2532357.17,0.0,0.0,SIM
+SINT-0064099,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1336541.69,False,1336541.69,0.0,0.0,SIM
+SINT-0065124,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,43476.02,False,43476.02,0.0,0.0,SIM
+SINT-0066176,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1178133.51,False,1178133.51,0.0,0.0,SIM
+SINT-0067259,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1050123.25,False,1050123.25,0.0,0.0,SIM
+SINT-0068826,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,67860.21,False,67860.21,0.0,0.0,SIM
+SINT-0070389,INT-EOL,Autorização eólica - Parque 37 (sintético),Em serviço,43122514.26,True,43122514.26,0.0,,SIM
+SINT-0070678,INT-EOL,Autorização eólica - Parque 20 (sintético),Em serviço,48699378.04,True,48699378.04,0.0,,SIM
+SINT-0070986,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2500551.07,False,2500551.07,0.0,0.0,SIM
+SINT-0071523,INT-EOL,Autorização eólica - Parque 05 (sintético),Em serviço,34642104.58,True,34642104.58,0.0,,SIM
+SINT-0072804,INT-DIS,Equipamento de subestação de distribuição,Em serviço,781577.91,False,781577.91,0.0,0.0,SIM
+SINT-0073710,INT-EOL,Autorização eólica - Parque 19 (sintético),Em serviço,29253432.69,False,29253432.69,0.0,0.0,SIM
+SINT-0074288,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,131780.0,False,131780.0,0.0,0.0,SIM
+SINT-0075197,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,10760864.59,False,10760864.59,0.0,0.0,SIM
+SINT-0076493,INT-DIS,Transformador de distribuição,Em serviço,28748.83,False,28748.83,0.0,0.0,SIM
+SINT-0077993,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,70917.91,False,70917.91,0.0,0.0,SIM
+SINT-0079503,INT-DIS,Equipamento de subestação de distribuição,Em serviço,600404.05,False,600404.05,0.0,0.0,SIM
+SINT-0081256,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3449061.77,False,3449061.77,0.0,0.0,SIM
+SINT-0083040,INT-DIS,Edificação operacional,Em serviço,140691.24,False,140691.24,0.0,0.0,SIM
+SINT-0084412,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1369552.37,False,1369552.37,0.0,0.0,SIM
+SINT-0085698,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1463989.4,False,1463989.4,0.0,0.0,SIM
+SINT-0087083,INT-DIS,Equipamento de subestação de distribuição,Em serviço,502715.88,False,502715.88,0.0,0.0,SIM
+SINT-0088489,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,65050.96,False,65050.96,0.0,0.0,SIM
+SINT-0089626,INT-DIS,Edificação operacional,Em serviço,692284.49,False,692284.49,0.0,0.0,SIM
+SINT-0091396,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1207484.83,False,1207484.83,0.0,0.0,SIM
+SINT-0092598,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1076185.67,False,1076185.67,0.0,0.0,SIM
+SINT-0093750,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2088437.61,False,2088437.61,0.0,0.0,SIM
+SINT-0095097,INT-DIS,Edificação operacional,Em serviço,58903.23,False,58903.23,0.0,0.0,SIM
+SINT-0095317,INT-UBP,UBP - UHE Mauá,Em serviço,65512243.25,True,65512243.25,0.0,,SIM
+SINT-0096391,INT-DIS,Equipamento de subestação de distribuição,Em serviço,880105.2,False,880105.2,0.0,0.0,SIM
+SINT-0097862,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,39272.23,False,39272.23,0.0,0.0,SIM
+SINT-0098958,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2647010.78,False,2647010.78,0.0,0.0,SIM
+SINT-0100352,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,83135.28,False,83135.28,0.0,0.0,SIM
+SINT-0101930,INT-DIS,Equipamento de subestação de distribuição,Em serviço,727580.21,False,727580.21,0.0,0.0,SIM
+SINT-0103299,INT-DIS,Equipamento de subestação de distribuição,Em serviço,578765.81,False,578765.81,0.0,0.0,SIM
+SINT-0104767,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,34902.42,False,34902.42,0.0,0.0,SIM
+SINT-0106237,INT-EOL,Autorização eólica - Parque 31 (sintético),Em serviço,23205864.0,False,23205864.0,0.0,0.0,SIM
+SINT-0106961,INT-DIS,Equipamento de subestação de distribuição,Em serviço,399521.53,False,399521.53,0.0,0.0,SIM
+SINT-0107137,INT-EOL,Autorização eólica - Parque 39 (sintético),Em serviço,46906238.8,True,46906238.8,0.0,,SIM
+SINT-0107969,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,108652.51,False,108652.51,0.0,0.0,SIM
+SINT-0109254,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1783230.25,False,1783230.25,0.0,0.0,SIM
+SINT-0110661,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2935069.51,False,2935069.51,0.0,0.0,SIM
+SINT-0112265,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,37555.43,False,37555.43,0.0,0.0,SIM
+SINT-0113005,INT-GSF,Extensão de outorga GSF - Mauá,Em serviço,35204936.33,True,35204936.33,0.0,,SIM
+SINT-0113731,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,47477.58,False,47477.58,0.0,0.0,SIM
+SINT-0115315,INT-DIS,Edificação operacional,Em serviço,256809.42,False,256809.42,0.0,0.0,SIM
+SINT-0116748,INT-DIS,Equipamento de subestação de distribuição,Em serviço,521081.63,False,521081.63,0.0,0.0,SIM
+SINT-0117189,INT-EOL,Autorização eólica - Parque 09 (sintético),Em serviço,31936327.72,True,31936327.72,0.0,,SIM
+SINT-0117946,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,43729.84,False,43729.84,0.0,0.0,SIM
+SINT-0119087,INT-DIS,Poste de concreto,Em serviço,562.3,False,562.3,0.0,0.0,SIM
+SINT-0119963,INT-EOL,Autorização eólica - Parque 40 (sintético),Em serviço,29639583.58,False,29639583.58,0.0,0.0,SIM
+SINT-0120594,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1062082.49,False,1062082.49,0.0,0.0,SIM
+SINT-0122601,INT-DIS,Equipamento de subestação de distribuição,Em serviço,317807.72,False,317807.72,0.0,0.0,SIM
+SINT-0123505,INT-DIS,Edificação operacional,Em serviço,411797.59,False,411797.59,0.0,0.0,SIM
+SINT-0124794,INT-DIS,Equipamento de subestação de distribuição,Em serviço,852665.93,False,852665.93,0.0,0.0,SIM
+SINT-0125832,INT-EOL,Autorização eólica - Parque 11 (sintético),Em serviço,52950341.07,True,52950341.07,0.0,,SIM
+SINT-0127015,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,84733.3,False,84733.3,0.0,0.0,SIM
+SINT-0128127,INT-DIS,Equipamento de subestação de distribuição,Em serviço,780724.11,False,780724.11,0.0,0.0,SIM
+SINT-0129652,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1010722.31,False,1010722.31,0.0,0.0,SIM
+SINT-0131188,INT-DIS,Religador / chave automatizada,Em serviço,17577.47,False,17577.47,0.0,0.0,SIM
+SINT-0132427,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1161553.03,False,1161553.03,0.0,0.0,SIM
+SINT-0134002,INT-DIS,Edificação operacional,Em serviço,756515.87,False,756515.87,0.0,0.0,SIM
+SINT-0135534,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1846834.09,False,1846834.09,0.0,0.0,SIM
+SINT-0135756,INT-UBE,UBP - UHE Santa Clara (Elejor),Em serviço,79778500.0,True,79778500.0,0.0,,SIM
+SINT-0136356,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,33627.18,False,33627.18,0.0,0.0,SIM
+SINT-0137673,INT-DIS,Equipamento de subestação de distribuição,Em serviço,661236.88,False,661236.88,0.0,0.0,SIM
+SINT-0139019,INT-DIS,Equipamento de subestação de distribuição,Em serviço,479148.13,False,479148.13,0.0,0.0,SIM
+SINT-0140174,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1785137.53,False,1785137.53,0.0,0.0,SIM
+SINT-0141119,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3708623.57,False,3708623.57,0.0,0.0,SIM
+SINT-0142259,INT-DIS,Edificação operacional,Em serviço,90847.15,False,90847.15,0.0,0.0,SIM
+SINT-0143522,INT-DIS,Equipamento de subestação de distribuição,Em serviço,940154.2,False,940154.2,0.0,0.0,SIM
+SINT-0145034,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,109729.19,False,109729.19,0.0,0.0,SIM
+SINT-0146565,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3089144.81,False,3089144.81,0.0,0.0,SIM
+SINT-0147524,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,4192627.83,False,4192627.83,0.0,0.0,SIM
+SINT-0148288,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2111037.58,False,2111037.58,0.0,0.0,SIM
+SINT-0149630,INT-DIS,Equipamento de subestação de distribuição,Em serviço,189689.25,False,189689.25,0.0,0.0,SIM
+SINT-0151469,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2949419.07,False,2949419.07,0.0,0.0,SIM
+SINT-0153006,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,27155.37,False,27155.37,0.0,0.0,SIM
+SINT-0153997,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1900456.27,False,1900456.27,0.0,0.0,SIM
+SINT-0155245,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1291295.68,False,1291295.68,0.0,0.0,SIM
+SINT-0156907,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1370448.23,False,1370448.23,0.0,0.0,SIM
+SINT-0158149,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1124463.89,False,1124463.89,0.0,0.0,SIM
+SINT-0159313,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,49519.01,False,49519.01,0.0,0.0,SIM
+SINT-0160786,INT-DIS,Equipamento de subestação de distribuição,Em serviço,855097.12,False,855097.12,0.0,0.0,SIM
+SINT-0162154,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1935871.24,False,1935871.24,0.0,0.0,SIM
+SINT-0163382,INT-DIS,Equipamento de subestação de distribuição,Em serviço,306546.98,False,306546.98,0.0,0.0,SIM
+SINT-0164476,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1920534.65,False,1920534.65,0.0,0.0,SIM
+SINT-0166548,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,63167.39,False,63167.39,0.0,0.0,SIM
+SINT-0168201,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2774809.08,False,2774809.08,0.0,0.0,SIM
+SINT-0169536,INT-DIS,Edificação operacional,Em serviço,1850188.14,False,1850188.14,0.0,0.0,SIM
+SINT-0170860,INT-DIS,Equipamento de subestação de distribuição,Em serviço,7376844.36,False,7376844.36,0.0,0.0,SIM
+SINT-0171894,INT-DIS,Transformador de distribuição,Em serviço,3197.93,False,3197.93,0.0,0.0,SIM
+SINT-0173411,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,732262.2,False,732262.2,0.0,0.0,SIM
+SINT-0174686,INT-DIS,Poste de concreto,Em serviço,1233.22,False,1233.22,0.0,0.0,SIM
+SINT-0176021,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2296210.84,False,2296210.84,0.0,0.0,SIM
+SINT-0177375,INT-DIS,Equipamento de subestação de distribuição,Em serviço,169172.5,False,169172.5,0.0,0.0,SIM
+SINT-0178977,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3457898.63,False,3457898.63,0.0,0.0,SIM
+SINT-0179695,INT-UBP,UBP - PCH Bela Vista,Em serviço,63601300.62,True,63601300.62,0.0,,SIM
+SINT-0181043,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,7744172.28,False,7744172.28,0.0,0.0,SIM
+SINT-0182454,INT-DIS,Equipamento de subestação de distribuição,Em serviço,514420.15,False,514420.15,0.0,0.0,SIM
+SINT-0184237,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1582847.55,False,1582847.55,0.0,0.0,SIM
+SINT-0185600,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,8104608.54,False,8104608.54,0.0,0.0,SIM
+SINT-0187450,INT-DIS,Equipamento de subestação de distribuição,Em serviço,695849.27,False,695849.27,0.0,0.0,SIM
+SINT-0188008,INT-EOL,Autorização eólica - Parque 21 (sintético),Em serviço,34532790.53,True,34532790.53,0.0,,SIM
+SINT-0188638,INT-DIS,Edificação operacional,Em serviço,2157345.27,False,2157345.27,0.0,0.0,SIM
+SINT-0189941,INT-DIS,Equipamento de subestação de distribuição,Em serviço,17657567.67,False,17657567.67,0.0,0.0,SIM
+SINT-0191286,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1266296.18,False,1266296.18,0.0,0.0,SIM
+SINT-0192510,INT-DIS,Equipamento de subestação de distribuição,Em serviço,236182.2,False,236182.2,0.0,0.0,SIM
+SINT-0194515,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,92244.57,False,92244.57,0.0,0.0,SIM
+SINT-0195259,INT-DIS,Equipamento de subestação de distribuição,Em serviço,833410.89,False,833410.89,0.0,0.0,SIM
+SINT-0196970,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,406863.68,False,406863.68,0.0,0.0,SIM
+SINT-0197878,INT-DIS,Equipamento de subestação de distribuição,Em serviço,863941.87,False,863941.87,0.0,0.0,SIM
+SINT-0199407,INT-DIS,Equipamento de subestação de distribuição,Em serviço,576171.95,False,576171.95,0.0,0.0,SIM
+SINT-0200627,INT-DIS,Transformador de distribuição,Em serviço,9482.91,False,9482.91,0.0,0.0,SIM
+SINT-0201515,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,128302.19,False,128302.19,0.0,0.0,SIM
+SINT-0202654,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2933769.5,False,2933769.5,0.0,0.0,SIM
+SINT-0203550,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3654258.4,False,3654258.4,0.0,0.0,SIM
+SINT-0204813,INT-DIS,Edificação operacional,Em serviço,1903945.07,False,1903945.07,0.0,0.0,SIM
+SINT-0206590,INT-DIS,Equipamento de subestação de distribuição,Em serviço,636708.61,False,636708.61,0.0,0.0,SIM
+SINT-0208098,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,27941.76,False,27941.76,0.0,0.0,SIM
+SINT-0209651,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1497685.92,False,1497685.92,0.0,0.0,SIM
+SINT-0211032,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,130981.9,False,130981.9,0.0,0.0,SIM
+SINT-0211067,INT-EOL,Autorização eólica - Parque 35 (sintético),Em serviço,30359685.01,False,30359685.01,0.0,0.0,SIM
+SINT-0212183,INT-DIS,Equipamento de subestação de distribuição,Em serviço,613456.85,False,613456.85,0.0,0.0,SIM
+SINT-0213815,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1759222.21,False,1759222.21,0.0,0.0,SIM
+SINT-0215219,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1362440.96,False,1362440.96,0.0,0.0,SIM
+SINT-0216379,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1131286.72,False,1131286.72,0.0,0.0,SIM
+SINT-0217770,INT-DIS,Equipamento de subestação de distribuição,Em serviço,401182.76,False,401182.76,0.0,0.0,SIM
+SINT-0219410,INT-DIS,Equipamento de subestação de distribuição,Em serviço,4373403.11,False,4373403.11,0.0,0.0,SIM
+SINT-0220556,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,22548.39,False,22548.39,0.0,0.0,SIM
+SINT-0221980,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,4502702.75,False,4502702.75,0.0,0.0,SIM
+SINT-0223108,INT-DIS,Equipamento de subestação de distribuição,Em serviço,632028.16,False,632028.16,0.0,0.0,SIM
+SINT-0224874,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1241848.62,False,1241848.62,0.0,0.0,SIM
+SINT-0226206,INT-DIS,Sistema de telecomunicação e automação (Smart Grid),Em serviço,95099.1,False,95099.1,0.0,0.0,SIM
+SINT-0227265,INT-DIS,Equipamento de subestação de distribuição,Em serviço,653018.9,False,653018.9,0.0,0.0,SIM
+SINT-0228506,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1597999.78,False,1597999.78,0.0,0.0,SIM
+SINT-0228858,INT-EOL,Autorização eólica - Parque 28 (sintético),Em serviço,27365352.56,False,27365352.56,0.0,0.0,SIM
+SINT-0230177,INT-UBP,UBP - UHE Salto Caxias,Em serviço,142917557.84,True,142917557.84,0.0,,SIM
+SINT-0230788,INT-EOL,Autorização eólica - Parque 26 (sintético),Em serviço,39872675.48,True,39872675.48,0.0,,SIM
+SINT-0231946,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2799199.09,False,2799199.09,0.0,0.0,SIM
+SINT-0233486,INT-GSF,Extensão de outorga GSF - Santa Clara,Em serviço,34759104.97,True,34759104.97,0.0,,SIM
+SINT-0233520,INT-DIS,Equipamento de subestação de distribuição,Em serviço,990654.48,False,0.0,990654.48,1.0,SIM
+SINT-0234968,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3364200.06,False,3364200.06,0.0,0.0,SIM
+SINT-0235999,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,820883.6,False,820883.6,0.0,0.0,SIM
+SINT-0237532,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,80778.34,False,80778.34,0.0,0.0,SIM
+SINT-0238926,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,449056.06,False,449056.06,0.0,0.0,SIM
+SINT-0239632,INT-DIS,Transformador de distribuição,Em serviço,11670.45,False,11670.45,0.0,0.0,SIM
+SINT-0241432,INT-DIS,Equipamento de subestação de distribuição,Em serviço,832830.72,False,832830.72,0.0,0.0,SIM
+SINT-0242560,INT-DIS,Equipamento de subestação de distribuição,Em serviço,519549.67,False,519549.67,0.0,0.0,SIM
+SINT-0243926,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,121042.3,False,121042.3,0.0,0.0,SIM
+SINT-0244415,INT-EOL,Autorização eólica - Parque 36 (sintético),Em serviço,35619657.57,True,35619657.57,0.0,,SIM
+SINT-0244969,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2684446.13,False,2684446.13,0.0,0.0,SIM
+SINT-0246051,INT-DIS,Transformador de distribuição,Em serviço,7404.49,False,7404.49,0.0,0.0,SIM
+SINT-0247601,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,49859.09,False,49859.09,0.0,0.0,SIM
+SINT-0249095,INT-DIS,Equipamento de subestação de distribuição,Em serviço,323010.39,False,323010.39,0.0,0.0,SIM
+SINT-0250235,INT-DIS,Religador / chave automatizada,Em serviço,15048.01,False,15048.01,0.0,0.0,SIM
+SINT-0250681,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1057164.85,False,1057164.85,0.0,0.0,SIM
+SINT-0251825,INT-DIS,Medidor eletrônico inteligente,Em serviço,992856.08,False,0.0,992856.08,1.0,SIM
+SINT-0253462,INT-DIS,Transformador de distribuição,Em serviço,8045.71,False,8045.71,0.0,0.0,SIM
+SINT-0255051,INT-DIS,Transformador de distribuição,Em serviço,11372.62,False,11372.62,0.0,0.0,SIM
+SINT-0256246,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,542705.89,False,542705.89,0.0,0.0,SIM
+SINT-0257890,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1743085.51,False,1743085.51,0.0,0.0,SIM
+SINT-0259760,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2779110.55,False,2779110.55,0.0,0.0,SIM
+SINT-0260618,INT-DIS,Equipamento de subestação de distribuição,Em serviço,382528.77,False,382528.77,0.0,0.0,SIM
+SINT-0262483,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,26802.09,False,26802.09,0.0,0.0,SIM
+SINT-0264293,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1258922.76,False,1258922.76,0.0,0.0,SIM
+SINT-0265408,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,6350183.47,False,6350183.47,0.0,0.0,SIM
+SINT-0266648,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,33128.71,False,33128.71,0.0,0.0,SIM
+SINT-0268353,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2957732.5,False,2957732.5,0.0,0.0,SIM
+SINT-0269630,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,23334.34,False,23334.34,0.0,0.0,SIM
+SINT-0270863,INT-DIS,Equipamento de subestação de distribuição,Em serviço,600668.63,False,600668.63,0.0,0.0,SIM
+SINT-0272425,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3204376.06,False,3204376.06,0.0,0.0,SIM
+SINT-0274053,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2416931.54,False,2416931.54,0.0,0.0,SIM
+SINT-0275511,INT-DIS,Transformador de distribuição,Em serviço,7094.62,False,7094.62,0.0,0.0,SIM
+SINT-0277087,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1022830.34,False,1022830.34,0.0,0.0,SIM
+SINT-0277944,INT-DIS,Equipamento de subestação de distribuição,Em serviço,860232.21,False,860232.21,0.0,0.0,SIM
+SINT-0279303,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2934644.11,False,2934644.11,0.0,0.0,SIM
+SINT-0280125,INT-EOL,Autorização eólica - Parque 34 (sintético),Em serviço,26421777.96,False,26421777.96,0.0,0.0,SIM
+SINT-0280635,INT-DIS,Equipamento de subestação de distribuição,Em serviço,765433.02,False,765433.02,0.0,0.0,SIM
+SINT-0281651,INT-DIS,Equipamento de subestação de distribuição,Em serviço,444999.7,False,444999.7,0.0,0.0,SIM
+SINT-0282883,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,870507.58,False,870507.58,0.0,0.0,SIM
+SINT-0284372,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,36901.13,False,36901.13,0.0,0.0,SIM
+SINT-0285251,INT-CNB,Direito de concessão - UHE Mauá (49% adquiridos),Em serviço,490000000.0,True,490000000.0,0.0,,SIM
+SINT-0285304,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,41620.31,False,41620.31,0.0,0.0,SIM
+SINT-0286385,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,67283.79,False,67283.79,0.0,0.0,SIM
+SINT-0287253,INT-BON,UHE Gov. Ney Braga (Segredo),Em serviço,1217959600.0,True,1217959600.0,0.0,,SIM
+SINT-0287513,INT-DIS,Equipamento de subestação de distribuição,Em serviço,910528.35,False,910528.35,0.0,0.0,SIM
+SINT-0289085,INT-DIS,Edificação operacional,Em serviço,352485.6,False,352485.6,0.0,0.0,SIM
+SINT-0289564,INT-EOL,Autorização eólica - Parque 17 (sintético),Em serviço,34977839.98,True,34977839.98,0.0,,SIM
+SINT-0290387,INT-EOL,Autorização eólica - Parque 04 (sintético),Em serviço,29803251.67,False,29803251.67,0.0,0.0,SIM
+SINT-0290500,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1502840.82,False,1502840.82,0.0,0.0,SIM
+SINT-0291716,INT-DIS,Equipamento de subestação de distribuição,Em serviço,268363.77,False,268363.77,0.0,0.0,SIM
+SINT-0292626,INT-EOL,Autorização eólica - Parque 02 (sintético),Em serviço,25570563.21,False,25570563.21,0.0,0.0,SIM
+SINT-0293082,INT-DIS,Equipamento de subestação de distribuição,Em serviço,491944.12,False,491944.12,0.0,0.0,SIM
+SINT-0294455,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,17301.36,False,17301.36,0.0,0.0,SIM
+SINT-0296074,INT-DIS,Transformador de distribuição,Em serviço,3891.58,False,3891.58,0.0,0.0,SIM
+SINT-0298096,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2384282.87,False,2384282.87,0.0,0.0,SIM
+SINT-0299679,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1171146.64,False,1171146.64,0.0,0.0,SIM
+SINT-0300659,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1497339.18,False,1497339.18,0.0,0.0,SIM
+SINT-0301434,INT-DIS,Equipamento de subestação de distribuição,Em serviço,803444.42,False,803444.42,0.0,0.0,SIM
+SINT-0302685,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1361693.08,False,1361693.08,0.0,0.0,SIM
+SINT-0303740,INT-DIS,Transformador de distribuição,Em serviço,16138.93,False,16138.93,0.0,0.0,SIM
+SINT-0305247,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2381546.12,False,2381546.12,0.0,0.0,SIM
+SINT-0306219,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1676777.11,False,1676777.11,0.0,0.0,SIM
+SINT-0307526,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,106805.14,False,106805.14,0.0,0.0,SIM
+SINT-0309156,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,825902.89,False,825902.89,0.0,0.0,SIM
+SINT-0310816,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,188026.32,False,188026.32,0.0,0.0,SIM
+SINT-0311953,INT-DIS,Equipamento de subestação de distribuição,Em serviço,721323.69,False,721323.69,0.0,0.0,SIM
+SINT-0313516,INT-GSF,Extensão de outorga GSF - Bela Vista,Em serviço,25799218.48,False,25799218.48,0.0,0.0,SIM
+SINT-0314160,INT-DIS,Medidor eletrônico inteligente,Em serviço,330.86,False,330.86,0.0,0.0,SIM
+SINT-0314342,INT-EOL,Autorização eólica - Parque 06 (sintético),Em serviço,31491553.52,False,31491553.52,0.0,0.0,SIM
+SINT-0314812,INT-GSF,Extensão de outorga GSF - Segredo,Em serviço,38795343.83,True,38795343.83,0.0,,SIM
+SINT-0315472,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,16573.56,False,16573.56,0.0,0.0,SIM
+SINT-0316957,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,21072.12,False,21072.12,0.0,0.0,SIM
+SINT-0318078,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1442274.41,False,1442274.41,0.0,0.0,SIM
+SINT-0319443,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,4388068.31,False,4388068.31,0.0,0.0,SIM
+SINT-0320552,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,45506.31,False,45506.31,0.0,0.0,SIM
+SINT-0321961,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,33480.6,False,33480.6,0.0,0.0,SIM
+SINT-0322970,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,89061.39,False,89061.39,0.0,0.0,SIM
+SINT-0324456,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,75017.61,False,75017.61,0.0,0.0,SIM
+SINT-0326409,INT-DIS,Religador / chave automatizada,Em serviço,16410.0,False,16410.0,0.0,0.0,SIM
+SINT-0327839,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,127444.87,False,127444.87,0.0,0.0,SIM
+SINT-0329527,INT-DIS,Equipamento de subestação de distribuição,Em serviço,744114.87,False,744114.87,0.0,0.0,SIM
+SINT-0330938,INT-DIS,Edificação operacional,Em serviço,395409.84,False,395409.84,0.0,0.0,SIM
+SINT-0332129,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,65046.29,False,65046.29,0.0,0.0,SIM
+SINT-0333451,INT-EOL,Autorização eólica - Parque 22 (sintético),Em serviço,23502101.53,False,23502101.53,0.0,0.0,SIM
+SINT-0334012,INT-DIS,Equipamento de subestação de distribuição,Em serviço,533541.56,False,533541.56,0.0,0.0,SIM
+SINT-0335168,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,31419.73,False,31419.73,0.0,0.0,SIM
+SINT-0336038,INT-EOL,Autorização eólica - Parque 25 (sintético),Em serviço,23714063.46,False,23714063.46,0.0,0.0,SIM
+SINT-0336402,INT-GSF,Extensão de outorga GSF - Foz do Areia,Em serviço,20130404.64,False,20130404.64,0.0,0.0,SIM
+SINT-0337393,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,916855.42,False,916855.42,0.0,0.0,SIM
+SINT-0338367,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1231568.0,False,1231568.0,0.0,0.0,SIM
+SINT-0340392,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,64858.75,False,64858.75,0.0,0.0,SIM
+SINT-0341400,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1393223.71,False,1393223.71,0.0,0.0,SIM
+SINT-0343056,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1029738.68,False,1029738.68,0.0,0.0,SIM
+SINT-0344074,INT-UBP,UBP - UHE Segredo,Em serviço,50368607.13,True,50368607.13,0.0,,SIM
+SINT-0345029,INT-DIS,Equipamento de subestação de distribuição,Em serviço,765817.91,False,765817.91,0.0,0.0,SIM
+SINT-0346518,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,13216095.06,False,13216095.06,0.0,0.0,SIM
+SINT-0347996,INT-DIS,Equipamento de subestação de distribuição,Em serviço,565160.6,False,565160.6,0.0,0.0,SIM
+SINT-0349838,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,36781.13,False,36781.13,0.0,0.0,SIM
+SINT-0351231,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1026991.1,False,1026991.1,0.0,0.0,SIM
+SINT-0352615,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,842729.83,False,842729.83,0.0,0.0,SIM
+SINT-0353400,INT-DIS,Edificação operacional,Em serviço,203593.91,False,203593.91,0.0,0.0,SIM
+SINT-0354909,INT-DIS,Equipamento de subestação de distribuição,Em serviço,335036.07,False,335036.07,0.0,0.0,SIM
+SINT-0356697,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1303465.42,False,1303465.42,0.0,0.0,SIM
+SINT-0357672,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1107376.43,False,1107376.43,0.0,0.0,SIM
+SINT-0358798,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2687366.01,False,2687366.01,0.0,0.0,SIM
+SINT-0359928,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,5636681.6,False,5636681.6,0.0,0.0,SIM
+SINT-0360247,INT-EOL,Autorização eólica - Parque 41 (sintético),Em serviço,37895342.8,True,37895342.8,0.0,,SIM
+SINT-0360890,INT-DIS,Edificação operacional,Em serviço,25674.68,False,25674.68,0.0,0.0,SIM
+SINT-0362587,INT-DIS,Equipamento de subestação de distribuição,Em serviço,102019.43,False,102019.43,0.0,0.0,SIM
+SINT-0363839,INT-DIS,Edificação operacional,Em serviço,212160.63,False,212160.63,0.0,0.0,SIM
+SINT-0365091,INT-DIS,Equipamento de subestação de distribuição,Em serviço,670962.73,False,670962.73,0.0,0.0,SIM
+SINT-0366221,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,6554964.05,False,6554964.05,0.0,0.0,SIM
+SINT-0367285,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1021259.9,False,1021259.9,0.0,0.0,SIM
+SINT-0369475,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1739158.98,False,1739158.98,0.0,0.0,SIM
+SINT-0370951,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,94715.45,False,94715.45,0.0,0.0,SIM
+SINT-0372717,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2552496.82,False,2552496.82,0.0,0.0,SIM
+SINT-0374344,INT-EOL,Autorização eólica - Parque 30 (sintético),Em serviço,28635450.44,False,28635450.44,0.0,0.0,SIM
+SINT-0374606,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1259327.55,False,1259327.55,0.0,0.0,SIM
+SINT-0375825,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2988751.54,False,2988751.54,0.0,0.0,SIM
+SINT-0377122,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1666696.06,False,1666696.06,0.0,0.0,SIM
+SINT-0379131,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1463739.73,False,1463739.73,0.0,0.0,SIM
+SINT-0380419,INT-DIS,Edificação operacional,Em serviço,1996432.06,False,1996432.06,0.0,0.0,SIM
+SINT-0380469,INT-EOL,Autorização eólica - Parque 10 (sintético),Em serviço,49600979.93,True,49600979.93,0.0,,SIM
+SINT-0380780,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3259190.39,False,3259190.39,0.0,0.0,SIM
+SINT-0381436,INT-GSF,Extensão de outorga GSF - Fundão,Em serviço,29015037.75,False,29015037.75,0.0,0.0,SIM
+SINT-0382290,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,4453298.27,False,4453298.27,0.0,0.0,SIM
+SINT-0383141,INT-EOL,Autorização eólica - Parque 12 (sintético),Em serviço,36635814.85,True,36635814.85,0.0,,SIM
+SINT-0383471,INT-DIS,Religador / chave automatizada,Em serviço,47766.75,False,47766.75,0.0,0.0,SIM
+SINT-0384822,INT-DIS,Religador / chave automatizada,Em serviço,11326.34,False,11326.34,0.0,0.0,SIM
+SINT-0386423,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1500956.06,False,1500956.06,0.0,0.0,SIM
+SINT-0387755,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,69929.05,False,69929.05,0.0,0.0,SIM
+SINT-0388498,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,79908.55,False,79908.55,0.0,0.0,SIM
+SINT-0389943,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1636951.55,False,1636951.55,0.0,0.0,SIM
+SINT-0390901,INT-DIS,Equipamento de subestação de distribuição,Em serviço,44246.58,False,44246.58,0.0,0.0,SIM
+SINT-0391784,INT-GSF,Extensão de outorga GSF - Derivação do Rio Jordão,Em serviço,29722476.06,False,29722476.06,0.0,0.0,SIM
+SINT-0392374,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,25824.51,False,25824.51,0.0,0.0,SIM
+SINT-0393702,INT-DIS,Edificação operacional,Em serviço,57615.02,False,57615.02,0.0,0.0,SIM
+SINT-0395183,INT-DIS,Equipamento de subestação de distribuição,Em serviço,400050.57,False,400050.57,0.0,0.0,SIM
+SINT-0396881,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,7857431.85,False,7857431.85,0.0,0.0,SIM
+SINT-0397595,INT-EOL,Autorização eólica - Parque 33 (sintético),Em serviço,30035108.0,False,30035108.0,0.0,0.0,SIM
+SINT-0398196,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3749747.46,False,3749747.46,0.0,0.0,SIM
+SINT-0399125,INT-DIS,Equipamento de subestação de distribuição,Em serviço,5834357.16,False,5834357.16,0.0,0.0,SIM
+SINT-0400163,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3799074.71,False,3799074.71,0.0,0.0,SIM
+SINT-0401226,INT-DIS,Edificação operacional,Em serviço,1534730.99,False,1534730.99,0.0,0.0,SIM
+SINT-0402724,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1202549.83,False,1202549.83,0.0,0.0,SIM
+SINT-0403269,INT-EOL,Autorização eólica - Parque 07 (sintético),Em serviço,23387729.25,False,23387729.25,0.0,0.0,SIM
+SINT-0404537,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1307598.28,False,1307598.28,0.0,0.0,SIM
+SINT-0405792,INT-EOL,Autorização eólica - Parque 42 (sintético),Em serviço,23923598.96,False,23923598.96,0.0,0.0,SIM
+SINT-0406333,INT-DIS,Edificação operacional,Em serviço,259263.95,False,259263.95,0.0,0.0,SIM
+SINT-0408290,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,153795.53,False,153795.53,0.0,0.0,SIM
+SINT-0410027,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,40546.8,False,40546.8,0.0,0.0,SIM
+SINT-0411183,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,51725.23,False,51725.23,0.0,0.0,SIM
+SINT-0411977,INT-GSF,Extensão de outorga GSF - Salto Caxias,Em serviço,32325343.39,True,32325343.39,0.0,,SIM
+SINT-0412343,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,13375406.24,False,13375406.24,0.0,0.0,SIM
+SINT-0413634,INT-DIS,Equipamento de subestação de distribuição,Em serviço,688897.36,False,688897.36,0.0,0.0,SIM
+SINT-0414495,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2170253.78,False,2170253.78,0.0,0.0,SIM
+SINT-0415815,INT-DIS,Equipamento de subestação de distribuição,Em serviço,648382.53,False,648382.53,0.0,0.0,SIM
+SINT-0416856,INT-DIS,Equipamento de subestação de distribuição,Em serviço,640102.94,False,640102.94,0.0,0.0,SIM
+SINT-0418236,INT-DIS,Edificação operacional,Em serviço,666034.53,False,666034.53,0.0,0.0,SIM
+SINT-0419571,INT-DIS,Poste de concreto,Em serviço,1494.82,False,1494.82,0.0,0.0,SIM
+SINT-0421162,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2288074.13,False,2288074.13,0.0,0.0,SIM
+SINT-0422466,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,437374.69,False,437374.69,0.0,0.0,SIM
+SINT-0423938,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1552469.27,False,1552469.27,0.0,0.0,SIM
+SINT-0424954,INT-DIS,Equipamento de subestação de distribuição,Em serviço,259749.46,False,259749.46,0.0,0.0,SIM
+SINT-0425836,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,128577.85,False,128577.85,0.0,0.0,SIM
+SINT-0427239,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3086598.96,False,3086598.96,0.0,0.0,SIM
+SINT-0428773,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,40031.75,False,40031.75,0.0,0.0,SIM
+SINT-0429943,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,431071.29,False,431071.29,0.0,0.0,SIM
+SINT-0431692,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,52755.87,False,52755.87,0.0,0.0,SIM
+SINT-0431899,INT-EOL,Autorização eólica - Parque 18 (sintético),Em serviço,54947557.15,True,54947557.15,0.0,,SIM
+SINT-0433152,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,122977.69,False,122977.69,0.0,0.0,SIM
+SINT-0434100,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,20904.43,False,20904.43,0.0,0.0,SIM
+SINT-0435409,INT-DIS,Equipamento de subestação de distribuição,Em serviço,929462.71,False,929462.71,0.0,0.0,SIM
+SINT-0436158,INT-EOL,Autorização eólica - Parque 27 (sintético),Em serviço,39063058.98,True,39063058.98,0.0,,SIM
+SINT-0437285,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1701840.43,False,1701840.43,0.0,0.0,SIM
+SINT-0438657,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,64843.87,False,64843.87,0.0,0.0,SIM
+SINT-0440051,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1425750.13,False,1425750.13,0.0,0.0,SIM
+SINT-0441339,INT-DIS,Religador / chave automatizada,Em serviço,19533.23,False,19533.23,0.0,0.0,SIM
+SINT-0443010,INT-DIS,Equipamento de subestação de distribuição,Em serviço,411203.94,False,411203.94,0.0,0.0,SIM
+SINT-0444955,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2062106.06,False,2062106.06,0.0,0.0,SIM
+SINT-0446078,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1456530.54,False,1456530.54,0.0,0.0,SIM
+SINT-0446981,INT-UBP,UBP - UHE Derivação do Rio Jordão,Em serviço,96346416.24,True,96346416.24,0.0,,SIM
+SINT-0448005,INT-DIS,Equipamento de subestação de distribuição,Em serviço,530631.19,False,530631.19,0.0,0.0,SIM
+SINT-0449588,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2142334.1,False,2142334.1,0.0,0.0,SIM
+SINT-0450795,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1292042.56,False,1292042.56,0.0,0.0,SIM
+SINT-0452245,INT-DIS,Medidor eletrônico inteligente,Em serviço,356.24,False,356.24,0.0,0.0,SIM
+SINT-0453533,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,4371314.49,False,4371314.49,0.0,0.0,SIM
+SINT-0454922,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2583735.34,False,2583735.34,0.0,0.0,SIM
+SINT-0455552,INT-UBE,UBP - UHE Fundão (Elejor),Em serviço,79778500.0,True,79778500.0,0.0,,SIM
+SINT-0455721,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,95811.64,False,95811.64,0.0,0.0,SIM
+SINT-0457515,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1673260.09,False,1673260.09,0.0,0.0,SIM
+SINT-0458910,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1723141.47,False,1723141.47,0.0,0.0,SIM
+SINT-0460245,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1383423.8,False,1383423.8,0.0,0.0,SIM
+SINT-0461562,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,64984.97,False,64984.97,0.0,0.0,SIM
+SINT-0463094,INT-EOL,Autorização eólica - Parque 13 (sintético),Em serviço,22733136.69,False,22733136.69,0.0,0.0,SIM
+SINT-0463529,INT-DIS,Poste de concreto,Em serviço,864.0,False,864.0,0.0,0.0,SIM
+SINT-0465104,INT-DIS,Sistema de telecomunicação e automação (Smart Grid),Em serviço,139309.95,False,139309.95,0.0,0.0,SIM
+SINT-0466823,INT-DIS,Religador / chave automatizada,Em serviço,13375.37,False,13375.37,0.0,0.0,SIM
+SINT-0468543,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,125636.0,False,125636.0,0.0,0.0,SIM
+SINT-0469993,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3296743.45,False,3296743.45,0.0,0.0,SIM
+SINT-0471898,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,999206.35,False,999206.35,0.0,0.0,SIM
+SINT-0472512,INT-UBP,UBP - UHE Capivari Cachoeira,Em serviço,101253874.92,True,101253874.92,0.0,,SIM
+SINT-0473199,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,108386.43,False,108386.43,0.0,0.0,SIM
+SINT-0474659,INT-DIS,Equipamento de subestação de distribuição,Em serviço,125249.35,False,125249.35,0.0,0.0,SIM
+SINT-0475900,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,217604.88,False,217604.88,0.0,0.0,SIM
+SINT-0477590,INT-DIS,Equipamento de subestação de distribuição,Em serviço,470142.24,False,470142.24,0.0,0.0,SIM
+SINT-0479334,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3459413.5,False,3459413.5,0.0,0.0,SIM
+SINT-0480484,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2895925.12,False,2895925.12,0.0,0.0,SIM
+SINT-0481988,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,395740.25,False,395740.25,0.0,0.0,SIM
+SINT-0483386,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1748239.27,False,1748239.27,0.0,0.0,SIM
+SINT-0484813,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,19280.24,False,19280.24,0.0,0.0,SIM
+SINT-0486402,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,34237.85,False,34237.85,0.0,0.0,SIM
+SINT-0487699,INT-DIS,Equipamento de subestação de distribuição,Em serviço,1911217.05,False,1911217.05,0.0,0.0,SIM
+SINT-0488972,INT-DIS,Transformador de distribuição,Em serviço,6124.56,False,6124.56,0.0,0.0,SIM
+SINT-0490344,INT-DIS,Equipamento de subestação de distribuição,Em serviço,3485052.59,False,3485052.59,0.0,0.0,SIM
+SINT-0491304,INT-DIS,Equipamento de subestação de distribuição,Em curso,893525.4,False,893525.4,0.0,0.0,SIM
+SINT-0491392,INT-EOL,Autorização eólica - Parque 32 (sintético),Em serviço,36013723.17,True,36013723.17,0.0,,SIM
+SINT-0492363,INT-DIS,Equipamento de subestação de distribuição,Em serviço,589640.05,False,589640.05,0.0,0.0,SIM
+SINT-0492701,INT-EOL,Autorização eólica - Parque 15 (sintético),Em serviço,33865656.06,True,33865656.06,0.0,,SIM
+SINT-0493267,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,79817.1,False,79817.1,0.0,0.0,SIM
+SINT-0494094,INT-EOL,Autorização eólica - Parque 24 (sintético),Em serviço,21549041.06,False,21549041.06,0.0,0.0,SIM
+SINT-0494946,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1427787.64,False,1427787.64,0.0,0.0,SIM
+SINT-0496286,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,973542.05,False,973542.05,0.0,0.0,SIM
+SINT-0497840,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,46035.7,False,46035.7,0.0,0.0,SIM
+SINT-0499473,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,970817.09,False,970817.09,0.0,0.0,SIM
+SINT-0501103,INT-DIS,Equipamento de subestação de distribuição,Em serviço,2979222.91,False,2979222.91,0.0,0.0,SIM
+SINT-0502687,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,1681440.31,False,1681440.31,0.0,0.0,SIM
+SINT-0504062,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,103723.01,False,103723.01,0.0,0.0,SIM
+SINT-0505869,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,73761.06,False,73761.06,0.0,0.0,SIM
+SINT-0507095,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2875315.08,False,2875315.08,0.0,0.0,SIM
+SINT-0508567,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2017896.0,False,2017896.0,0.0,0.0,SIM
+SINT-0509609,INT-DIS,Trecho de rede trifásica rural (MT),Em serviço,38037.71,False,38037.71,0.0,0.0,SIM
+SINT-0511262,INT-DIS,Equipamento de subestação de distribuição,Em serviço,931223.48,False,931223.48,0.0,0.0,SIM
+SINT-0512630,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,3078101.91,False,3078101.91,0.0,0.0,SIM
+SINT-0513599,INT-DIS,Edificação operacional,Em serviço,1270097.96,False,1270097.96,0.0,0.0,SIM
+SINT-0514965,INT-DIS,Transformador de distribuição,Em serviço,4687.27,False,4687.27,0.0,0.0,SIM
+SINT-0516263,INT-DIS,Equipamento de subestação de distribuição,Em serviço,111420.69,False,111420.69,0.0,0.0,SIM
+SINT-0517809,INT-DIS,Equipamento de subestação de distribuição,Em curso,850498.85,False,850498.85,0.0,0.0,SIM
+SINT-0519525,INT-DIS,Trecho de linha de distribuição AT (138 kV),Em serviço,2463240.89,False,2463240.89,0.0,0.0,SIM

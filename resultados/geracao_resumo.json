@@ -1,0 +1,45 @@
+{
+  "semente": 232025417,
+  "linhas": 520165,
+  "colunas": 24,
+  "saldo_contabil_R$mil": 19206609,
+  "total_base_R$": 19206609000.0,
+  "diferenca_R$": 0.0,
+  "erros_inseridos_registros": 580,
+  "erros_por_tipo": {
+    "E01": 150,
+    "E02": 40,
+    "E03": 60,
+    "E04": 80,
+    "E05": 70,
+    "E06": 50,
+    "E07": 30,
+    "E08": 45,
+    "E09": 55
+  },
+  "distorcao_inserida_liquida_R$": 33904472.18,
+  "por_subconta_R$": {
+    "INT-AUO": 7734000.0,
+    "INT-BON": 4191800000.0,
+    "INT-CNB": 700000000.0,
+    "INT-DIS": 11868128000.0,
+    "INT-EOL": 1402043000.0,
+    "INT-GSF": 260000000.0,
+    "INT-SGT": 76776000.0,
+    "INT-SOF": 20571000.0,
+    "INT-UBE": 159557000.0,
+    "INT-UBP": 520000000.0
+  },
+  "linhas_por_subconta": {
+    "INT-DIS": 512150,
+    "INT-SOF": 5950,
+    "INT-SGT": 2000,
+    "INT-EOL": 42,
+    "INT-GSF": 9,
+    "INT-UBP": 6,
+    "INT-BON": 3,
+    "INT-CNB": 2,
+    "INT-UBE": 2,
+    "INT-AUO": 1
+  }
+}

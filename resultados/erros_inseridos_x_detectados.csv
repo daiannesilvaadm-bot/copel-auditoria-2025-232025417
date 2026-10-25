@@ -1,0 +1,581 @@
+id_registro,flag_dado_sintetico,codigo_erro,natureza,afirmacao_afetada,valor_liquido_contabil,valor_liquido_correto,distorcao_inserida,detectado_por,detectado
+SINT-0001445,SIM,E01,Registro duplicado (cópia do índice 261304),Existência / Ocorrência,548.7,0.0,548.7,T03_duplicidade,True
+SINT-0001667,SIM,E01,Registro duplicado (cópia do índice 431005),Existência / Ocorrência,128700.4,0.0,128700.4,T03_duplicidade,True
+SINT-0001960,SIM,E01,Registro duplicado (cópia do índice 67865),Existência / Ocorrência,450.29,0.0,450.29,T03_duplicidade,True
+SINT-0007241,SIM,E01,Registro duplicado (cópia do índice 337484),Existência / Ocorrência,2349.73,0.0,2349.73,T03_duplicidade,True
+SINT-0011478,SIM,E01,Registro duplicado (cópia do índice 398954),Existência / Ocorrência,31596.2,0.0,31596.2,T03_duplicidade,True
+SINT-0014366,SIM,E01,Registro duplicado (cópia do índice 178604),Existência / Ocorrência,324.05,0.0,324.05,T03_duplicidade,True
+SINT-0027040,SIM,E01,Registro duplicado (cópia do índice 461310),Existência / Ocorrência,13913.95,0.0,13913.95,T03_duplicidade,True
+SINT-0048370,SIM,E01,Registro duplicado (cópia do índice 272390),Existência / Ocorrência,845.17,0.0,845.17,T03_duplicidade,True
+SINT-0048802,SIM,E01,Registro duplicado (cópia do índice 141878),Existência / Ocorrência,532.78,0.0,532.78,T03_duplicidade,True
+SINT-0055092,SIM,E01,Registro duplicado (cópia do índice 392740),Existência / Ocorrência,63127.15,0.0,63127.15,T03_duplicidade,True
+SINT-0055725,SIM,E01,Registro duplicado (cópia do índice 214379),Existência / Ocorrência,772.6,0.0,772.6,T03_duplicidade,True
+SINT-0064543,SIM,E01,Registro duplicado (cópia do índice 483445),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0064925,SIM,E01,Registro duplicado (cópia do índice 265889),Existência / Ocorrência,801.65,0.0,801.65,T03_duplicidade,True
+SINT-0068395,SIM,E01,Registro duplicado (cópia do índice 496991),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0079433,SIM,E01,Registro duplicado (cópia do índice 498057),Existência / Ocorrência,494.28,0.0,494.28,T03_duplicidade,True
+SINT-0084408,SIM,E01,Registro duplicado (cópia do índice 494965),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0091579,SIM,E01,Registro duplicado (cópia do índice 83020),Existência / Ocorrência,240.47,0.0,240.47,T03_duplicidade,True
+SINT-0091856,SIM,E01,Registro duplicado (cópia do índice 36562),Existência / Ocorrência,215.58,0.0,215.58,T03_duplicidade,True
+SINT-0094616,SIM,E01,Registro duplicado (cópia do índice 381037),Existência / Ocorrência,4939.67,0.0,4939.67,T03_duplicidade,True
+SINT-0099514,SIM,E01,Registro duplicado (cópia do índice 383186),Existência / Ocorrência,5801.79,0.0,5801.79,T03_duplicidade,True
+SINT-0099871,SIM,E01,Registro duplicado (cópia do índice 256714),Existência / Ocorrência,969.88,0.0,969.88,T03_duplicidade,True
+SINT-0101170,SIM,E01,Registro duplicado (cópia do índice 186213),Existência / Ocorrência,249.41,0.0,249.41,T03_duplicidade,True
+SINT-0102283,SIM,E01,Registro duplicado (cópia do índice 174248),Existência / Ocorrência,379.29,0.0,379.29,T03_duplicidade,True
+SINT-0103865,SIM,E01,Registro duplicado (cópia do índice 183312),Existência / Ocorrência,405.23,0.0,405.23,T03_duplicidade,True
+SINT-0108014,SIM,E01,Registro duplicado (cópia do índice 431201),Existência / Ocorrência,33413.92,0.0,33413.92,T03_duplicidade,True
+SINT-0111547,SIM,E01,Registro duplicado (cópia do índice 367434),Existência / Ocorrência,5791.71,0.0,5791.71,T03_duplicidade,True
+SINT-0112506,SIM,E01,Registro duplicado (cópia do índice 94551),Existência / Ocorrência,216.25,0.0,216.25,T03_duplicidade,True
+SINT-0115033,SIM,E01,Registro duplicado (cópia do índice 187207),Existência / Ocorrência,490.47,0.0,490.47,T03_duplicidade,True
+SINT-0116487,SIM,E01,Registro duplicado (cópia do índice 155919),Existência / Ocorrência,474.43,0.0,474.43,T03_duplicidade,True
+SINT-0120346,SIM,E01,Registro duplicado (cópia do índice 82502),Existência / Ocorrência,282.2,0.0,282.2,T03_duplicidade,True
+SINT-0120724,SIM,E01,Registro duplicado (cópia do índice 46494),Existência / Ocorrência,235.01,0.0,235.01,T03_duplicidade,True
+SINT-0121906,SIM,E01,Registro duplicado (cópia do índice 237126),Existência / Ocorrência,871.66,0.0,871.66,T03_duplicidade,True
+SINT-0124409,SIM,E01,Registro duplicado (cópia do índice 233615),Existência / Ocorrência,378.52,0.0,378.52,T03_duplicidade,True
+SINT-0125170,SIM,E01,Registro duplicado (cópia do índice 218821),Existência / Ocorrência,377.08,0.0,377.08,T03_duplicidade,True
+SINT-0127874,SIM,E01,Registro duplicado (cópia do índice 222979),Existência / Ocorrência,436.89,0.0,436.89,T03_duplicidade,True
+SINT-0129628,SIM,E01,Registro duplicado (cópia do índice 90485),Existência / Ocorrência,305.3,0.0,305.3,T03_duplicidade,True
+SINT-0132294,SIM,E01,Registro duplicado (cópia do índice 47141),Existência / Ocorrência,224.3,0.0,224.3,T03_duplicidade,True
+SINT-0132504,SIM,E01,Registro duplicado (cópia do índice 103423),Existência / Ocorrência,312.68,0.0,312.68,T03_duplicidade,True
+SINT-0140831,SIM,E01,Registro duplicado (cópia do índice 249869),Existência / Ocorrência,1161.63,0.0,1161.63,T03_duplicidade,True
+SINT-0141832,SIM,E01,Registro duplicado (cópia do índice 28246),Existência / Ocorrência,449.13,0.0,449.13,T03_duplicidade,True
+SINT-0142122,SIM,E01,Registro duplicado (cópia do índice 391012),Existência / Ocorrência,57292.23,0.0,57292.23,T03_duplicidade,True
+SINT-0142683,SIM,E01,Registro duplicado (cópia do índice 98890),Existência / Ocorrência,212.67,0.0,212.67,T03_duplicidade,True
+SINT-0153652,SIM,E01,Registro duplicado (cópia do índice 467233),Existência / Ocorrência,22394.32,0.0,22394.32,T03_duplicidade,True
+SINT-0155645,SIM,E01,Registro duplicado (cópia do índice 503207),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0158029,SIM,E01,Registro duplicado (cópia do índice 373189),Existência / Ocorrência,10769.12,0.0,10769.12,T03_duplicidade,True
+SINT-0158337,SIM,E01,Registro duplicado (cópia do índice 71074),Existência / Ocorrência,237.29,0.0,237.29,T03_duplicidade,True
+SINT-0158521,SIM,E01,Registro duplicado (cópia do índice 245084),Existência / Ocorrência,807.45,0.0,807.45,T03_duplicidade,True
+SINT-0161925,SIM,E01,Registro duplicado (cópia do índice 15424),Existência / Ocorrência,318.98,0.0,318.98,T03_duplicidade,True
+SINT-0164490,SIM,E01,Registro duplicado (cópia do índice 160821),Existência / Ocorrência,299.92,0.0,299.92,T03_duplicidade,True
+SINT-0166540,SIM,E01,Registro duplicado (cópia do índice 30863),Existência / Ocorrência,246.44,0.0,246.44,T03_duplicidade,True
+SINT-0169385,SIM,E01,Registro duplicado (cópia do índice 506968),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0177371,SIM,E01,Registro duplicado (cópia do índice 183327),Existência / Ocorrência,411.38,0.0,411.38,T03_duplicidade,True
+SINT-0180662,SIM,E01,Registro duplicado (cópia do índice 456467),Existência / Ocorrência,6177.33,0.0,6177.33,T03_duplicidade,True
+SINT-0183956,SIM,E01,Registro duplicado (cópia do índice 310576),Existência / Ocorrência,606.16,0.0,606.16,T03_duplicidade,True
+SINT-0184833,SIM,E01,Registro duplicado (cópia do índice 62916),Existência / Ocorrência,235.09,0.0,235.09,T03_duplicidade,True
+SINT-0189258,SIM,E01,Registro duplicado (cópia do índice 401215),Existência / Ocorrência,26178.67,0.0,26178.67,T03_duplicidade,True
+SINT-0190228,SIM,E01,Registro duplicado (cópia do índice 401745),Existência / Ocorrência,32096.4,0.0,32096.4,T03_duplicidade,True
+SINT-0190959,SIM,E01,Registro duplicado (cópia do índice 398460),Existência / Ocorrência,94402.61,0.0,94402.61,T03_duplicidade,True
+SINT-0191511,SIM,E01,Registro duplicado (cópia do índice 255188),Existência / Ocorrência,1082.07,0.0,1082.07,T03_duplicidade,True
+SINT-0194754,SIM,E01,Registro duplicado (cópia do índice 139238),Existência / Ocorrência,251.88,0.0,251.88,T03_duplicidade,True
+SINT-0195750,SIM,E01,Registro duplicado (cópia do índice 142677),Existência / Ocorrência,143.77,0.0,143.77,T03_duplicidade,True
+SINT-0196795,SIM,E01,Registro duplicado (cópia do índice 506144),Existência / Ocorrência,319.4,0.0,319.4,T03_duplicidade,True
+SINT-0198004,SIM,E01,Registro duplicado (cópia do índice 288671),Existência / Ocorrência,567.48,0.0,567.48,T03_duplicidade,True
+SINT-0223801,SIM,E01,Registro duplicado (cópia do índice 168555),Existência / Ocorrência,794.57,0.0,794.57,T03_duplicidade,True
+SINT-0224182,SIM,E01,Registro duplicado (cópia do índice 233147),Existência / Ocorrência,589.16,0.0,589.16,T03_duplicidade,True
+SINT-0229657,SIM,E01,Registro duplicado (cópia do índice 330553),Existência / Ocorrência,5726.6,0.0,5726.6,T03_duplicidade,True
+SINT-0233660,SIM,E01,Registro duplicado (cópia do índice 499756),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0233698,SIM,E01,Registro duplicado (cópia do índice 355298),Existência / Ocorrência,7153.19,0.0,7153.19,T03_duplicidade,True
+SINT-0234241,SIM,E01,Registro duplicado (cópia do índice 4801),Existência / Ocorrência,261.25,0.0,261.25,T03_duplicidade,True
+SINT-0242410,SIM,E01,Registro duplicado (cópia do índice 6779),Existência / Ocorrência,663.35,0.0,663.35,T03_duplicidade,True
+SINT-0246815,SIM,E01,Registro duplicado (cópia do índice 196799),Existência / Ocorrência,341.93,0.0,341.93,T03_duplicidade,True
+SINT-0254942,SIM,E01,Registro duplicado (cópia do índice 452927),Existência / Ocorrência,26004.86,0.0,26004.86,T03_duplicidade,True
+SINT-0258051,SIM,E01,Registro duplicado (cópia do índice 189716),Existência / Ocorrência,473.13,0.0,473.13,T03_duplicidade,True
+SINT-0272907,SIM,E01,Registro duplicado (cópia do índice 310857),Existência / Ocorrência,485.61,0.0,485.61,T03_duplicidade,True
+SINT-0274127,SIM,E01,Registro duplicado (cópia do índice 169133),Existência / Ocorrência,146.75,0.0,146.75,T03_duplicidade,True
+SINT-0276724,SIM,E01,Registro duplicado (cópia do índice 299566),Existência / Ocorrência,945.04,0.0,945.04,T03_duplicidade,True
+SINT-0280383,SIM,E01,Registro duplicado (cópia do índice 449555),Existência / Ocorrência,10260.11,0.0,10260.11,T03_duplicidade,True
+SINT-0287182,SIM,E01,Registro duplicado (cópia do índice 456867),Existência / Ocorrência,15217.1,0.0,15217.1,T03_duplicidade,True
+SINT-0287894,SIM,E01,Registro duplicado (cópia do índice 319450),Existência / Ocorrência,576.86,0.0,576.86,T03_duplicidade,True
+SINT-0289579,SIM,E01,Registro duplicado (cópia do índice 457687),Existência / Ocorrência,31336.59,0.0,31336.59,T03_duplicidade,True
+SINT-0297750,SIM,E01,Registro duplicado (cópia do índice 233072),Existência / Ocorrência,828.94,0.0,828.94,T03_duplicidade,True
+SINT-0298982,SIM,E01,Registro duplicado (cópia do índice 346616),Existência / Ocorrência,10856.4,0.0,10856.4,T03_duplicidade,True
+SINT-0299895,SIM,E01,Registro duplicado (cópia do índice 460774),Existência / Ocorrência,41929.69,0.0,41929.69,T03_duplicidade,True
+SINT-0301035,SIM,E01,Registro duplicado (cópia do índice 235699),Existência / Ocorrência,472.42,0.0,472.42,T03_duplicidade,True
+SINT-0302867,SIM,E01,Registro duplicado (cópia do índice 305969),Existência / Ocorrência,790.04,0.0,790.04,T03_duplicidade,True
+SINT-0303877,SIM,E01,Registro duplicado (cópia do índice 451977),Existência / Ocorrência,32465.29,0.0,32465.29,T03_duplicidade,True
+SINT-0305802,SIM,E01,Registro duplicado (cópia do índice 119955),Existência / Ocorrência,234.2,0.0,234.2,T03_duplicidade,True
+SINT-0313196,SIM,E01,Registro duplicado (cópia do índice 79814),Existência / Ocorrência,329.28,0.0,329.28,T03_duplicidade,True
+SINT-0318541,SIM,E01,Registro duplicado (cópia do índice 341760),Existência / Ocorrência,5739.55,0.0,5739.55,T03_duplicidade,True
+SINT-0322388,SIM,E01,Registro duplicado (cópia do índice 349607),Existência / Ocorrência,1938.47,0.0,1938.47,T03_duplicidade,True
+SINT-0330358,SIM,E01,Registro duplicado (cópia do índice 83159),Existência / Ocorrência,217.84,0.0,217.84,T03_duplicidade,True
+SINT-0330920,SIM,E01,Registro duplicado (cópia do índice 340304),Existência / Ocorrência,3472.61,0.0,3472.61,T03_duplicidade,True
+SINT-0333422,SIM,E01,Registro duplicado (cópia do índice 269297),Existência / Ocorrência,727.56,0.0,727.56,T03_duplicidade,True
+SINT-0333882,SIM,E01,Registro duplicado (cópia do índice 20557),Existência / Ocorrência,262.93,0.0,262.93,T03_duplicidade,True
+SINT-0333986,SIM,E01,Registro duplicado (cópia do índice 426412),Existência / Ocorrência,30026.29,0.0,30026.29,T03_duplicidade,True
+SINT-0334999,SIM,E01,Registro duplicado (cópia do índice 280879),Existência / Ocorrência,664.19,0.0,664.19,T03_duplicidade,True
+SINT-0335666,SIM,E01,Registro duplicado (cópia do índice 248939),Existência / Ocorrência,569.6,0.0,569.6,T03_duplicidade,True
+SINT-0340184,SIM,E01,Registro duplicado (cópia do índice 23391),Existência / Ocorrência,440.76,0.0,440.76,T03_duplicidade,True
+SINT-0340284,SIM,E01,Registro duplicado (cópia do índice 2244),Existência / Ocorrência,302.48,0.0,302.48,T03_duplicidade,True
+SINT-0345743,SIM,E01,Registro duplicado (cópia do índice 428352),Existência / Ocorrência,33443.0,0.0,33443.0,T03_duplicidade,True
+SINT-0346653,SIM,E01,Registro duplicado (cópia do índice 353548),Existência / Ocorrência,4861.46,0.0,4861.46,T03_duplicidade,True
+SINT-0355484,SIM,E01,Registro duplicado (cópia do índice 456009),Existência / Ocorrência,11344.48,0.0,11344.48,T03_duplicidade,True
+SINT-0359983,SIM,E01,Registro duplicado (cópia do índice 367349),Existência / Ocorrência,5375.76,0.0,5375.76,T03_duplicidade,True
+SINT-0362656,SIM,E01,Registro duplicado (cópia do índice 260395),Existência / Ocorrência,382.13,0.0,382.13,T03_duplicidade,True
+SINT-0365108,SIM,E01,Registro duplicado (cópia do índice 39770),Existência / Ocorrência,395.71,0.0,395.71,T03_duplicidade,True
+SINT-0366088,SIM,E01,Registro duplicado (cópia do índice 220965),Existência / Ocorrência,953.36,0.0,953.36,T03_duplicidade,True
+SINT-0374151,SIM,E01,Registro duplicado (cópia do índice 470357),Existência / Ocorrência,204503.88,0.0,204503.88,T03_duplicidade,True
+SINT-0375692,SIM,E01,Registro duplicado (cópia do índice 392293),Existência / Ocorrência,31670.14,0.0,31670.14,T03_duplicidade,True
+SINT-0376374,SIM,E01,Registro duplicado (cópia do índice 294614),Existência / Ocorrência,887.45,0.0,887.45,T03_duplicidade,True
+SINT-0384257,SIM,E01,Registro duplicado (cópia do índice 246370),Existência / Ocorrência,481.12,0.0,481.12,T03_duplicidade,True
+SINT-0388197,SIM,E01,Registro duplicado (cópia do índice 258481),Existência / Ocorrência,556.69,0.0,556.69,T03_duplicidade,True
+SINT-0391099,SIM,E01,Registro duplicado (cópia do índice 500570),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0393178,SIM,E01,Registro duplicado (cópia do índice 146198),Existência / Ocorrência,243.37,0.0,243.37,T03_duplicidade,True
+SINT-0398655,SIM,E01,Registro duplicado (cópia do índice 275048),Existência / Ocorrência,1125.03,0.0,1125.03,T03_duplicidade,True
+SINT-0401669,SIM,E01,Registro duplicado (cópia do índice 452333),Existência / Ocorrência,21865.85,0.0,21865.85,T03_duplicidade,True
+SINT-0404202,SIM,E01,Registro duplicado (cópia do índice 444227),Existência / Ocorrência,19463.18,0.0,19463.18,T03_duplicidade,True
+SINT-0404588,SIM,E01,Registro duplicado (cópia do índice 46007),Existência / Ocorrência,397.63,0.0,397.63,T03_duplicidade,True
+SINT-0408234,SIM,E01,Registro duplicado (cópia do índice 31106),Existência / Ocorrência,245.46,0.0,245.46,T03_duplicidade,True
+SINT-0408779,SIM,E01,Registro duplicado (cópia do índice 405504),Existência / Ocorrência,71224.12,0.0,71224.12,T03_duplicidade,True
+SINT-0410064,SIM,E01,Registro duplicado (cópia do índice 321875),Existência / Ocorrência,9165.78,0.0,9165.78,T03_duplicidade,True
+SINT-0414545,SIM,E01,Registro duplicado (cópia do índice 483216),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0415572,SIM,E01,Registro duplicado (cópia do índice 243988),Existência / Ocorrência,549.49,0.0,549.49,T03_duplicidade,True
+SINT-0423397,SIM,E01,Registro duplicado (cópia do índice 73261),Existência / Ocorrência,198.3,0.0,198.3,T03_duplicidade,True
+SINT-0424625,SIM,E01,Registro duplicado (cópia do índice 319394),Existência / Ocorrência,1724.58,0.0,1724.58,T03_duplicidade,True
+SINT-0429634,SIM,E01,Registro duplicado (cópia do índice 252513),Existência / Ocorrência,416.31,0.0,416.31,T03_duplicidade,True
+SINT-0438155,SIM,E01,Registro duplicado (cópia do índice 322515),Existência / Ocorrência,7922.68,0.0,7922.68,T03_duplicidade,True
+SINT-0438487,SIM,E01,Registro duplicado (cópia do índice 487659),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0441406,SIM,E01,Registro duplicado (cópia do índice 152769),Existência / Ocorrência,207.81,0.0,207.81,T03_duplicidade,True
+SINT-0448017,SIM,E01,Registro duplicado (cópia do índice 137278),Existência / Ocorrência,307.84,0.0,307.84,T03_duplicidade,True
+SINT-0448020,SIM,E01,Registro duplicado (cópia do índice 110766),Existência / Ocorrência,257.22,0.0,257.22,T03_duplicidade,True
+SINT-0458398,SIM,E01,Registro duplicado (cópia do índice 82327),Existência / Ocorrência,239.55,0.0,239.55,T03_duplicidade,True
+SINT-0461560,SIM,E01,Registro duplicado (cópia do índice 452346),Existência / Ocorrência,9661.26,0.0,9661.26,T03_duplicidade,True
+SINT-0475662,SIM,E01,Registro duplicado (cópia do índice 315424),Existência / Ocorrência,413.88,0.0,413.88,T03_duplicidade,True
+SINT-0482574,SIM,E01,Registro duplicado (cópia do índice 482013),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0485595,SIM,E01,Registro duplicado (cópia do índice 2310),Existência / Ocorrência,152.05,0.0,152.05,T03_duplicidade,True
+SINT-0486091,SIM,E01,Registro duplicado (cópia do índice 284437),Existência / Ocorrência,395.18,0.0,395.18,T03_duplicidade,True
+SINT-0488754,SIM,E01,Registro duplicado (cópia do índice 410414),Existência / Ocorrência,34643.77,0.0,34643.77,T03_duplicidade,True
+SINT-0489768,SIM,E01,Registro duplicado (cópia do índice 96473),Existência / Ocorrência,287.52,0.0,287.52,T03_duplicidade,True
+SINT-0492798,SIM,E01,Registro duplicado (cópia do índice 460977),Existência / Ocorrência,21686.34,0.0,21686.34,T03_duplicidade,True
+SINT-0494332,SIM,E01,Registro duplicado (cópia do índice 203271),Existência / Ocorrência,668.64,0.0,668.64,T03_duplicidade,True
+SINT-0495862,SIM,E01,Registro duplicado (cópia do índice 359293),Existência / Ocorrência,10396.21,0.0,10396.21,T03_duplicidade,True
+SINT-0504515,SIM,E01,Registro duplicado (cópia do índice 371642),Existência / Ocorrência,11648.03,0.0,11648.03,T03_duplicidade,True
+SINT-0504855,SIM,E01,Registro duplicado (cópia do índice 3726),Existência / Ocorrência,428.85,0.0,428.85,T03_duplicidade,True
+SINT-0506280,SIM,E01,Registro duplicado (cópia do índice 511149),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0507558,SIM,E01,Registro duplicado (cópia do índice 185606),Existência / Ocorrência,282.13,0.0,282.13,T03_duplicidade,True
+SINT-0512511,SIM,E01,Registro duplicado (cópia do índice 436967),Existência / Ocorrência,96871.99,0.0,96871.99,T03_duplicidade,True
+SINT-0512775,SIM,E01,Registro duplicado (cópia do índice 432432),Existência / Ocorrência,56499.24,0.0,56499.24,T03_duplicidade,True
+SINT-0514541,SIM,E01,Registro duplicado (cópia do índice 207104),Existência / Ocorrência,480.88,0.0,480.88,T03_duplicidade,True
+SINT-0517551,SIM,E01,Registro duplicado (cópia do índice 493193),Existência / Ocorrência,0.0,0.0,0.0,T03_duplicidade,True
+SINT-0517661,SIM,E01,Registro duplicado (cópia do índice 272248),Existência / Ocorrência,946.39,0.0,946.39,T03_duplicidade,True
+SINT-0015831,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-41.37,264.3,-305.67,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0034199,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-275.02,1093.16,-1368.18,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0039174,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-73.63,200.41,-274.04,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0056962,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-2860.83,3100.74,-5961.57,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0065585,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-318.73,412.21,-730.94,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0067295,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-315.81,681.89,-997.7,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0068444,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-49.82,324.86,-374.68,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0086479,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-550.45,0.0,-550.45,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0122970,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-2725.39,8337.03,-11062.42,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0133099,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-249.54,1551.35,-1800.89,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0147145,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-77.95,460.01,-537.96,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0148330,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-111.91,369.31,-481.22,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0149833,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-90.18,445.51,-535.69,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0177641,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-212.32,752.79,-965.11,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0192595,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-2907.07,18283.63,-21190.7,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0193181,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-16849.51,57170.93,-74020.44,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0194240,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-19657.73,60118.72,-79776.45,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0211017,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-3632.66,11938.31,-15570.97,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0221105,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-266.38,411.07,-677.45,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0245522,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-96.49,333.02,-429.51,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0248688,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-1371.69,5459.79,-6831.48,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0252342,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-101.56,434.12,-535.68,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0254412,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-14029.29,39114.39,-53143.68,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0284141,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-185.5,811.16,-996.66,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0291466,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-17188.56,44958.07,-62146.63,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0308550,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-625.77,0.0,-625.77,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0311037,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-774.07,1380.15,-2154.22,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0318992,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-72.82,296.85,-369.67,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0322712,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-114.99,360.06,-475.05,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0347770,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-1455.92,5860.71,-7316.63,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0367806,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-1509.16,7029.8,-8538.96,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0382701,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-78.57,287.25,-365.82,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0385063,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-38.4,298.76,-337.16,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0393764,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-226.32,939.3,-1165.62,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0401018,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-168.11,882.5,-1050.61,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0413018,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-8417.87,18076.48,-26494.35,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0475284,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-920.61,3255.85,-4176.46,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0476527,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-184.98,872.03,-1057.01,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0494578,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-90.2,388.27,-478.47,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0499338,SIM,E02,Amortização acumulada superior ao custo (valor líquido negativo),Valorização,-116.49,386.13,-502.62,T02_liquido_negativo;T05_amortizacao_recalculada,True
+SINT-0001872,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,35494.8,0.0,35494.8,T04_corte,True
+SINT-0019931,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,63986.18,0.0,63986.18,T04_corte,True
+SINT-0026306,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,331.87,0.0,331.87,T04_corte,True
+SINT-0038785,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,786.03,0.0,786.03,T04_corte,True
+SINT-0039469,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,277.17,0.0,277.17,T04_corte,True
+SINT-0056922,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,111507.92,0.0,111507.92,T04_corte,True
+SINT-0057652,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,8083.0,0.0,8083.0,T04_corte,True
+SINT-0067163,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,6652.44,0.0,6652.44,T04_corte,True
+SINT-0067282,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,382.04,0.0,382.04,T04_corte,True
+SINT-0067415,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1223.75,0.0,1223.75,T04_corte,True
+SINT-0068885,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,443.65,0.0,443.65,T04_corte,True
+SINT-0078652,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,10753.53,0.0,10753.53,T04_corte,True
+SINT-0105220,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,7456.65,0.0,7456.65,T04_corte,True
+SINT-0105556,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,15778.49,0.0,15778.49,T04_corte,True
+SINT-0156013,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,594.59,0.0,594.59,T04_corte,True
+SINT-0158913,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,4980.24,0.0,4980.24,T04_corte,True
+SINT-0167762,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1433.37,0.0,1433.37,T04_corte,True
+SINT-0167880,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1550.16,0.0,1550.16,T04_corte,True
+SINT-0171644,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,890.86,0.0,890.86,T04_corte,True
+SINT-0186096,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,6455.87,0.0,6455.87,T04_corte,True
+SINT-0197134,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,392.9,0.0,392.9,T04_corte,True
+SINT-0214321,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,653.48,0.0,653.48,T04_corte,True
+SINT-0234209,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,534.59,0.0,534.59,T04_corte,True
+SINT-0236757,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,273.52,0.0,273.52,T04_corte,True
+SINT-0239156,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,981.77,0.0,981.77,T04_corte,True
+SINT-0240012,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,527.96,0.0,527.96,T04_corte,True
+SINT-0241503,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,56310.82,0.0,56310.82,T04_corte,True
+SINT-0247274,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,21142.55,0.0,21142.55,T04_corte,True
+SINT-0267618,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,514.02,0.0,514.02,T04_corte,True
+SINT-0271317,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,244.32,0.0,244.32,T04_corte,True
+SINT-0275706,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,403.43,0.0,403.43,T04_corte,True
+SINT-0277824,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1114.81,0.0,1114.81,T04_corte,True
+SINT-0278473,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,65476.4,0.0,65476.4,T04_corte,True
+SINT-0282153,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1136.73,0.0,1136.73,T04_corte,True
+SINT-0284494,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,327.9,0.0,327.9,T04_corte,True
+SINT-0302637,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,377.15,0.0,377.15,T04_corte,True
+SINT-0304058,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,390.57,0.0,390.57,T04_corte,True
+SINT-0348032,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,301.88,0.0,301.88,T04_corte,True
+SINT-0355630,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,361.15,0.0,361.15,T04_corte,True
+SINT-0357909,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,45285.48,0.0,45285.48,T04_corte,True
+SINT-0360696,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,516.25,0.0,516.25,T04_corte,True
+SINT-0401521,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,3152.51,0.0,3152.51,T04_corte,True
+SINT-0426666,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,16242.93,0.0,16242.93,T04_corte,True
+SINT-0440112,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1105.39,0.0,1105.39,T04_corte,True
+SINT-0444636,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,17349.16,0.0,17349.16,T04_corte,True
+SINT-0455060,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,325.22,0.0,325.22,T04_corte,True
+SINT-0458563,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,835.91,0.0,835.91,T04_corte,True
+SINT-0464406,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,776.97,0.0,776.97,T04_corte,True
+SINT-0464790,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,2512.94,0.0,2512.94,T04_corte,True
+SINT-0473789,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1440.22,0.0,1440.22,T04_corte,True
+SINT-0474269,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1107.53,0.0,1107.53,T04_corte,True
+SINT-0477530,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1184.28,0.0,1184.28,T04_corte,True
+SINT-0490196,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,402.91,0.0,402.91,T04_corte,True
+SINT-0492113,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,175446.99,0.0,175446.99,T04_corte,True
+SINT-0493821,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,522.18,0.0,522.18,T04_corte,True
+SINT-0494967,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,525033.98,0.0,525033.98,T04_corte,True
+SINT-0495351,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,1716.82,0.0,1716.82,T04_corte,True
+SINT-0505228,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,12180.18,0.0,12180.18,T04_corte,True
+SINT-0511390,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,447.01,0.0,447.01,T04_corte,True
+SINT-0511999,SIM,E03,Bem capitalizado com data posterior a 31/12/2025 (corte),Existência / Corte,983.44,0.0,983.44,T04_corte,True
+SINT-0002931,SIM,E04,Bem em serviço sem amortização registrada,Valorização,919.08,390.15,528.93,T05_amortizacao_recalculada,True
+SINT-0005867,SIM,E04,Bem em serviço sem amortização registrada,Valorização,9717.86,7455.28,2262.58,T05_amortizacao_recalculada,True
+SINT-0011431,SIM,E04,Bem em serviço sem amortização registrada,Valorização,413.79,296.27,117.52,T05_amortizacao_recalculada,True
+SINT-0030842,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1747.28,0.0,1747.28,T05_amortizacao_recalculada,True
+SINT-0041648,SIM,E04,Bem em serviço sem amortização registrada,Valorização,363.21,287.58,75.63,T05_amortizacao_recalculada,True
+SINT-0047637,SIM,E04,Bem em serviço sem amortização registrada,Valorização,361.8,193.15,168.65,T05_amortizacao_recalculada,True
+SINT-0056937,SIM,E04,Bem em serviço sem amortização registrada,Valorização,2166.89,1532.3,634.59,T05_amortizacao_recalculada,True
+SINT-0061563,SIM,E04,Bem em serviço sem amortização registrada,Valorização,258.83,140.96,117.87,T05_amortizacao_recalculada,True
+SINT-0061769,SIM,E04,Bem em serviço sem amortização registrada,Valorização,6772.12,3314.58,3457.54,T05_amortizacao_recalculada,True
+SINT-0068247,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1437.99,646.41,791.58,T05_amortizacao_recalculada,True
+SINT-0071127,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1043.25,486.3,556.95,T05_amortizacao_recalculada,True
+SINT-0071432,SIM,E04,Bem em serviço sem amortização registrada,Valorização,270.76,143.24,127.52,T05_amortizacao_recalculada,True
+SINT-0077497,SIM,E04,Bem em serviço sem amortização registrada,Valorização,506.18,302.63,203.55,T05_amortizacao_recalculada,True
+SINT-0079729,SIM,E04,Bem em serviço sem amortização registrada,Valorização,21666.4,16801.32,4865.08,T05_amortizacao_recalculada,True
+SINT-0085123,SIM,E04,Bem em serviço sem amortização registrada,Valorização,5220.78,0.0,5220.78,T05_amortizacao_recalculada,True
+SINT-0101082,SIM,E04,Bem em serviço sem amortização registrada,Valorização,305.87,219.51,86.36,T05_amortizacao_recalculada,True
+SINT-0114521,SIM,E04,Bem em serviço sem amortização registrada,Valorização,372.97,188.44,184.53,T05_amortizacao_recalculada,True
+SINT-0117788,SIM,E04,Bem em serviço sem amortização registrada,Valorização,10067.89,3563.8,6504.09,T05_amortizacao_recalculada,True
+SINT-0130841,SIM,E04,Bem em serviço sem amortização registrada,Valorização,38120.65,26665.74,11454.91,T05_amortizacao_recalculada,True
+SINT-0143769,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1072.96,665.43,407.53,T05_amortizacao_recalculada,True
+SINT-0144314,SIM,E04,Bem em serviço sem amortização registrada,Valorização,6973.68,0.0,6973.68,T05_amortizacao_recalculada,True
+SINT-0152108,SIM,E04,Bem em serviço sem amortização registrada,Valorização,862.49,398.84,463.65,T05_amortizacao_recalculada,True
+SINT-0153579,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1607.47,1243.55,363.92,T05_amortizacao_recalculada,True
+SINT-0156070,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1057.84,802.41,255.43,T05_amortizacao_recalculada,True
+SINT-0178783,SIM,E04,Bem em serviço sem amortização registrada,Valorização,460.35,224.25,236.1,T05_amortizacao_recalculada,True
+SINT-0181968,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1381.43,1147.52,233.91,T05_amortizacao_recalculada,True
+SINT-0185824,SIM,E04,Bem em serviço sem amortização registrada,Valorização,564.34,348.93,215.41,T05_amortizacao_recalculada,True
+SINT-0190639,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1938.51,1702.52,235.99,T05_amortizacao_recalculada,True
+SINT-0192655,SIM,E04,Bem em serviço sem amortização registrada,Valorização,2236.65,0.0,2236.65,T05_amortizacao_recalculada,True
+SINT-0196506,SIM,E04,Bem em serviço sem amortização registrada,Valorização,383.33,193.27,190.06,T05_amortizacao_recalculada,True
+SINT-0200670,SIM,E04,Bem em serviço sem amortização registrada,Valorização,676.28,447.18,229.1,T05_amortizacao_recalculada,True
+SINT-0201531,SIM,E04,Bem em serviço sem amortização registrada,Valorização,724.83,551.99,172.84,T05_amortizacao_recalculada,True
+SINT-0203173,SIM,E04,Bem em serviço sem amortização registrada,Valorização,472.1,359.09,113.01,T05_amortizacao_recalculada,True
+SINT-0204152,SIM,E04,Bem em serviço sem amortização registrada,Valorização,9478.26,5265.01,4213.25,T05_amortizacao_recalculada,True
+SINT-0206319,SIM,E04,Bem em serviço sem amortização registrada,Valorização,3531.26,385.43,3145.83,T05_amortizacao_recalculada,True
+SINT-0207595,SIM,E04,Bem em serviço sem amortização registrada,Valorização,843.72,553.77,289.95,T05_amortizacao_recalculada,True
+SINT-0228182,SIM,E04,Bem em serviço sem amortização registrada,Valorização,438.13,203.37,234.76,T05_amortizacao_recalculada,True
+SINT-0232411,SIM,E04,Bem em serviço sem amortização registrada,Valorização,80003.94,57038.41,22965.53,T05_amortizacao_recalculada,True
+SINT-0234151,SIM,E04,Bem em serviço sem amortização registrada,Valorização,24654.83,21563.14,3091.69,T05_amortizacao_recalculada,True
+SINT-0244075,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1123.6,519.91,603.69,T05_amortizacao_recalculada,True
+SINT-0246940,SIM,E04,Bem em serviço sem amortização registrada,Valorização,57546.03,44849.06,12696.97,T05_amortizacao_recalculada,True
+SINT-0257612,SIM,E04,Bem em serviço sem amortização registrada,Valorização,10291.7,3843.64,6448.06,T05_amortizacao_recalculada,True
+SINT-0278492,SIM,E04,Bem em serviço sem amortização registrada,Valorização,306.18,154.3,151.88,T05_amortizacao_recalculada,True
+SINT-0290331,SIM,E04,Bem em serviço sem amortização registrada,Valorização,112681.41,1434.55,111246.86,T05_amortizacao_recalculada,True
+SINT-0302373,SIM,E04,Bem em serviço sem amortização registrada,Valorização,47864.84,33277.68,14587.16,T05_amortizacao_recalculada,True
+SINT-0303201,SIM,E04,Bem em serviço sem amortização registrada,Valorização,304.69,155.93,148.76,T05_amortizacao_recalculada,True
+SINT-0303599,SIM,E04,Bem em serviço sem amortização registrada,Valorização,19932.15,8435.52,11496.63,T05_amortizacao_recalculada,True
+SINT-0313979,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1365.03,1001.64,363.39,T05_amortizacao_recalculada,True
+SINT-0317555,SIM,E04,Bem em serviço sem amortização registrada,Valorização,411408.67,313704.53,97704.14,T05_amortizacao_recalculada,True
+SINT-0318449,SIM,E04,Bem em serviço sem amortização registrada,Valorização,4110.23,2801.26,1308.97,T05_amortizacao_recalculada,True
+SINT-0319809,SIM,E04,Bem em serviço sem amortização registrada,Valorização,2150.71,1104.69,1046.02,T05_amortizacao_recalculada,True
+SINT-0332533,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1745.15,1105.67,639.48,T05_amortizacao_recalculada,True
+SINT-0349737,SIM,E04,Bem em serviço sem amortização registrada,Valorização,370.46,251.36,119.1,T05_amortizacao_recalculada,True
+SINT-0361003,SIM,E04,Bem em serviço sem amortização registrada,Valorização,38667.55,30168.86,8498.69,T05_amortizacao_recalculada,True
+SINT-0363938,SIM,E04,Bem em serviço sem amortização registrada,Valorização,328.48,158.49,169.99,T05_amortizacao_recalculada,True
+SINT-0365040,SIM,E04,Bem em serviço sem amortização registrada,Valorização,92174.14,67289.65,24884.49,T05_amortizacao_recalculada,True
+SINT-0368627,SIM,E04,Bem em serviço sem amortização registrada,Valorização,3576.18,1146.43,2429.75,T05_amortizacao_recalculada,True
+SINT-0373317,SIM,E04,Bem em serviço sem amortização registrada,Valorização,350.49,227.85,122.64,T05_amortizacao_recalculada,True
+SINT-0373671,SIM,E04,Bem em serviço sem amortização registrada,Valorização,24724.75,17344.08,7380.67,T05_amortizacao_recalculada,True
+SINT-0379647,SIM,E04,Bem em serviço sem amortização registrada,Valorização,2182.24,1586.44,595.8,T05_amortizacao_recalculada,True
+SINT-0389640,SIM,E04,Bem em serviço sem amortização registrada,Valorização,539.89,297.89,242.0,T05_amortizacao_recalculada,True
+SINT-0394346,SIM,E04,Bem em serviço sem amortização registrada,Valorização,488.27,282.01,206.26,T05_amortizacao_recalculada,True
+SINT-0415004,SIM,E04,Bem em serviço sem amortização registrada,Valorização,345.89,240.22,105.67,T05_amortizacao_recalculada,True
+SINT-0418949,SIM,E04,Bem em serviço sem amortização registrada,Valorização,346.36,177.69,168.67,T05_amortizacao_recalculada,True
+SINT-0433764,SIM,E04,Bem em serviço sem amortização registrada,Valorização,498.63,289.72,208.91,T05_amortizacao_recalculada,True
+SINT-0441458,SIM,E04,Bem em serviço sem amortização registrada,Valorização,5997.48,3450.38,2547.1,T05_amortizacao_recalculada,True
+SINT-0446057,SIM,E04,Bem em serviço sem amortização registrada,Valorização,3391.62,0.0,3391.62,T05_amortizacao_recalculada,True
+SINT-0449594,SIM,E04,Bem em serviço sem amortização registrada,Valorização,303.31,227.19,76.12,T05_amortizacao_recalculada,True
+SINT-0456468,SIM,E04,Bem em serviço sem amortização registrada,Valorização,320.83,212.69,108.14,T05_amortizacao_recalculada,True
+SINT-0472099,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1530.92,1069.0,461.92,T05_amortizacao_recalculada,True
+SINT-0474165,SIM,E04,Bem em serviço sem amortização registrada,Valorização,351.94,163.88,188.06,T05_amortizacao_recalculada,True
+SINT-0483986,SIM,E04,Bem em serviço sem amortização registrada,Valorização,128014.76,107859.13,20155.63,T05_amortizacao_recalculada,True
+SINT-0487883,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1046.68,653.53,393.15,T05_amortizacao_recalculada,True
+SINT-0493932,SIM,E04,Bem em serviço sem amortização registrada,Valorização,744.89,589.04,155.85,T05_amortizacao_recalculada,True
+SINT-0497358,SIM,E04,Bem em serviço sem amortização registrada,Valorização,2005.12,1469.36,535.76,T05_amortizacao_recalculada,True
+SINT-0502999,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1431.43,908.73,522.7,T05_amortizacao_recalculada,True
+SINT-0507085,SIM,E04,Bem em serviço sem amortização registrada,Valorização,1012.24,435.53,576.71,T05_amortizacao_recalculada,True
+SINT-0510446,SIM,E04,Bem em serviço sem amortização registrada,Valorização,774039.15,550522.86,223516.29,T05_amortizacao_recalculada,True
+SINT-0511244,SIM,E04,Bem em serviço sem amortização registrada,Valorização,11761.47,9507.34,2254.13,T05_amortizacao_recalculada,True
+SINT-0513883,SIM,E04,Bem em serviço sem amortização registrada,Valorização,677.74,284.79,392.95,T05_amortizacao_recalculada,True
+SINT-0004717,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,794.39,687.22,107.17,T06_taxa_abaixo_minima,True
+SINT-0012040,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,1056.94,530.01,526.93,T06_taxa_abaixo_minima,True
+SINT-0012164,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,816.45,539.3,277.15,T06_taxa_abaixo_minima,True
+SINT-0016981,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,824.62,442.78,381.84,T06_taxa_abaixo_minima,True
+SINT-0053588,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,1627.48,1384.27,243.21,T06_taxa_abaixo_minima,True
+SINT-0060001,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,545.7,313.83,231.87,T06_taxa_abaixo_minima,True
+SINT-0070502,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,47840.97,43152.81,4688.16,T06_taxa_abaixo_minima,True
+SINT-0074342,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,885.7,415.01,470.69,T06_taxa_abaixo_minima,True
+SINT-0078398,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,28938.96,11678.32,17260.64,T06_taxa_abaixo_minima,True
+SINT-0085236,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,1021.84,842.33,179.51,T06_taxa_abaixo_minima,True
+SINT-0087964,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,508.59,257.31,251.28,T06_taxa_abaixo_minima,True
+SINT-0089907,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,1262.41,622.27,640.14,T06_taxa_abaixo_minima,True
+SINT-0092415,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,321.71,247.19,74.52,T06_taxa_abaixo_minima,True
+SINT-0106071,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,316.67,167.9,148.77,T06_taxa_abaixo_minima,True
+SINT-0112301,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,466.37,251.74,214.63,T06_taxa_abaixo_minima,True
+SINT-0121170,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,150326.35,0.0,150326.35,T06_taxa_abaixo_minima,True
+SINT-0127857,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,47143.23,22514.28,24628.95,T06_taxa_abaixo_minima,True
+SINT-0131492,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,661.82,109.11,552.71,T06_taxa_abaixo_minima,True
+SINT-0131832,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,398.39,267.75,130.64,T06_taxa_abaixo_minima,True
+SINT-0135503,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,225.92,151.19,74.73,T06_taxa_abaixo_minima,True
+SINT-0139122,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,1588.85,788.01,800.84,T06_taxa_abaixo_minima,True
+SINT-0141667,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,7617.49,6630.59,986.9,T06_taxa_abaixo_minima,True
+SINT-0144401,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,1298.79,855.82,442.97,T06_taxa_abaixo_minima,True
+SINT-0151289,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,24383.89,12457.0,11926.89,T06_taxa_abaixo_minima,True
+SINT-0155148,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,669.95,495.09,174.86,T06_taxa_abaixo_minima,True
+SINT-0169363,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,308.93,224.43,84.5,T06_taxa_abaixo_minima,True
+SINT-0171849,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,500.76,319.65,181.11,T06_taxa_abaixo_minima,True
+SINT-0173302,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,3890.56,0.0,3890.56,T06_taxa_abaixo_minima,True
+SINT-0179788,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,2074.41,0.0,2074.41,T06_taxa_abaixo_minima,True
+SINT-0199201,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,1215.64,1005.41,210.23,T06_taxa_abaixo_minima,True
+SINT-0208658,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,337077.44,247000.95,90076.49,T06_taxa_abaixo_minima,True
+SINT-0221733,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,873.17,563.88,309.29,T06_taxa_abaixo_minima,True
+SINT-0222118,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,684.85,348.17,336.68,T06_taxa_abaixo_minima,True
+SINT-0234979,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,358.55,177.5,181.05,T06_taxa_abaixo_minima,True
+SINT-0245715,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,305.62,189.63,115.99,T06_taxa_abaixo_minima,True
+SINT-0255113,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,4027.69,2908.44,1119.25,T06_taxa_abaixo_minima,True
+SINT-0257115,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,512.08,408.0,104.08,T06_taxa_abaixo_minima,True
+SINT-0267610,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,7309.16,3530.74,3778.42,T06_taxa_abaixo_minima,True
+SINT-0286792,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,14727.17,8094.28,6632.89,T06_taxa_abaixo_minima,True
+SINT-0302301,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,508.41,410.54,97.87,T06_taxa_abaixo_minima,True
+SINT-0309221,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,307.2,194.44,112.76,T06_taxa_abaixo_minima,True
+SINT-0310202,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,50448.82,27111.14,23337.68,T06_taxa_abaixo_minima,True
+SINT-0323510,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,307.33,195.86,111.47,T06_taxa_abaixo_minima,True
+SINT-0330204,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,4098.54,1921.43,2177.11,T06_taxa_abaixo_minima,True
+SINT-0330613,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,3635.28,621.21,3014.07,T06_taxa_abaixo_minima,True
+SINT-0337192,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,370.51,282.99,87.52,T06_taxa_abaixo_minima,True
+SINT-0337910,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,1231.93,655.67,576.26,T06_taxa_abaixo_minima,True
+SINT-0342650,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,4104.94,2897.07,1207.87,T06_taxa_abaixo_minima,True
+SINT-0347025,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,250.86,136.99,113.87,T06_taxa_abaixo_minima,True
+SINT-0351989,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,50042.99,43756.56,6286.43,T06_taxa_abaixo_minima,True
+SINT-0364528,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,7764.93,4003.23,3761.7,T06_taxa_abaixo_minima,True
+SINT-0366637,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,461.05,382.44,78.61,T06_taxa_abaixo_minima,True
+SINT-0370839,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,12950.84,4807.89,8142.95,T06_taxa_abaixo_minima,True
+SINT-0377338,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,654.77,572.79,81.98,T06_taxa_abaixo_minima,True
+SINT-0383421,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,2298.28,959.34,1338.94,T06_taxa_abaixo_minima,True
+SINT-0384799,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,773.97,413.21,360.76,T06_taxa_abaixo_minima,True
+SINT-0397954,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,468.32,262.61,205.71,T06_taxa_abaixo_minima,True
+SINT-0415466,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,3189.17,0.0,3189.17,T06_taxa_abaixo_minima,True
+SINT-0417864,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,571.51,318.91,252.6,T06_taxa_abaixo_minima,True
+SINT-0425423,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,398.93,325.72,73.21,T06_taxa_abaixo_minima,True
+SINT-0446226,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,920.04,655.1,264.94,T06_taxa_abaixo_minima,True
+SINT-0450442,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,744.98,677.54,67.44,T06_taxa_abaixo_minima,True
+SINT-0468858,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,9166.85,4037.98,5128.87,T06_taxa_abaixo_minima,True
+SINT-0479015,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,22450.4,11883.15,10567.25,T06_taxa_abaixo_minima,True
+SINT-0481137,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,926.65,445.57,481.08,T06_taxa_abaixo_minima,True
+SINT-0482533,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,43007.77,35812.15,7195.62,T06_taxa_abaixo_minima,True
+SINT-0491115,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,446.27,280.7,165.57,T06_taxa_abaixo_minima,True
+SINT-0495810,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,969.96,887.14,82.82,T06_taxa_abaixo_minima,True
+SINT-0496764,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,2083.33,0.0,2083.33,T06_taxa_abaixo_minima,True
+SINT-0502380,SIM,E05,Taxa de amortização inferior à mínima exigida pelo prazo da concessão,Valorização,7759.51,3624.08,4135.43,T06_taxa_abaixo_minima,True
+SINT-0006107,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,0.0,0.0,0.0,T08_campos_em_branco,True
+SINT-0017544,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,216.05,216.05,0.0,T08_campos_em_branco,True
+SINT-0017735,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,56657.08,56657.08,0.0,T08_campos_em_branco,True
+SINT-0027316,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,378.61,378.61,0.0,T08_campos_em_branco,True
+SINT-0028472,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,278.29,278.29,0.0,T08_campos_em_branco,True
+SINT-0029090,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,728.62,728.62,0.0,T08_campos_em_branco,True
+SINT-0036713,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,1631.68,1631.68,0.0,T08_campos_em_branco,True
+SINT-0036815,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,155.53,155.53,0.0,T08_campos_em_branco,True
+SINT-0054569,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,429.37,429.37,0.0,T08_campos_em_branco,True
+SINT-0057011,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,4670.58,4670.58,0.0,T08_campos_em_branco,True
+SINT-0057265,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,2489.01,2489.01,0.0,T08_campos_em_branco,True
+SINT-0057369,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,289.26,289.26,0.0,T08_campos_em_branco,True
+SINT-0079286,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,234.1,234.1,0.0,T08_campos_em_branco,True
+SINT-0080306,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,1263.48,1263.48,0.0,T08_campos_em_branco,True
+SINT-0084177,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,340.25,340.25,0.0,T08_campos_em_branco,True
+SINT-0099556,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,22431.33,22431.33,0.0,T08_campos_em_branco,True
+SINT-0100421,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,207.93,207.93,0.0,T08_campos_em_branco,True
+SINT-0115252,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,11245.03,11245.03,0.0,T08_campos_em_branco,True
+SINT-0124965,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,307.78,307.78,0.0,T08_campos_em_branco,True
+SINT-0129605,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,426.64,426.64,0.0,T08_campos_em_branco,True
+SINT-0131002,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,206.85,206.85,0.0,T08_campos_em_branco,True
+SINT-0134763,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,274.81,274.81,0.0,T08_campos_em_branco,True
+SINT-0150976,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,65216.97,65216.97,0.0,T08_campos_em_branco,True
+SINT-0155727,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,412.14,412.14,0.0,T08_campos_em_branco,True
+SINT-0163503,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,272.83,272.83,0.0,T08_campos_em_branco,True
+SINT-0177246,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,1731.76,1731.76,0.0,T08_campos_em_branco,True
+SINT-0203106,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,247.49,247.49,0.0,T08_campos_em_branco,True
+SINT-0216754,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,259.88,259.88,0.0,T08_campos_em_branco,True
+SINT-0218276,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,973357.75,973357.75,0.0,T08_campos_em_branco,True
+SINT-0228315,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,27072.67,27072.67,0.0,T08_campos_em_branco,True
+SINT-0228408,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,574.43,574.43,0.0,T08_campos_em_branco,True
+SINT-0232364,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,139.88,139.88,0.0,T08_campos_em_branco,True
+SINT-0233402,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,6123.52,6123.52,0.0,T08_campos_em_branco,True
+SINT-0261045,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,746.16,746.16,0.0,T08_campos_em_branco,True
+SINT-0272071,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,3596.19,3596.19,0.0,T08_campos_em_branco,True
+SINT-0272603,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,20113.97,20113.97,0.0,T08_campos_em_branco,True
+SINT-0275470,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,29705.61,29705.61,0.0,T08_campos_em_branco,True
+SINT-0288781,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,0.0,0.0,0.0,T08_campos_em_branco,True
+SINT-0296253,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,372208.02,372208.02,0.0,T08_campos_em_branco,True
+SINT-0355235,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,164.35,164.35,0.0,T08_campos_em_branco,True
+SINT-0367269,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,2684.41,2684.41,0.0,T08_campos_em_branco,True
+SINT-0418414,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,177.19,177.19,0.0,T08_campos_em_branco,True
+SINT-0419910,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,1953.83,1953.83,0.0,T08_campos_em_branco,True
+SINT-0432726,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,247.59,247.59,0.0,T08_campos_em_branco,True
+SINT-0438168,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,2716.3,2716.3,0.0,T08_campos_em_branco,True
+SINT-0445003,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,138062.75,138062.75,0.0,T08_campos_em_branco,True
+SINT-0475897,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,423.05,423.05,0.0,T08_campos_em_branco,True
+SINT-0479742,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,14201.05,14201.05,0.0,T08_campos_em_branco,True
+SINT-0490991,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,2494.36,2494.36,0.0,T08_campos_em_branco,True
+SINT-0501789,SIM,E06,Campos obrigatórios (ODI e contrato) em branco,Direitos e obrigações / documentação,242.46,242.46,0.0,T08_campos_em_branco,True
+SINT-0014834,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),993707.57,0.0,993707.57,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0015458,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),993576.06,0.0,993576.06,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0059249,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),997755.6,0.0,997755.6,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0087880,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),997123.62,0.0,997123.62,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0091889,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),993790.57,0.0,993790.57,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0092712,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),991856.29,0.0,991856.29,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0094317,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),995456.28,0.0,995456.28,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0114203,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),995519.16,0.0,995519.16,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0122851,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),991323.39,0.0,991323.39,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0130733,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),991626.94,0.0,991626.94,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0141493,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),990440.81,0.0,990440.81,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0144033,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),990183.89,0.0,990183.89,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0147683,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),994338.3,0.0,994338.3,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0162359,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),994725.93,0.0,994725.93,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0187184,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),991766.75,0.0,991766.75,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0233520,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),990654.48,0.0,990654.48,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0251825,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),992856.08,0.0,992856.08,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0274244,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),999815.64,0.0,999815.64,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0282959,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),998430.47,0.0,998430.47,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0300214,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),997189.28,0.0,997189.28,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0308096,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),994287.77,0.0,994287.77,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0335836,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),999575.39,0.0,999575.39,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0394922,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),990208.57,0.0,990208.57,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0457925,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),995483.29,0.0,995483.29,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0473387,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),993234.18,0.0,993234.18,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0483452,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),995237.26,0.0,995237.26,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0491369,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),995430.73,0.0,995430.73,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0497353,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),992726.9,0.0,992726.9,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0502284,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),996290.39,0.0,996290.39,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0512413,SIM,E07,"Lançamento manual fictício, valor redondo abaixo da alçada, fim de exercício",Ocorrência / Existência (indicador de fraude),996081.1,0.0,996081.1,T08_campos_em_branco;T09_manual_alcada_fim_exercicio,True
+SINT-0012916,SIM,E08,Bem em curso com amortização acumulada,Valorização,374.8,481.17,-106.37,T07_em_curso_amortizado,True
+SINT-0021881,SIM,E08,Bem em curso com amortização acumulada,Valorização,418.24,479.99,-61.75,T07_em_curso_amortizado,True
+SINT-0050701,SIM,E08,Bem em curso com amortização acumulada,Valorização,12822.1,32351.86,-19529.76,T07_em_curso_amortizado,True
+SINT-0064077,SIM,E08,Bem em curso com amortização acumulada,Valorização,276.74,468.32,-191.58,T07_em_curso_amortizado,True
+SINT-0067099,SIM,E08,Bem em curso com amortização acumulada,Valorização,361.83,392.04,-30.21,T07_em_curso_amortizado,True
+SINT-0122097,SIM,E08,Bem em curso com amortização acumulada,Valorização,358.91,394.91,-36.0,T07_em_curso_amortizado,True
+SINT-0128520,SIM,E08,Bem em curso com amortização acumulada,Valorização,206.5,263.75,-57.25,T07_em_curso_amortizado,True
+SINT-0142561,SIM,E08,Bem em curso com amortização acumulada,Valorização,932.66,5008.27,-4075.61,T07_em_curso_amortizado,True
+SINT-0145299,SIM,E08,Bem em curso com amortização acumulada,Valorização,405683.64,462939.06,-57255.42,T07_em_curso_amortizado,True
+SINT-0159720,SIM,E08,Bem em curso com amortização acumulada,Valorização,238.12,398.84,-160.72,T07_em_curso_amortizado,True
+SINT-0181452,SIM,E08,Bem em curso com amortização acumulada,Valorização,300.94,342.55,-41.61,T07_em_curso_amortizado,True
+SINT-0185796,SIM,E08,Bem em curso com amortização acumulada,Valorização,17032.24,19739.54,-2707.3,T07_em_curso_amortizado,True
+SINT-0186436,SIM,E08,Bem em curso com amortização acumulada,Valorização,308.77,378.99,-70.22,T07_em_curso_amortizado,True
+SINT-0186708,SIM,E08,Bem em curso com amortização acumulada,Valorização,5571.6,8319.48,-2747.88,T07_em_curso_amortizado,True
+SINT-0187351,SIM,E08,Bem em curso com amortização acumulada,Valorização,8673.95,16912.18,-8238.23,T07_em_curso_amortizado,True
+SINT-0192932,SIM,E08,Bem em curso com amortização acumulada,Valorização,249.77,291.43,-41.66,T07_em_curso_amortizado,True
+SINT-0201128,SIM,E08,Bem em curso com amortização acumulada,Valorização,479.81,498.71,-18.9,T07_em_curso_amortizado,True
+SINT-0207916,SIM,E08,Bem em curso com amortização acumulada,Valorização,317.51,525.7,-208.19,T07_em_curso_amortizado,True
+SINT-0209956,SIM,E08,Bem em curso com amortização acumulada,Valorização,516.88,526.41,-9.53,T07_em_curso_amortizado,True
+SINT-0218845,SIM,E08,Bem em curso com amortização acumulada,Valorização,5751.52,15030.01,-9278.49,T07_em_curso_amortizado,True
+SINT-0220854,SIM,E08,Bem em curso com amortização acumulada,Valorização,4061.96,6103.21,-2041.25,T07_em_curso_amortizado,True
+SINT-0247305,SIM,E08,Bem em curso com amortização acumulada,Valorização,383087.4,427641.22,-44553.82,T07_em_curso_amortizado,True
+SINT-0257516,SIM,E08,Bem em curso com amortização acumulada,Valorização,292.19,384.36,-92.17,T07_em_curso_amortizado,True
+SINT-0279209,SIM,E08,Bem em curso com amortização acumulada,Valorização,1407.94,2533.77,-1125.83,T07_em_curso_amortizado,True
+SINT-0291377,SIM,E08,Bem em curso com amortização acumulada,Valorização,385.82,461.98,-76.16,T07_em_curso_amortizado,True
+SINT-0314333,SIM,E08,Bem em curso com amortização acumulada,Valorização,1093.34,1153.31,-59.97,T07_em_curso_amortizado,True
+SINT-0315042,SIM,E08,Bem em curso com amortização acumulada,Valorização,27179.91,33421.91,-6242.0,T07_em_curso_amortizado,True
+SINT-0320319,SIM,E08,Bem em curso com amortização acumulada,Valorização,316.33,862.09,-545.76,T07_em_curso_amortizado,True
+SINT-0332664,SIM,E08,Bem em curso com amortização acumulada,Valorização,268.9,392.17,-123.27,T07_em_curso_amortizado,True
+SINT-0335778,SIM,E08,Bem em curso com amortização acumulada,Valorização,374.75,904.24,-529.49,T07_em_curso_amortizado,True
+SINT-0343378,SIM,E08,Bem em curso com amortização acumulada,Valorização,263.6,509.14,-245.54,T07_em_curso_amortizado,True
+SINT-0348479,SIM,E08,Bem em curso com amortização acumulada,Valorização,326.03,363.53,-37.5,T07_em_curso_amortizado,True
+SINT-0367421,SIM,E08,Bem em curso com amortização acumulada,Valorização,15790.71,15837.23,-46.52,T07_em_curso_amortizado,True
+SINT-0387064,SIM,E08,Bem em curso com amortização acumulada,Valorização,15206.92,27980.58,-12773.66,T07_em_curso_amortizado,True
+SINT-0439859,SIM,E08,Bem em curso com amortização acumulada,Valorização,209.06,312.38,-103.32,T07_em_curso_amortizado,True
+SINT-0441836,SIM,E08,Bem em curso com amortização acumulada,Valorização,211.11,326.97,-115.86,T07_em_curso_amortizado,True
+SINT-0445674,SIM,E08,Bem em curso com amortização acumulada,Valorização,1922.89,2148.68,-225.79,T07_em_curso_amortizado,True
+SINT-0461119,SIM,E08,Bem em curso com amortização acumulada,Valorização,3804.77,9733.79,-5929.02,T07_em_curso_amortizado,True
+SINT-0462836,SIM,E08,Bem em curso com amortização acumulada,Valorização,337.02,436.56,-99.54,T07_em_curso_amortizado,True
+SINT-0472328,SIM,E08,Bem em curso com amortização acumulada,Valorização,2607.08,5291.09,-2684.01,T07_em_curso_amortizado,True
+SINT-0472989,SIM,E08,Bem em curso com amortização acumulada,Valorização,266.68,744.45,-477.77,T07_em_curso_amortizado,True
+SINT-0473158,SIM,E08,Bem em curso com amortização acumulada,Valorização,139.09,196.69,-57.6,T07_em_curso_amortizado,True
+SINT-0492597,SIM,E08,Bem em curso com amortização acumulada,Valorização,367.51,548.11,-180.6,T07_em_curso_amortizado,True
+SINT-0493465,SIM,E08,Bem em curso com amortização acumulada,Valorização,560.8,914.06,-353.26,T07_em_curso_amortizado,True
+SINT-0496847,SIM,E08,Bem em curso com amortização acumulada,Valorização,455.98,586.02,-130.04,T07_em_curso_amortizado,True
+SINT-0011762,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,544.21,0.0,544.21,T02_liquido_divergente,True
+SINT-0022944,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,455.65,289.53,166.12,T02_liquido_divergente,True
+SINT-0023267,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,26421.01,14228.32,12192.69,T02_liquido_divergente,True
+SINT-0035784,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,804.36,515.6,288.76,T02_liquido_divergente,True
+SINT-0041738,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,3188.56,2036.14,1152.42,T02_liquido_divergente,True
+SINT-0056231,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,902.14,616.02,286.12,T02_liquido_divergente,True
+SINT-0060115,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,409.7,240.15,169.55,T02_liquido_divergente,True
+SINT-0073757,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,1525.9,1029.9,496.0,T02_liquido_divergente,True
+SINT-0076051,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,1609.95,1011.05,598.9,T02_liquido_divergente,True
+SINT-0079423,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,478.75,273.88,204.87,T02_liquido_divergente,True
+SINT-0096332,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,473.42,249.83,223.59,T02_liquido_divergente,True
+SINT-0097089,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,403.81,321.36,82.45,T02_liquido_divergente,True
+SINT-0102053,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,949.33,591.58,357.75,T02_liquido_divergente,True
+SINT-0114276,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,37677.32,26484.18,11193.14,T02_liquido_divergente,True
+SINT-0132655,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,749.89,450.9,298.99,T02_liquido_divergente,True
+SINT-0141241,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,355747.79,253822.31,101925.48,T02_liquido_divergente,True
+SINT-0173426,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,1149.53,689.06,460.47,T02_liquido_divergente,True
+SINT-0184761,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,22638.9,12449.16,10189.74,T02_liquido_divergente,True
+SINT-0187391,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,509.73,399.1,110.63,T02_liquido_divergente,True
+SINT-0206354,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,446.64,334.39,112.25,T02_liquido_divergente,True
+SINT-0209232,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,185313.31,126341.12,58972.19,T02_liquido_divergente,True
+SINT-0211940,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,738.5,421.36,317.14,T02_liquido_divergente,True
+SINT-0223965,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,12288.05,8752.74,3535.31,T02_liquido_divergente,True
+SINT-0233728,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,82166.86,50691.8,31475.06,T02_liquido_divergente,True
+SINT-0235797,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,9728.84,6470.41,3258.43,T02_liquido_divergente,True
+SINT-0239549,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,535.46,412.09,123.37,T02_liquido_divergente,True
+SINT-0246147,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,483.6,298.06,185.54,T02_liquido_divergente,True
+SINT-0252313,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,11078.15,6274.83,4803.32,T02_liquido_divergente,True
+SINT-0254177,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,43507.8,26914.92,16592.88,T02_liquido_divergente,True
+SINT-0258494,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,373.0,219.1,153.9,T02_liquido_divergente,True
+SINT-0260976,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,1099.02,784.12,314.9,T02_liquido_divergente,True
+SINT-0262570,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,319.43,234.37,85.06,T02_liquido_divergente,True
+SINT-0263489,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,3916.37,1977.36,1939.01,T02_liquido_divergente,True
+SINT-0266752,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,1598.92,1078.94,519.98,T02_liquido_divergente,True
+SINT-0291845,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,7969.02,3568.3,4400.72,T02_liquido_divergente,True
+SINT-0304827,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,445.0,238.43,206.57,T02_liquido_divergente,True
+SINT-0305664,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,2274.15,0.0,2274.15,T02_liquido_divergente,True
+SINT-0348901,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,683.86,504.01,179.85,T02_liquido_divergente,True
+SINT-0378476,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,26240.86,13755.55,12485.31,T02_liquido_divergente,True
+SINT-0380784,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,75920.4,58925.47,16994.93,T02_liquido_divergente,True
+SINT-0398409,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,515.81,319.79,196.02,T02_liquido_divergente,True
+SINT-0416143,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,694478.26,423188.29,271289.97,T02_liquido_divergente,True
+SINT-0423706,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,1037.7,678.62,359.08,T02_liquido_divergente,True
+SINT-0424708,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,30198.53,18215.15,11983.38,T02_liquido_divergente,True
+SINT-0429111,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,306.29,219.69,86.6,T02_liquido_divergente,True
+SINT-0429293,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,9832.93,4552.91,5280.02,T02_liquido_divergente,True
+SINT-0440625,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,29056.1,22964.39,6091.71,T02_liquido_divergente,True
+SINT-0442516,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,421.36,296.97,124.39,T02_liquido_divergente,True
+SINT-0448034,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,341.48,191.24,150.24,T02_liquido_divergente,True
+SINT-0464315,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,3596.92,2413.19,1183.73,T02_liquido_divergente,True
+SINT-0470681,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,8826.8,5336.01,3490.79,T02_liquido_divergente,True
+SINT-0488886,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,539.02,298.49,240.53,T02_liquido_divergente,True
+SINT-0493278,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,831015.39,551862.43,279152.96,T02_liquido_divergente,True
+SINT-0501461,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,39090.68,25025.54,14065.14,T02_liquido_divergente,True
+SINT-0516079,SIM,E09,Valor líquido diverge de custo menos amortização acumulada,Exatidão / Valorização,584.85,467.2,117.65,T02_liquido_divergente,True
