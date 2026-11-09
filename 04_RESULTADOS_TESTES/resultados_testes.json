@@ -297,5 +297,26 @@
     "provisao_incremental_R$": 41410681.78,
     "limite_superior_distorcao_R$": 200533320.79,
     "conclusao": "LSD superior à distorção tolerável: ampliar procedimentos ou propor ajuste (simulação)."
+  },
+  "T11R": {
+    "registros_excluidos_da_projecao_censo": 526,
+    "valor_excluido_da_projecao_R$": 40740341.71,
+    "populacao_residual_R$": 19165967691.96,
+    "itens_amostra_no_censo": 2,
+    "itens_amostra_no_censo_com_distorcao": 2,
+    "itens_amostra_residual": 435,
+    "itens_residual_com_distorcao": 0,
+    "intervalo_amostral_R$": 31851920.45,
+    "precisao_basica_R$": 95418798.1,
+    "distorcao_projetada_residual_R$": 0.0,
+    "provisao_incremental_residual_R$": 0,
+    "lsd_residual_R$": 95418798.1,
+    "distorcao_conhecida_superavaliacao_R$": 34484563.2,
+    "distorcao_conhecida_liquida_R$": 33904472.18,
+    "distorcao_acumulada_450_R$": 33904472.18,
+    "projecao_original_substituida_R$": 63703840.91,
+    "limite_superior_conta_sem_correcao_R$": 129903361.3,
+    "distorcao_toleravel_R$": 113633000.0,
+    "conclusao": "LSD residual < tolerável: para a parte não alcançada pelo censo, a amostra sustenta a aceitação. Somando a distorção conhecida não corrigida, o limite da conta fica ACIMA da tolerável: a conclusão depende da correção das distorções conhecidas."
   }
 }

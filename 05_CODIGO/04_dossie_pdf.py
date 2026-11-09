@@ -241,7 +241,7 @@ for d in dc.PTS:
                           ("Objetivo", "Integrar riscos, procedimentos, evidências e limitações, sem emitir opinião."),
                           ("Conta, processo ou divulgação", "Demonstrações consolidadas de 2025."),
                           ("Afirmações e riscos", "Todos os riscos do PT 315.2."),
-                          ("População, fontes e critérios de seleção", "Todos os PT; fontes F01 a F19.")]),
+                          ("População, fontes e critérios de seleção", "Todos os PT; fontes F01 a F20.")]),
                   Spacer(1, 6)]
         for p_ in dc.CONCLUSAO:
             story.append(P(p_))
@@ -278,7 +278,7 @@ story.append(tabela(["Rubrica", "2025", "2024"], [[n, dc.br(a), dc.br(b)] for n,
                     [9 * cm, 4 * cm, 4 * cm]))
 story.append(PageBreak())
 story.append(titulo("Apêndice C - Relação de fontes"))
-story.append(P("Data de acesso de todas as fontes: 24/10/2026. Lista completa, com páginas, em 06_FONTES_E_COBERTURA/fontes.md."))
+story.append(P("Data de acesso das fontes F01 a F19: 24/10/2026; F20: 09/11/2026 (revisão após a correção preliminar). Lista completa, com páginas, em 06_FONTES_E_COBERTURA/fontes.md."))
 fontes = [l for l in (RAIZ / "06_FONTES_E_COBERTURA" / "fontes.md").read_text().splitlines() if l.startswith("| F")]
 lin_f = []
 for l in fontes:

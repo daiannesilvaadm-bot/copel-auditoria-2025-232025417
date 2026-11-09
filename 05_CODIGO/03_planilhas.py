@@ -416,9 +416,9 @@ for i, (a, b, fnt, fmt, c) in enumerate(linhas):
     put(ws, f"C{rr2}", c)
 
 amostra = pd.read_csv(RAIZ / "04_RESULTADOS_TESTES" / "amostra_mus.csv")
-ws = aba("MUS_Amostra", "Itens selecionados - inspeção SIMULADA (valor auditado vem do gabarito)", [16, 11, 46, 12, 18, 9, 18, 16, 12])
+ws = aba("MUS_Amostra", "Itens selecionados - inspeção SIMULADA (valor auditado vem do gabarito)", [16, 11, 46, 12, 18, 9, 18, 16, 12, 16])
 cab(ws, 4, ["id_registro (SINT)", "Subconta", "Tipo de bem", "Status", "Valor contábil (R$)", "Item-chave",
-            "Valor auditado simulado (R$)", "Distorção (R$)", "Contaminação"])
+            "Valor auditado simulado (R$)", "Distorção (R$)", "Contaminação", "Exceção no censo (CAAT)"])
 for i, row in enumerate(amostra.itertuples(index=False)):
     rr2 = 5 + i
     put(ws, f"A{rr2}", row.id_registro)
@@ -430,6 +430,7 @@ for i, row in enumerate(amostra.itertuples(index=False)):
     put(ws, f"G{rr2}", float(row.valor_auditado_simulado), AZUL, NUM2)
     put(ws, f"H{rr2}", f"=E{rr2}-G{rr2}", PRETO, NUM2)
     put(ws, f"I{rr2}", f'=IF(F{rr2}="SIM","",H{rr2}/E{rr2})', PRETO, "0.0000")
+    put(ws, f"J{rr2}", "SIM" if bool(row.excecao_no_censo) else "NÃO", AZUL)
 fim_a = 4 + len(amostra)
 
 ws = aba("MUS_Avaliacao", "Avaliação da amostra MUS (SIMULADO) - PT 530 / PT 450", [70, 22, 50])
@@ -461,6 +462,42 @@ put(ws, "B22", '=IF(B20<B21,"LSD < tolerável: aceitar","LSD > tolerável: esten
 put(ws, "A23", "Checagem LSD do código Python")
 put(ws, "B23", T11["limite_superior_distorcao_R$"], AZUL, NUM2)
 put(ws, "C23", '=IF(ABS(B23-B20)<1,"Planilha = código","DIVERGÊNCIA")')
+
+# Reavaliação após a extensão: segregação conhecida (censo) x projetada (MUS), sem dupla contagem
+T11R = RES["T11R"]
+put(ws, "A25", "Reavaliação após a extensão a 100% (NBC TA 530, itens 14-15; NBC TA 450, item 5)", NEG)
+put(ws, "C25", "Os itens da amostra que caíram em registros com exceção no censo já estão medidos pelo valor exato "
+               "na distorção conhecida; saem da projeção para não serem contados duas vezes.")
+put(ws, "A26", "Itens da amostra em registros com exceção no censo (excluídos da projeção)")
+put(ws, "B26", f'=COUNTIF(MUS_Amostra!J5:J{fim_a},"SIM")', VERDE, NUM)
+put(ws, "A27", "Itens residuais (não-chave) com distorção")
+put(ws, "B27", f'=COUNTIFS(MUS_Amostra!F5:F{fim_a},"NÃO",MUS_Amostra!H5:H{fim_a},">0",MUS_Amostra!J5:J{fim_a},"NÃO")', VERDE, NUM)
+put(ws, "A28", "Distorção projetada residual = contaminações residuais x J + itens-chave residuais")
+put(ws, "B28", f'=SUMIFS(MUS_Amostra!I5:I{fim_a},MUS_Amostra!F5:F{fim_a},"NÃO",MUS_Amostra!H5:H{fim_a},">0",'
+               f'MUS_Amostra!J5:J{fim_a},"NÃO")*MUS_Parametros!B12+SUMIFS(MUS_Amostra!H5:H{fim_a},'
+               f'MUS_Amostra!F5:F{fim_a},"SIM",MUS_Amostra!J5:J{fim_a},"NÃO")', PRETO, NUM2)
+put(ws, "A29", "Provisão incremental residual")
+put(ws, "B29", "=IF(B27=0,0,MUS_Parametros!B12*(INDEX(B5:B12,B27+1)-B5-B27))", PRETO, NUM2)
+put(ws, "A30", "LSD residual = precisão básica + projetada residual + incremental", NEG)
+put(ws, "B30", "=B17+B28+B29", NEG, NUM2)
+put(ws, "A31", "Conclusão sobre a parte não alcançada pelo censo")
+put(ws, "B31", '=IF(B30<B21,"LSD residual < tolerável: aceitar","LSD residual >= tolerável: estender")')
+put(ws, "A32", "Distorção conhecida pelo censo - superavaliação bruta (R$)")
+put(ws, "B32", T11R["distorcao_conhecida_superavaliacao_R$"], AZUL, NUM2,
+    comentario="Soma das distorções positivas em 04_RESULTADOS_TESTES/erros_inseridos_x_detectados.csv.")
+put(ws, "A33", "Distorção conhecida pelo censo - líquida (R$)")
+put(ws, "B33", f"=Excecoes!F{5 + len(RES['comparacao']['matriz'])}", VERDE, NUM2)
+put(ws, "A34", "Distorção acumulada para o PT 450 = conhecida líquida + projetada residual (R$)", NEG)
+put(ws, "B34", "=B33+B28", NEG, NUM2)
+put(ws, "C34", "A projeção original (B18) foi o gatilho da extensão e foi substituída: NÃO somar B18 a B34.")
+put(ws, "A35", "Limite superior da conta sem correção = conhecida (superavaliação) + LSD residual (R$)", NEG)
+put(ws, "B35", "=B32+B30", NEG, NUM2)
+put(ws, "A36", "Conclusão integrada (simulação)", NEG)
+put(ws, "B36", '=IF(B35<B21,"Aceitar mesmo sem correção","Acima da tolerável sem correção: exigir correção das '
+               'distorções conhecidas; após a correção, vale o LSD residual (B30)")')
+put(ws, "A37", "Checagem LSD residual do código Python")
+put(ws, "B37", T11R["lsd_residual_R$"], AZUL, NUM2)
+put(ws, "C37", '=IF(ABS(B37-B30)<1,"Planilha = código","DIVERGÊNCIA")')
 
 # ---------------------------------------------------------------- Exceções
 cmp_ = RES["comparacao"]
@@ -508,6 +545,32 @@ put(ws, "B11", '=IF(B7<=B8,"Trivial",IF(B7<B9,"Acima do trivial e abaixo da ME: 
                'IF(B7<B10,"Acima da ME: solicitar correção; avaliar efeito agregado","Relevante")))')
 put(ws, "A12", "Aspecto qualitativo: E07 tem natureza de fraude (lançamentos fictícios) - relevante por natureza, "
                "comunicar à governança (NBC TA 240/260) independentemente do valor.")
+put(ws, "A14", "Parte B - segregação (sem dupla contagem)", NEG)
+cab(ws, 15, ["Componente", "Valor (R$ mil)", "Referência", "Tratamento"])
+put(ws, "A16", "Distorção conhecida (censo CAAT 100%, valor exato)")
+put(ws, "B16", "=MUS_Avaliacao!B33/1000", VERDE, NUM2)
+put(ws, "C16", "PT BS-06")
+put(ws, "D16", "Acumular; solicitar correção")
+put(ws, "A17", "Distorção projetada residual (MUS, excluídos registros do censo)")
+put(ws, "B17", "=MUS_Avaliacao!B28/1000", VERDE, NUM2)
+put(ws, "C17", "PT 530")
+put(ws, "D17", "Acumular")
+put(ws, "A18", "Total acumulado", NEG)
+put(ws, "B18", "=B16+B17", NEG, NUM2)
+put(ws, "D18", "Comparar com trivial, ME e global")
+put(ws, "A19", "Projeção original da MUS (antes da extensão) - apenas referência")
+put(ws, "B19", "=MUS_Avaliacao!B18/1000", VERDE, NUM2)
+put(ws, "C19", "PT 530")
+put(ws, "D19", "Substituída pelo censo: não somar")
+put(ws, "A20", "Limite superior da conta sem correção (conhecida + LSD residual)")
+put(ws, "B20", "=MUS_Avaliacao!B35/1000", VERDE, NUM2)
+put(ws, "C20", "PT 530")
+put(ws, "D20", '=IF(B20*1000<MUS_Avaliacao!B21,"Abaixo da tolerável","Acima da tolerável: correção necessária")')
+put(ws, "A22", "Parte A - evidência pública (NÃO somar com a Parte B: bases diferentes)", NEG)
+put(ws, "A23", "Diferença não esclarecida em dividendos a pagar (conciliação, PT 520)")
+put(ws, "B23", "=Expectativas_520!D17", VERDE, NUM)
+put(ws, "C23", "PT 520")
+put(ws, "D23", "Em aberto: não é distorção nem diferença explicada; se não esclarecida, tratar como potencial distorção")
 
 # ---------------------------------------------------------------- Analíticos
 ws = aba("Analiticos", "Procedimentos analíticos e reconciliações - PT 520 / PT 540", [70, 18, 18, 50])
@@ -530,7 +593,7 @@ an = [
      "Despesa registrada vs. expectativa (dívida média x custo nominal informado). Diferença inclui outros itens."),
     ("Dividendos mínimos a pagar 31/12/2025 x proventos declarados no 4T25 (R$ mi 1.350 + 1.100)",
      f"={bp('PC','Dividendos mínimos obrigatórios a pagar')}", 2450000, "=B11-C11",
-     "IRRF sobre JCP (R$ 168.009 mil, F17 NE 12.2) explica a direção; resíduo de R$ 43.898 mil em aberto (Expectativas_520)."),
+     "IRRF sobre JCP (R$ 168.009 mil, F17 NE 12.2) explica parte; resíduo de R$ 43.898 mil EM ABERTO: depende da composição do saldo (Expectativas_520)."),
     ("Diferença de provisões menos contraprestação contingente (F17, NE 26.3)", "=D5", 362465, "=B12-C12",
      "Resíduo de arredondamento (20-F informa R$ milhões com uma casa)."),
     ("Vencidos líquidos de PECLD (R$ mi, F02 p.5) / clientes CP", dp.VENCIDOS_LIQUIDOS_PECLD_RS_MI * 1000,
@@ -603,7 +666,7 @@ put(ws, "B15", "=B7", VERDE, NUM)
 put(ws, "C15", 2490902, AZUL, NUM)
 put(ws, "D15", "=C15-B15", PRETO, NUM)
 put(ws, "E15", '=IF(ABS(D15)>$B$3,"Sim - investigar","Não")')
-put(ws, "F15", "F17, NE 30, p. 117: a parcela da dívida fica perto da expectativa")
+put(ws, "F15", "F17, NE 30, p. 117: a parcela da dívida fica perto da expectativa (composição divulgada, não corroborada com o razão)")
 put(ws, "A16", "Demais despesas financeiras (fora da dívida)")
 put(ws, "C16", "=C7-C15", VERDE, NUM)
 put(ws, "F16", "PIS/Cofins s/ JCP 129.067; concessões 157.858; CVA 77.774; PIS/Cofins 64.510; litígios 63.304; outros")
@@ -611,8 +674,12 @@ put(ws, "A17", "Dividendos a pagar: proventos - IRRF sobre JCP")
 put(ws, "B17", "=2450000-168009", VERDE, NUM)
 put(ws, "C17", "=C10", VERDE, NUM)
 put(ws, "D17", "=C17-B17", PRETO, NUM)
-put(ws, "E17", '=IF(ABS(D17)>$B$3,"Sim - investigar","Não")')
-put(ws, "F17", "IRRF s/ JCP R$ 168.009 mil em outras obrigações fiscais (F17, NE 12.2, p. 81); resíduo não explicado")
+put(ws, "E17", '=IF(D17=0,"Conciliado","Em aberto - obter composição do saldo")',
+    comentario="Conciliação de valores exatos (deliberações x saldo), não expectativa estimada: o limite de "
+               "investigação pela ME não se aplica. Qualquer resíduo fica em aberto até a composição do saldo.")
+put(ws, "F17", "IRRF s/ JCP R$ 168.009 mil em outras obrigações fiscais (F17, NE 12.2, p. 81); resíduo NÃO explicado - "
+               "hipóteses não testadas: dividendos de controladas a não controladores, saldos não reclamados, "
+               "atualização/ajustes de proventos")
 
 # ---------------------------------------------------------------- Sensibilidade (PT 540)
 ws = aba("Sensibilidade_540", "Sensibilidade da PECLD à cobertura dos vencidos - PT 540 (R$ milhões)", [52, 18, 18, 30])

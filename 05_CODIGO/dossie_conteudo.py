@@ -15,6 +15,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 RES = json.loads((RAIZ / "04_RESULTADOS_TESTES" / "resultados_testes.json").read_text())
 GER = json.loads((RAIZ / "04_RESULTADOS_TESTES" / "geracao_resumo.json").read_text())
 T11 = RES["T11"]
+T11R = RES["T11R"]
 CMP = RES["comparacao"]
 MG = RES["parametros"]["materialidade_global_R$mil"]
 ME = RES["parametros"]["materialidade_execucao_R$mil"]
@@ -55,7 +56,7 @@ ABERTURA = [
     ]),
     ("2. Como ler este dossiê", [
         "<b>Fato x julgamento.</b> No texto, [F] indica fato verificado em fonte pública, sempre com o "
-        "identificador da fonte (F01 a F19, ver 06_FONTES_E_COBERTURA/fontes.md e o PT 000). [J] indica julgamento ou inferência "
+        "identificador da fonte (F01 a F20, ver 06_FONTES_E_COBERTURA/fontes.md e o PT 000). [J] indica julgamento ou inferência "
         "da preparadora. [S] indica resultado obtido com dados sintéticos. Quando um dado não pôde ser "
         "confirmado nas fontes, o texto diz isso expressamente; nenhum número foi estimado para preencher lacunas.",
         "<b>Classificação dos procedimentos.</b> Cada procedimento recebe uma de três classificações: "
@@ -551,13 +552,27 @@ pt(cod="PT 402", titulo="Organizações prestadoras de serviços",
         "prestadoras contratadas, mas seus relatórios são insumos do sistema de informação.", "R", "F01, F07"),
        ("Identificar a Fundação Copel como administradora dos planos de benefícios, cujos dados alimentam a "
         "avaliação atuarial (CPC 33).", "R", "F02"),
-       ("Obter relatórios de asseguração sobre controles (tipo 2) de prestadores relevantes, se houver, ou "
-        "testar diretamente as informações (por exemplo, conciliar liquidações da CCEE com a receita).", "P", "PT PA-01"),
+       ("Pesquisar relatórios de asseguração disponíveis. [F] A CCEE publica relatórios de asseguração razoável "
+        "emitidos por auditor independente (EY) segundo a NBC TO 3000 sobre processos de liquidação e apuração; "
+        "exemplo: Energia de Reserva, liquidação de novembro/2025 e apuração de dezembro/2025, relatório de "
+        "13/01/2026, que exclui expressamente opinião sobre a eficácia dos controles internos [F20]. [F] Não foi "
+        "localizado, nas fontes consultadas, relatório da CCEE ou do ONS segundo a NBC TO 3402 (tipo 1 ou 2). "
+        "[J] A busca foi limitada: a inexistência não está comprovada e precisa ser confirmada com a "
+        "administração da COPEL e com a própria CCEE.", "R", "F20"),
+       ("Indagar a administração sobre os relatórios de asseguração que recebe da CCEE, da Fundação Copel e de "
+        "outros prestadores; obter e ler os relatórios (tipo, período, exceções, controles complementares do "
+        "usuário) ou testar diretamente as informações (por exemplo, conciliar liquidações da CCEE com a "
+        "receita).", "P", "PT PA-01"),
    ],
-   evidencias="F01, F07; F02 fatores de risco.",
-   resultados="[J] A CCEE e o ONS não emitem relatório tipo 2; a resposta adequada é testar diretamente os "
-              "relatórios de liquidação. Isso torna a NBC TA 402 relevante, mesmo sem prestador típico.",
-   conclusao="Aplicável; procedimentos planejados.",
+   evidencias="F01, F07, F20; F02 fatores de risco.",
+   resultados="[F] Existem relatórios NBC TO 3000 da CCEE sobre a conformidade de cálculos de liquidação com os "
+              "critérios regulatórios [F20]; não foi localizado relatório NBC TO 3402 (tipo 1 ou 2). [J] Um relatório "
+              "NBC TO 3000 de conformidade não substitui o tipo 2: não testa a efetividade de controles ao longo "
+              "do período. Serve como evidência corroborativa sobre os valores liquidados, a ser avaliada pelos "
+              "critérios da NBC TA 500 (competência e objetividade do auditor, alcance, período coberto). Por "
+              "isso a resposta principal continua sendo testar diretamente os relatórios de liquidação, usando os "
+              "relatórios NBC TO 3000 como apoio. A NBC TA 402 é relevante mesmo sem prestador típico.",
+   conclusao="Aplicável; relatórios disponíveis identificados em parte; obtenção e leitura planejadas.",
    limitacoes="Sem acesso a contratos com prestadores e relatórios de liquidação.")
 
 pt(cod="PT 450", titulo="Avaliação das distorções identificadas",
@@ -568,19 +583,35 @@ pt(cod="PT 450", titulo="Avaliação das distorções identificadas",
    populacao="XLS:Distorcoes; 04_RESULTADOS_TESTES/erros_inseridos_x_detectados.csv.",
    procedimentos=[
        ("Evidência pública: nenhuma distorção identificada. A diferença das provisões foi explicada (PT 501) e "
-        "a dos dividendos a pagar foi reduzida a um resíduo de R$ 43.898 mil (PT 520), que não é distorção, "
-        "mas diferença a explicar com a composição do saldo.", "R", "PT 520"),
+        "nos dividendos a pagar resta um resíduo de R$ 43.898 mil (PT 520), não explicado e não caracterizado "
+        "como distorção. Fica registrado como diferença não esclarecida (acima do trivial, abaixo da ME); se a "
+        "composição do saldo não a esclarecer, será tratado como potencial distorção não corrigida. Não é "
+        "somado aos valores da simulação (bases diferentes).", "R", "PT 520"),
        (f"Simulação: acumular a distorção factual da base sintética, R$ {br(CMP['distorcao_total_inserida_R$'], 2)} "
         f"líquidos (superavaliação R$ {br(CMP['distorcao_superavaliacao_R$'], 2)}; subavaliação "
         f"R$ {br(abs(CMP['distorcao_subavaliacao_R$']), 2)}).", "S", "PT BS-06"),
+       ("Segregar a distorção conhecida (censo CAAT a 100%, valor exato) da projetada pela MUS. A projeção é "
+        "refeita só sobre a parte sem exceção no censo: os 2 itens E07 da amostra já estão medidos no censo e "
+        "saem da projeção. A projeção original, que motivou a extensão, não é somada.", "S", "XLS:MUS_Avaliacao"),
        ("Comparar com o trivial e a execução; avaliar natureza (E07 indica fraude).", "S", "XLS:Distorcoes"),
        ("Solicitar correção à administração e obter representação sobre distorções não corrigidas.", "P", "PT 580"),
    ],
    evidencias="XLS:Distorcoes; XLS:Excecoes.",
-   resultados=f"[S] A distorção líquida de R$ {br(CMP['distorcao_total_inserida_R$'] / 1000, 0)} mil fica acima "
-              f"do trivial (R$ {br(TRIV)} mil) e abaixo da execução (R$ {br(ME)} mil): seria acumulada e "
-              "sua correção solicitada. Os lançamentos E07 são relevantes pela natureza.",
-   conclusao="Na simulação, não há distorção relevante pelo valor, mas há assunto relevante pela natureza.",
+   resultados=f"[S] Distorção acumulada = conhecida (censo) R$ {br(T11R['distorcao_conhecida_liquida_R$'] / 1000, 0)} mil "
+              f"+ projetada residual (MUS) R$ {br(T11R['distorcao_projetada_residual_R$'] / 1000, 0)} mil = "
+              f"R$ {br(T11R['distorcao_acumulada_450_R$'] / 1000, 0)} mil, acima do trivial (R$ {br(TRIV)} mil) e "
+              f"abaixo da execução (R$ {br(ME)} mil). A projeção original de R$ "
+              f"{br(T11R['projecao_original_substituida_R$'] / 1000, 0)} mil não é somada: vinha dos 2 E07 que o censo "
+              f"já mediu. [S] Limite superior da conta sem correção = distorção conhecida por superavaliação "
+              f"(R$ {br(T11R['distorcao_conhecida_superavaliacao_R$'] / 1000, 0)} mil) + LSD residual "
+              f"(R$ {br(T11R['lsd_residual_R$'] / 1000, 0)} mil) = R$ "
+              f"{br(T11R['limite_superior_conta_sem_correcao_R$'] / 1000, 0)} mil, acima da distorção tolerável "
+              f"(R$ {br(ME)} mil). [J] Logo, a correção das distorções conhecidas é condição para concluir sobre a "
+              "conta; corrigidas, vale o LSD residual, abaixo da tolerável. Os lançamentos E07 são relevantes pela "
+              "natureza.",
+   conclusao="Simulação: distorção acumulada abaixo da ME, mas o limite superior da conta só fica abaixo da "
+             "tolerável após a correção das distorções conhecidas; E07 é relevante pela natureza. Evidência "
+             "pública: uma diferença não esclarecida (dividendos, R$ 43.898 mil), em aberto.",
    limitacoes="Distorções reais não podem ser identificadas sem acesso aos registros.")
 
 # ======================== D - 500 a 580 =====================================
@@ -588,7 +619,7 @@ pt(cod="PT 500.1", titulo="Evidência de auditoria: suficiência e adequação",
    normas="NBC TA 500 (R1), itens 6 (evidência suficiente e apropriada), 7 a 9 (relevância e confiabilidade "
           "da informação) e A31 (hierarquia de confiabilidade)",
    objetivo="Avaliar a qualidade das evidências obtidas.",
-   objeto="Fontes F01 a F19.",
+   objeto="Fontes F01 a F20.",
    afirmacoes="Todas.",
    populacao="06_FONTES_E_COBERTURA/fontes.md.",
    procedimentos=[
@@ -691,25 +722,38 @@ pt(cod="PT 520", titulo="Procedimentos analíticos",
         "registrada de R$ 3.142.010 mil (27,6% acima). Investigação com a nota 30 [F17, p. 117]: encargos e "
         "variação monetária da dívida de R$ 2.490.902 mil (1,1% acima da expectativa, dentro do limite); os "
         "R$ 651.108 mil restantes são itens fora da dívida (concessões, PIS/Cofins sobre JCP, CVA, litígios, "
-        "arrendamentos, swap). Diferença explicada.", "R", "XLS:Analiticos"),
+        "arrendamentos, swap). Diferença explicada pela composição divulgada na nota 30. [J] A explicação vem "
+        "da própria entidade; não foi corroborada com o razão (P).", "R", "XLS:Analiticos"),
        ("Receita de construção x custo de construção: margem de R$ 30.387 mil (0,9%), coerente com a política "
         "de custo mais margem pequena.", "R", "XLS:Analiticos"),
        ("Dividendos mínimos a pagar (R$ 2.325.889 mil) x proventos declarados no 4T25 (R$ 1,35 bilhão de "
         "dividendos e R$ 1,1 bilhão de JCP) [F01, p. 1; F06]: diferença de R$ 124.111 mil. Investigação [F17]: o "
         "IRRF sobre JCP de R$ 168.009 mil está em outras obrigações fiscais (NE 12.2, p. 81); o JCP foi pago em "
         "19/01/2026 e os dividendos vencem até 30/06/2026 (NE 27.6, p. 112). Proventos líquidos do IRRF "
-        "(R$ 2.281.991 mil) ficam R$ 43.898 mil abaixo do saldo; resíduo não explicado pelas notas.", "R", "XLS:Analiticos"),
+        "(R$ 2.281.991 mil) ficam R$ 43.898 mil abaixo do saldo; resíduo não explicado pelas notas. [J] O IRRF "
+        "explica mais do que a diferença inicial e inverte o seu sinal (o saldo passa a ser maior que os "
+        "proventos líquidos), o que não encerra a investigação. Como se trata de conciliação de valores exatos "
+        "(deliberações x saldo), e não de expectativa estimada, o resíduo não se compara ao limite de "
+        "investigação: fica em aberto até a composição do saldo.", "R", "XLS:Expectativas_520"),
+       ("Obter a composição do saldo de dividendos a pagar por deliberação e beneficiário; conciliar com as atas "
+        "[F03] e com os pagamentos de 2026 (JCP em 19/01/2026). Hipóteses a testar, nenhuma comprovada: "
+        "dividendos de controladas devidos a não controladores; proventos de exercícios anteriores não "
+        "reclamados (saldo de abertura de R$ 3.878 mil); atualização ou ajuste de proventos.", "P", "F17, F03"),
        ("EBITDA recalculado (EBIT + D&A) = publicado (R$ 6.526.897 mil).", "R", "XLS:DRE"),
        ("Analíticos de receita por classe de consumo e por mês, com dados de mercado (GWh x tarifa).", "P", "PT PA-01"),
    ],
    evidencias="XLS:Analiticos; XLS:Indicadores.",
    resultados="[F] Variações relevantes: intangível +15,5%; ativos de contrato +33%; debêntures +31%; provisões "
               "para litígios +102%; dividendos a pagar de R$ 3.878 mil para R$ 2.325.889 mil; liquidez corrente "
-              "de 1,26 para 0,98. [F] A despesa financeira está explicada pela nota 30. [J] A diferença dos "
-              "dividendos foi reduzida a R$ 43.898 mil pelo IRRF sobre JCP; o resíduo fica acima do trivial "
-              "(R$ 8.117 mil) e abaixo da materialidade de execução, e exigiria a composição do saldo.",
-   conclusao="Variações explicadas, exceto o resíduo de R$ 43.898 mil nos dividendos a pagar, abaixo da "
-             "materialidade de execução.",
+              "de 1,26 para 0,98. [F] A despesa financeira está explicada pela composição divulgada na nota 30 "
+              "(sem corroboração com o razão). [J] Nos dividendos, o IRRF sobre JCP (R$ 168.009 mil) explica "
+              "parte da diferença inicial de R$ 124.111 mil e inverte o seu sinal; resta um resíduo de R$ 43.898 mil "
+              "sem explicação, acima do trivial (R$ 8.117 mil). Ficar abaixo da materialidade de execução não "
+              "encerra o ponto: é diferença de conciliação ainda não esclarecida, que depende da composição do saldo.",
+   conclusao="Despesa financeira, D&A e receita de construção dentro do esperado ou explicadas pela composição "
+             "divulgada. Dividendos a pagar: EM ABERTO. O resíduo de R$ 43.898 mil não foi explicado nem "
+             "caracterizado como distorção; segue para o PT 450 como diferença não esclarecida e para o PT CI "
+             "como ponto em aberto.",
    limitacoes="Sem dados mensais e sem razão.")
 
 pt(cod="PT 530", titulo="Amostragem por unidade monetária (base sintética)",
@@ -739,8 +783,16 @@ pt(cod="PT 530", titulo="Amostragem por unidade monetária (base sintética)",
               "Pela NBC TA 530, item 15, a amostra não dá base razoável: o teste foi estendido a 100% da população "
               "com CAAT (T09), que isolou os 30 lançamentos E07, somando R$ "
               f"{br(CMP['matriz'][6]['distorcao_inserida_R'], 2)}. A distorção real total é menor que a projetada: "
-              "a projeção é conservadora quando os erros se concentram em itens de valor alto e atípico.",
-   conclusao="Amostra estendida por CAAT; distorção conhecida e isolada; ver PT 450.",
+              "a projeção é conservadora quando os erros se concentram em itens de valor alto e atípico. "
+              f"[S] Reavaliação após a extensão: os {T11R['itens_amostra_no_censo']} itens com distorção caíram em "
+              "registros já medidos pelo censo; saem da projeção para não serem contados duas vezes. Nos "
+              f"{br(T11R['itens_amostra_residual'])} itens restantes não há distorção: projetada residual R$ 0,00; "
+              f"LSD residual = precisão básica = R$ {br(T11R['lsd_residual_R$'], 2)}, abaixo da tolerável. "
+              "Somada a distorção conhecida por superavaliação não corrigida, o limite da conta chega a R$ "
+              f"{br(T11R['limite_superior_conta_sem_correcao_R$'], 2)}, acima da tolerável. [J] A extensão "
+              "permanece como resposta (item 15); a aceitação da conta depende da correção das distorções conhecidas.",
+   conclusao="Amostra estendida por CAAT; distorção conhecida medida no censo e projetada residual nula; aceitação "
+             "condicionada à correção das distorções conhecidas; ver PT 450.",
    limitacoes="Dados e inspeção simulados. Os testes foram desenhados conhecendo os tipos de erro, o que "
               "explica a detecção de 100% sem falsos positivos; em dados reais isso não ocorre.")
 
@@ -1166,7 +1218,9 @@ pt(cod="PT BS-06", titulo="Base sintética: erros inseridos x identificados",
    resultados=f"[S] {CMP['detectados']} de {CMP['registros_com_erro_inserido']} erros detectados (100%) e nenhum "
               f"falso positivo. A amostra MUS, sozinha, encontrou {T11['itens_com_distorcao']} dos 30 lançamentos E07 (PT 530). [J] A "
               "comparação mostra que os testes sobre 100% da população são mais eficazes que a amostragem para "
-              "erros de regra; a amostragem continua útil para a existência física, que a CAAT não alcança.",
+              "erros de regra; a amostragem continua útil para a existência física, que a CAAT não alcança. [S] Os 2 "
+              "itens da amostra com distorção estão entre os 30 E07 medidos no censo: saem da projeção (PT 530) e "
+              "não são contados duas vezes no PT 450.",
    conclusao="Gabarito e exceções conferem.",
    limitacoes="Resultados de laboratório; não extrapoláveis à conta real.")
 
@@ -1264,12 +1318,17 @@ CONCLUSAO = [
     "zero), nove testes sobre 100% dos registros e "
     "amostragem MUS, que detectaram os 580 erros inseridos; a projeção da amostra superou a distorção "
     f"tolerável e levou à extensão dos testes, que isolaram distorção de R$ {br(CMP['distorcao_total_inserida_R$'] / 1e6, 1)} milhões, abaixo da "
-    "materialidade de execução, mas com lançamentos fictícios relevantes por natureza. Os demais "
+    "materialidade de execução, mas com lançamentos fictícios relevantes por natureza. Reavaliada sem dupla "
+    f"contagem, a parte não alcançada pelo censo tem LSD de R$ {br(T11R['lsd_residual_R$'] / 1e6, 1)} milhões, abaixo "
+    "da tolerável; somada à distorção conhecida não corrigida, o limite chega a R$ "
+    f"{br(T11R['limite_superior_conta_sem_correcao_R$'] / 1e6, 1)} milhões, acima da tolerável, de modo que a "
+    "conclusão sobre o intangível simulado depende da correção das distorções conhecidas. Os demais "
     "procedimentos (confirmações, inspeções, observação de estoques, testes de controles, carta de "
     "representação, especialistas) ficaram planejados (P).",
     "<b>Pontos em aberto.</b> Resta um resíduo de R$ 43.898 mil entre dividendos a pagar e proventos declarados "
-    "líquidos do IRRF sobre JCP (a diferença inicial era de R$ 124.111 mil). Não foi caracterizado como "
-    "distorção: exigiria a composição do saldo. A despesa financeira, antes 27,6% acima da expectativa, foi "
+    "líquidos do IRRF sobre JCP (a diferença inicial era de R$ 124.111 mil, no sentido oposto). O IRRF "
+    "explica parte da diferença, mas o resíduo não foi explicado nem caracterizado como distorção: "
+    "permanece em aberto até a composição do saldo. A despesa financeira, antes 27,6% acima da expectativa, foi "
     "explicada pela nota 30 (encargos da dívida 1,1% acima da expectativa). Com a leitura integral das notas, "
     "surgiram pontos de atenção de julgamento, não de distorção: ganhos não recorrentes de 2025 (alienações "
     "R$ 335.595 mil, combinação de negócios R$ 141.661 mil e ressarcimento de curtailment R$ 273.382 mil "
@@ -1558,7 +1617,8 @@ upd("PT 300", atividade="Elaborar estratégia global, plano, cronograma e progra
              ]},
             {"titulo": "Alterações ao plano", "paragrafos": [
                 "(1) A amostra MUS projetou distorção acima da tolerável: o teste do intangível foi estendido a 100% "
-                "da população com CAAT (PT 530). (2) Os procedimentos que dependiam das notas explicativas e do "
+                "da população com CAAT (PT 530); após a extensão, a MUS foi reavaliada separando a distorção conhecida "
+                "da projetada, sem dupla contagem (PT 450). (2) Os procedimentos que dependiam das notas explicativas e do "
                 "texto dos PAA foram reclassificados como planejados (P) após a não obtenção dos documentos. (3) O "
                 "roteiro do professor foi recebido depois da primeira versão: os PT foram recodificados e "
                 "complementados com as atividades exigidas."]}])
@@ -1638,8 +1698,9 @@ upd("PT 402", atividade="Identificar serviços terceirizados relevantes e contro
                      "Procedimento alternativo"], "larg": [3.2, 2.6, 3.0, 4.0, 4.2],
              "linhas": [
                  ["CCEE - liquidação do mercado de curto prazo e MRE [F07]", "Alta (suprimento, GSF)",
-                  "Não existe tipo 1/2", "Conferência dos relatórios de pré-liquidação", "Conciliação direta "
-                  "CCEE x razão; recálculo por amostra"],
+                  "NBC TO 3000 (conformidade) localizados [F20]; tipo 1/2 (NBC TO 3402) não localizado - "
+                  "confirmar", "Conferência dos relatórios de pré-liquidação", "Conciliação direta "
+                  "CCEE x razão; recálculo por amostra; leitura dos relatórios NBC TO 3000"],
                  ["Fundação Copel - administração dos planos e dados do censo", "Alta (benefícios)",
                   "Tipo 2, se existir", "Revisão do censo pelo RH", "Teste do censo e do laudo atuarial"],
                  ["Agentes arrecadadores de faturas (hipótese)", "Média (recebimentos)", "Tipo 2 dos bancos",
@@ -1651,7 +1712,11 @@ upd("PT 402", atividade="Identificar serviços terceirizados relevantes e contro
                 "Relatório tipo 1 descreve o desenho dos controles em uma data e serve para entender o sistema; tipo 2 "
                 "inclui testes de efetividade operacional ao longo de um período e é necessário quando o auditor "
                 "pretende confiar nos controles do prestador. Para a COPEL, a estratégia seria pedir tipo 2 onde houver "
-                "e, onde não houver (CCEE), testar diretamente os relatórios."]}])
+                "e, onde não houver ou não for localizado, testar diretamente os relatórios. No caso da CCEE, os "
+                "relatórios encontrados são de asseguração razoável sobre conformidade (NBC TO 3000), não sobre "
+                "controles: corroboram os valores liquidados nos meses cobertos, mas não permitem confiar nos "
+                "controles da CCEE [F20]. A ausência de tipo 2 é uma constatação da pesquisa feita, não uma "
+                "afirmação de inexistência."]}])
 
 # ---------------- PT 450
 mapa = [[c, n, br(mat[c]["distorcao_inserida_R"] / 1000, 1), t, "Não corrigida - correção a solicitar", q]
@@ -1661,9 +1726,14 @@ mapa = [[c, n, br(mat[c]["distorcao_inserida_R"] / 1000, 1), t, "Não corrigida 
             ("E05", "Prazo da concessão", "De julgamento", "Política"), ("E06", "Campos em branco", "Sem valor", "Controle"),
             ("E07", "Lançamentos fictícios", "Factual", "Fraude: relevante pela natureza"),
             ("E08", "Em curso amortizado", "Factual", "Subavaliação"), ("E09", "Líquido divergente", "Factual", "-")]]
-mapa.append(["Total", "", br(CMP["distorcao_total_inserida_R$"] / 1000, 1), "", "", ""])
-mapa.append(["MUS", "Projetada (antes da extensão)", br(T11["distorcao_projetada_R$"] / 1000, 1), "Projetada",
-             "Substituída pelo teste de 100%", "-"])
+mapa.append(["(a)", "Total conhecido (censo CAAT 100%)", br(T11R["distorcao_conhecida_liquida_R$"] / 1000, 1),
+             "Conhecida", "Acumular; correção a solicitar", ""])
+mapa.append(["(b)", "MUS projetada residual (sem registros do censo)",
+             br(T11R["distorcao_projetada_residual_R$"] / 1000, 1), "Projetada", "Acumular", "-"])
+mapa.append(["(a)+(b)", "Total acumulado, sem dupla contagem", br(T11R["distorcao_acumulada_450_R$"] / 1000, 1),
+             "", "", ""])
+mapa.append(["Ref.", "MUS projetada original (antes da extensão)", br(T11["distorcao_projetada_R$"] / 1000, 1),
+             "Projetada", "Substituída pelo censo: não somar", "-"])
 upd("PT 450", atividade="Elaborar mapa de distorções identificadas ou simuladas, corrigidas e não corrigidas. Avaliar "
                         "os efeitos quantitativos e qualitativos.",
     anexos=[{"titulo": "Mapa de distorções [S] (R$ mil)",
@@ -1675,7 +1745,14 @@ upd("PT 450", atividade="Elaborar mapa de distorções identificadas ou simulada
                 f"global (R$ {br(MG)} mil). Qualitativa: os lançamentos E07 têm natureza de fraude e são relevantes "
                 "independentemente do valor; exigem comunicação à governança, reavaliação da confiabilidade das "
                 "representações e extensão dos testes de lançamentos a outras contas. Nenhuma distorção foi corrigida, "
-                "porque não há administração real a quem solicitar correção. Evidência pública: nenhuma distorção."]}])
+                "porque não há administração real a quem solicitar correção.",
+                f"Sem dupla contagem: os 2 itens da amostra MUS com distorção são lançamentos E07 já medidos pelo valor "
+                f"exato no censo; saem da projeção, que passa a cobrir só os "
+                f"{br(T11R['itens_amostra_residual'])} itens restantes (nenhum com distorção). Limite superior da "
+                f"conta sem correção: R$ {br(T11R['limite_superior_conta_sem_correcao_R$'] / 1000, 0)} mil, acima da "
+                f"tolerável (R$ {br(ME)} mil): a correção das distorções conhecidas é condição para aceitar a conta.",
+                "Evidência pública: nenhuma distorção identificada; uma diferença não esclarecida em dividendos a pagar "
+                "(R$ 43.898 mil, PT 520), mantida em aberto e não somada à simulação."]}])
 
 # ---------------- PT 500
 upd("PT 500.1", atividade="Avaliar relevância, confiabilidade e suficiência das evidências. Reconciliar saldos com as "
@@ -1750,13 +1827,15 @@ da_esp = 1465478 / base24 * (base24 + base25) / 2
 cons_esp = 3272763 * (2550809 / 2522908)
 exp_linhas = [
     ["Despesa financeira", "Dívida média x 13,22% (custo nominal informado) [F01, p. 7]", br(desp_esp), "3.142.010",
-     br(3142010 - desp_esp), "Investigada: encargos da dívida R$ 2.490.902 mil (+1,1%); restante fora da dívida (F17, NE 30)"],
+     br(3142010 - desp_esp), "Investigada: encargos da dívida R$ 2.490.902 mil (+1,1%); restante fora da dívida (F17, NE 30; composição "
+     "divulgada, sem corroboração com o razão)"],
     ["Depreciação e amortização", "Taxa implícita 2024 x base média 2025 (imobilizado + intangível)", br(da_esp),
-     "1.481.886", br(1481886 - da_esp), "Dentro do limite; queda coerente com renovação de concessões (F07)"],
+     "1.481.886", br(1481886 - da_esp), "Dentro do limite; [J] a renovação de concessões (F07) é explicação possível, não testada"],
     ["Receita de construção", "Custo de construção 2025 x (1 + margem de 2024)", br(cons_esp), "3.303.150",
      br(3303150 - cons_esp), "Dentro do limite"],
     ["Dividendos a pagar", "Proventos declarados no 4T25 (1.350.000 + 1.100.000)", "2.450.000", "2.325.889",
-     "-124.111", "Investigada: IRRF s/ JCP R$ 168.009 mil (F17, NE 12.2); resíduo R$ 43.898 mil em aberto"],
+     "-124.111", "Conciliação: IRRF s/ JCP R$ 168.009 mil (F17, NE 12.2) inverte o sinal; resíduo de "
+     "+R$ 43.898 mil EM ABERTO - obter composição do saldo"],
 ]
 upd("PT 520", atividade="Construir expectativas, definir precisão e limites de investigação, calcular relações e "
                         "variações e investigar diferenças. Apresentar cálculos reproduzíveis.",
@@ -1768,7 +1847,13 @@ upd("PT 520", atividade="Construir expectativas, definir precisão e limites de 
                 "As expectativas usam dados agregados anuais e premissas simples (taxa média, margem do ano anterior), "
                 "por isso têm precisão baixa e servem como analíticos de avaliação de riscos e de conclusão, não como "
                 "substantivos isolados para riscos significativos (NBC TA 330, item 21). Diferenças acima do limite "
-                "exigem explicação documentada da administração e corroboração."]}])
+                "exigem explicação documentada da administração e corroboração.",
+                "A linha de dividendos a pagar é diferente: não é expectativa estimada, é conciliação entre valores "
+                "deliberados e o saldo do balanço. Nela não há imprecisão a tolerar; o resíduo de R$ 43.898 mil fica "
+                "em aberto, qualquer que seja seu tamanho em relação à materialidade de execução, até a obtenção da "
+                "composição do saldo. Explicação parcial não é tratada como encerramento.",
+                "Explicações tiradas das notas explicativas são evidência documental da própria entidade: "
+                "reduzem a diferença, mas não substituem a corroboração com o razão e com documentos de suporte."]}])
 
 # ---------------- PT 530
 upd("PT 530", atividade="Aplicar amostragem à base simulada obrigatória. Definir população, unidade amostral, método, "
@@ -1786,6 +1871,14 @@ upd("PT 530", atividade="Aplicar amostragem à base simulada obrigatória. Defin
                                          "pelo valor real; registros com valor <= 0 testados por CAAT"],
                  ["Projeção e avaliação", f"Projetada R$ {br(T11['distorcao_projetada_R$'], 2)}; LSD R$ "
                                           f"{br(T11['limite_superior_distorcao_R$'], 2)} > tolerável: extensão a 100%"],
+                 ["Reavaliação (sem dupla contagem)",
+                  f"Itens no censo excluídos da projeção: {T11R['itens_amostra_no_censo']}; itens residuais: "
+                  f"{br(T11R['itens_amostra_residual'])}, sem distorção; projetada residual R$ 0,00; LSD residual R$ "
+                  f"{br(T11R['lsd_residual_R$'], 2)} < tolerável R$ {br(ME * 1000, 2)}"],
+                 ["Conclusão integrada",
+                  f"Conhecida (superavaliação) R$ {br(T11R['distorcao_conhecida_superavaliacao_R$'], 2)} + LSD residual "
+                  f"= R$ {br(T11R['limite_superior_conta_sem_correcao_R$'], 2)} > tolerável: correção das distorções "
+                  "conhecidas é condição para aceitar; cálculo em XLS:MUS_Avaliacao, linhas 25 a 37"],
              ]}])
 
 # ---------------- PT 540 (sensibilidade da PECLD)

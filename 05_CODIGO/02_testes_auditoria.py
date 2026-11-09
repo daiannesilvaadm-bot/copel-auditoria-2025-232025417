@@ -237,6 +237,54 @@ res["T11"] = {
                   "LSD superior à distorção tolerável: ampliar procedimentos ou propor ajuste (simulação)."),
 }
 
+# T11R Reavaliação da MUS após a extensão (NBC TA 530, itens 14 e 15; NBC TA 450, item 5) ------------
+# Segregação, sem dupla contagem:
+#  (a) distorção CONHECIDA: registros examinados a 100% pela CAAT (T02-T09), medidos pelo valor exato;
+#  (b) distorção PROJETADA: só a parte da população que não teve exceção no censo. Os itens da amostra que
+#      caíram em registros do censo (os 2 E07) já estão em (a) e saem da projeção, para não contar duas vezes.
+# A projeção original (com os 2 E07) foi o gatilho da extensão; não é somada à distorção conhecida.
+ids_censo = set(exc["id_registro"])
+amostra["excecao_no_censo"] = amostra["id_registro"].isin(ids_censo)
+amostra.to_csv(RES / "amostra_mus.csv", index=False)
+pop_res = pop.loc[~pop["id_registro"].isin(ids_censo)]
+am_res = amostra.loc[~amostra["excecao_no_censo"]]
+nc_res = am_res.loc[~am_res["item_chave"]]
+sobre_res = nc_res.loc[nc_res["distorcao"] > 0, "contaminacao"].sort_values(ascending=False).to_list()
+chave_res = float(am_res.loc[am_res["item_chave"], "distorcao"].sum())
+proj_res = sum(t * J for t in sobre_res) + max(chave_res, 0)
+fat_res = [poisson_uel(k) for k in range(len(sobre_res) + 1)]
+inc_res = sum(t * J * ((fat_res[i + 1] - fat_res[i]) - 1) for i, t in enumerate(sobre_res))
+LSD_res = BP + proj_res + inc_res
+conhecida_sobre = res["comparacao"]["distorcao_superavaliacao_R$"]
+conhecida_liq = res["comparacao"]["distorcao_total_inserida_R$"]
+limite_conta = conhecida_sobre + LSD_res
+res["T11R"] = {
+    "registros_excluidos_da_projecao_censo": int(pop["id_registro"].isin(ids_censo).sum()),
+    "valor_excluido_da_projecao_R$": round(BV - float(pop_res["valor_liquido"].sum()), 2),
+    "populacao_residual_R$": round(float(pop_res["valor_liquido"].sum()), 2),
+    "itens_amostra_no_censo": int(amostra["excecao_no_censo"].sum()),
+    "itens_amostra_no_censo_com_distorcao": int((amostra["excecao_no_censo"] & (amostra["distorcao"] != 0)).sum()),
+    "itens_amostra_residual": int(len(am_res)),
+    "itens_residual_com_distorcao": int((am_res["distorcao"] != 0).sum()),
+    "intervalo_amostral_R$": round(J, 2),
+    "precisao_basica_R$": round(BP, 2),
+    "distorcao_projetada_residual_R$": round(proj_res, 2),
+    "provisao_incremental_residual_R$": round(inc_res, 2),
+    "lsd_residual_R$": round(LSD_res, 2),
+    "distorcao_conhecida_superavaliacao_R$": conhecida_sobre,
+    "distorcao_conhecida_liquida_R$": conhecida_liq,
+    "distorcao_acumulada_450_R$": round(conhecida_liq + proj_res, 2),
+    "projecao_original_substituida_R$": round(proj_sobre + max(chave_dist, 0), 2),
+    "limite_superior_conta_sem_correcao_R$": round(limite_conta, 2),
+    "distorcao_toleravel_R$": TM,
+    "conclusao": (
+        ("LSD residual < tolerável: para a parte não alcançada pelo censo, a amostra sustenta a aceitação. "
+         if LSD_res < TM else "LSD residual >= tolerável: estender procedimentos. ")
+        + ("Somando a distorção conhecida não corrigida, o limite da conta fica ACIMA da tolerável: a "
+           "conclusão depende da correção das distorções conhecidas." if limite_conta >= TM else
+           "Mesmo somando a distorção conhecida não corrigida, o limite da conta fica abaixo da tolerável.")),
+}
+
 (RES / "resultados_testes.json").write_text(json.dumps(res, ensure_ascii=False, indent=2, default=str))
 print(json.dumps({k: v for k, v in res.items() if k not in ("T01",)}, ensure_ascii=False, indent=2, default=str)[:6000])
 print("T01:", {k: v for k, v in res["T01"].items() if k != "por_subconta"})
